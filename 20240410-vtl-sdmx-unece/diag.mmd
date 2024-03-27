@@ -1,0 +1,21 @@
+graph TD
+  I0(SDMX Structure)
+
+  D0(BPE dataset)
+  D1(CENSUS dataset)
+
+  T0(Trevas Datasets)
+  S0((Trevas: VTL \n validations /\n transformations))
+  T1(Persistent Trevas Dataset)
+  O0(Wrote datasets)
+  
+  I0-->|Input DS metadata|T0
+  D0-->T0
+  D1-->T0
+
+  I0-->|VTL scripts|S0
+  T0-->S0
+
+  S0-->T1
+  I0-->|Output DS metadata|O0
+  T1-->O0

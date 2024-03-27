@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+		/>
+
+		<title>Trevas tools - VTL Rome workshop</title>
+
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.6.0/reset.css"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.6.0/reveal.min.css"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.6.0/theme/simple.min.css"
+		/>
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet"
+		href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.6.0/plugin/highlight/monokai.css"">
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section>
+					<br />
+					<br />
+					<h1>VTL Taskforce</h1>
+					<h2>Rome meeting</h2>
+					<h3>Trevas tools</h3>
+				</section>
+				<section>
+					<section>
+						<h1>Context</h1>
+					</section>
+					<section>
+						<h2>Insee's strategy</h2>
+						<br />
+						<ul>
+							<li>Align on international standards</li>
+							<li>Active metadata all along the statistical process</li>
+							<li>Embrace open data and open source</li>
+							<li>Using VTL and creating Trevas in line with this</li>
+						</ul>
+					</section>
+					<section>
+						<h2>VTL use cases</h2>
+						<br />
+						<ul>
+							<li>Create and apply data controls for web surveys</li>
+							<li>Reconcile multimode household survey data</li>
+							<li>Validate administrative data</li>
+						</ul>
+					</section>
+					<section>
+						<h2>Trevas history</h2>
+						<br />
+						<ul>
+							<li>Development started in May 2020</li>
+							<ul>
+								<li>ESSnet on sharing services</li>
+								<li>Collaboration with Statistics Norway</li>
+							</ul>
+							<li>Sponsored by Insee, CASD and Making Sense</li>
+							<li>Today in v1.1.1 after 1156 commits</li>
+						</ul>
+					</section>
+					<section>
+						<h2>Trevas today</h2>
+						<br />
+						<ul>
+							<li>A collection of tools</li>
+							<ul>
+								<li>Java engine, lab, notebook, API, batch</li>
+								<li>JavaScript engine, editor</li>
+							</ul>
+							<li>Published as open source</li>
+							<li>Available on public repositories</li>
+						</ul>
+					</section>
+				</section>
+				<section>
+					<section>
+						<h1>Demo</h1>
+					</section>
+					<section>
+						<h2>Business example</h2>
+						<h3>What percentage of dwellings had a moving in 2020?</h3>
+						<p>Datasets:</p>
+						<ul>
+							<li>
+								Dwellings (69 columns, 25 520 281 rows),<br />overseas
+								departments merged
+							</li>
+							<li>
+								Movings (64 columns, 9 691 803 rows),<br />overseas departments
+								separated
+							</li>
+						</ul>
+					</section>
+					<section>
+						<h2>Flowchart</h2>
+						<img src="./mermaid_script.svg" alt="Flowchart" />
+					</section>
+					<section>
+						<p><a href="http://trevas.info/">Start</a></p>
+					</section>
+				</section>
+				<section>
+					<h2>Thank you</h2>
+					<h2>Questions?</h2>
+				</section>
+			</div>
+		</div>
+
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.6.0/reveal.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.6.0/plugin/markdown/markdown.min.js"></script>
+		<script>
+			Reveal.initialize({
+				plugins: [RevealMarkdown],
+			});
+		</script>
+		<style>
+			.reveal {
+				background-color: #f2f2f3;
+				background-image: url("./ill_making_sense_flat.svg");
+				background-position: center;
+				background-repeat: no-repeat;
+				background-size: cover;
+			}
+		</style>
+	</body>
+</html>

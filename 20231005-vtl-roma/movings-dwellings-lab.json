@@ -1,0 +1,16 @@
+{
+	"script": "movings := movings    [keep anneemut, coddep]\r\n                    [rename anneemut to year, coddep to nuts3]\r\n                    [filter year = 2020]\r\n                    [aggr nb_movings := count(year) group by nuts3]\r\n                    [drop year]\r\n                    [calc identifier nuts3 := nuts3];\r\n\r\ndwellings := dwellings    [keep COMMUNE]\r\n                      [rename COMMUNE to city]\r\n                      [calc nuts3 := substr(city, 1, 2)]\r\n                      [aggr nb_dwellings := count(city) group by nuts3]\r\n                      [drop city]\r\n                      [calc identifier nuts3 := nuts3];\r\n\r\nmovings_others := movings [filter instr(nuts3, \"97\") = 0];\r\n\r\nmovings_97 := movings     [filter instr(nuts3, \"97\") = 1]\r\n                        [calc nuts3 := \"97\"]\r\n                        [aggr nb_movings := sum(nb_movings) group by nuts3]\r\n                        [calc identifier nuts3 := nuts3];\r\n\r\nmovings := union(movings_others, movings_97);\r\n\r\nmovings_dwellings := inner_join(movings, dwellings)\r\n                        [calc pct := round(nb_movings / nb_dwellings * 100, 2)]\r\n                        [drop nb_dwellings, nb_movings];\r\n",
+	"bindings": {
+		"movings": {
+			"type": "S3",
+			"url": "s3a://projet-vtl/dvf/mutation-parquet-temp",
+			"filetype": "parquet"
+		},
+		"dwellings": {
+			"type": "S3",
+			"url": "s3a://projet-vtl/dvf/logement-2018",
+			"filetype": "csv"
+		}
+	},
+	"toSave": {}
+}

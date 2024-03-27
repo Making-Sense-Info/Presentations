@@ -1,0 +1,37 @@
+graph TD
+  T0(BPE DETAIL Dataset)
+
+  T1(CENSUS Dataset)
+
+  S1(Validation of municipality code in input file)
+  
+  S2(BPE DETAIL cleaning)
+
+  S3(Municipality aggregation)
+
+  S4(Nuts 3 aggregation)
+
+  S5(Validation of facility types in Nuts 3)
+
+  S6(CENSUS cleaning)
+
+  S7(Extract general practitioners from BPE by Nuts 3)
+
+  S8(Merge sources and compute an indicator)
+
+  T0-->S1-->T0
+
+  T0-->S2
+
+  S2-->S3
+
+  S3-->S4
+
+  S4-->S5-->S4
+
+  S4-->S7
+
+  T1-->S6
+
+  S6-->S8
+  S7-->S8
