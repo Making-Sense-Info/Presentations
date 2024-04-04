@@ -1,0 +1,68 @@
+<mxfile host="65bd71144e">
+    <diagram id="1ycbiQFayEArfO1JpNZU" name="SDMX - VTL">
+        <mxGraphModel dx="712" dy="494" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="fhBYq2fwT9rsa8rIA3nu-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="fhBYq2fwT9rsa8rIA3nu-3" target="fhBYq2fwT9rsa8rIA3nu-5" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="fhBYq2fwT9rsa8rIA3nu-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="fhBYq2fwT9rsa8rIA3nu-5" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="986" y="1024" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="fhBYq2fwT9rsa8rIA3nu-5" value="VTL engine" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#c0c0c0;strokeColor=#23445d;" parent="1" vertex="1">
+                    <mxGeometry x="745" y="994" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="fhBYq2fwT9rsa8rIA3nu-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="fhBYq2fwT9rsa8rIA3nu-8" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="742" y="1024" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="fhBYq2fwT9rsa8rIA3nu-7" value="" style="group" parent="1" vertex="1" connectable="0">
+                    <mxGeometry x="476" y="993" width="139" height="124" as="geometry"/>
+                </mxCell>
+                <mxCell id="fhBYq2fwT9rsa8rIA3nu-8" value="" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" parent="fhBYq2fwT9rsa8rIA3nu-7" vertex="1">
+                    <mxGeometry x="63" width="72" height="62" as="geometry"/>
+                </mxCell>
+                <mxCell id="fhBYq2fwT9rsa8rIA3nu-9" value="" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" parent="fhBYq2fwT9rsa8rIA3nu-7" vertex="1">
+                    <mxGeometry x="47" y="12" width="72" height="62" as="geometry"/>
+                </mxCell>
+                <mxCell id="fhBYq2fwT9rsa8rIA3nu-10" value="Input dataset(s)" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" parent="fhBYq2fwT9rsa8rIA3nu-7" vertex="1">
+                    <mxGeometry x="28" y="24" width="72" height="62" as="geometry"/>
+                </mxCell>
+                <mxCell id="fhBYq2fwT9rsa8rIA3nu-11" value="CSV, Parquet, JDBC, SDMX..." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="fhBYq2fwT9rsa8rIA3nu-7" vertex="1">
+                    <mxGeometry y="94" width="139" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="fhBYq2fwT9rsa8rIA3nu-12" value="" style="group" parent="1" vertex="1" connectable="0">
+                    <mxGeometry x="959" y="975" width="139" height="124" as="geometry"/>
+                </mxCell>
+                <mxCell id="fhBYq2fwT9rsa8rIA3nu-13" value="" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" parent="fhBYq2fwT9rsa8rIA3nu-12" vertex="1">
+                    <mxGeometry x="63" width="72" height="62" as="geometry"/>
+                </mxCell>
+                <mxCell id="fhBYq2fwT9rsa8rIA3nu-14" value="" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" parent="fhBYq2fwT9rsa8rIA3nu-12" vertex="1">
+                    <mxGeometry x="47" y="12" width="72" height="62" as="geometry"/>
+                </mxCell>
+                <mxCell id="fhBYq2fwT9rsa8rIA3nu-15" value="Output dataset(s)" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" parent="fhBYq2fwT9rsa8rIA3nu-12" vertex="1">
+                    <mxGeometry x="28" y="24" width="72" height="62" as="geometry"/>
+                </mxCell>
+                <mxCell id="fhBYq2fwT9rsa8rIA3nu-16" value="CSV, Parquet, JDBC, SDMX..." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="fhBYq2fwT9rsa8rIA3nu-12" vertex="1">
+                    <mxGeometry y="94" width="139" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="fhBYq2fwT9rsa8rIA3nu-19" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;Dataflows&lt;br&gt;Codelists&lt;br&gt; Transformation Schemes...&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;fontSize=7;" parent="1" vertex="1">
+                    <mxGeometry x="674" y="932" width="118" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="YELu8tgAVSP59JLUsYiW-1" value="Registry" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" parent="1" vertex="1">
+                    <mxGeometry x="719.5" y="832" width="171" height="66" as="geometry"/>
+                </mxCell>
+                <mxCell id="fhBYq2fwT9rsa8rIA3nu-3" value="SDMX structure REST API" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="745" y="878" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="YELu8tgAVSP59JLUsYiW-3" value="VTL Code" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="822" y="930.5" width="80" height="33" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
