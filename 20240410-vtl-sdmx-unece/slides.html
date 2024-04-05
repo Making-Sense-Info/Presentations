@@ -30,15 +30,16 @@
       <div class="slides">
         <section id="home">
           <br />
-          <h2>Modernstats workshop</h2>
+          <h2>UNECE workshop</h2>
           <br />
           <h3>Paris</h3>
           <br />
-          <h2>Trevas - VTL / SDMX</h2>
+          <h2>SDMX / VTL with Trevas</h2>
         </section>
         <section id="use-case">
           <section id="home">
-            <h2>BPE use case</h2>
+            <h2><a href="https://www.insee.fr/en/metadonnees/source/serie/s1161" rel="noopener noreferrer"
+              target="_blank">BPE</a> use case</h2>
             <br />
             <h3>Permanent Database of Facilities</h3>
           </section>
@@ -46,8 +47,20 @@
             <img
               alt="detailled-diag"
               src="./detailled-diag.svg"
-              width="100%"
+              width="80%"
             /><img />
+          </section>
+          <section id="diagram">
+            <ul>
+              <li>(1) validation of municipality code in input file</li>
+              <li>(2) clean BPE input database</li>
+              <li>(3) BPE aggregation by municipality, type and year</li>
+              <li>(4) BPE aggregation by NUTS 3, type and year</li>
+              <li>(5) BPE validation of facility types by NUTS 3</li>
+              <li>(6) prepare 2021 census dataset by NUTS 3</li>
+              <li>(7) extract dataset on general practitioners from BPE by NUTS 3 in 2021</li>
+              <li>(8) merge practitioners & legal population datasets by NUTS 3 in 2021 and compute an indicator</li>
+            </ul>
           </section>
         </section>
         <section id="technical-overview">
@@ -55,11 +68,11 @@
             <h2>Technical overview</h2>
           </section>
           <section id="v1">
-            <h4>v1 - Available in Trevas</h4>
+            <h4>v1 - Operational today in Trevas</h4>
             <img alt="diag" src="./sdmx-vtl-v1.png" /><img />
           </section>
           <section id="v2">
-            <h4>v2 - Target</h4>
+            <h4>v2 - Possible extensions</h4>
             <img alt="diag" src="./sdmx-vtl-v2.png" /><img />
           </section>
         </section>
