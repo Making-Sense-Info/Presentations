@@ -1,0 +1,16 @@
+.logos-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.logo {
+  flex: 1;
+}
+
+.logo-MS {
+  filter: invert(1); /* Inverser les couleurs */
+}
+
+.dark-mode .logo-MS {
+  filter: none; /* Inverser les couleurs */
+}
