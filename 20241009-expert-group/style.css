@@ -1,10 +1,14 @@
-.logos-container {
+.logo-container {
   display: flex;
-  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  justify-items: center;
 }
 
-.logo {
-  flex: 1;
+.logo-container img {
+  align-items: center;
+  height: auto;
+  width: "45%";
 }
 
 .logo-MS {
@@ -13,4 +17,8 @@
 
 .dark-mode .logo-MS {
   filter: none; /* Inverser les couleurs */
+}
+
+.presenters {
+  font-size: x-large;
 }
