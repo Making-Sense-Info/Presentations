@@ -16,15 +16,12 @@
       id="theme-link"
     />
 
-    <!-- PDF print styles -->
-    <link
-      rel="stylesheet"
-      href="https://unpkg.com/reveal.js/dist/pdf.css"
-      media="print"
-    />
-
-    <!-- Custom styles for dark mode toggle -->
     <style>
+      .reveal {
+        font-size: xx-large;
+      }
+
+      /* Custom styles for dark mode toggle */
       .dark-mode {
         background-color: #2e2e2e;
         color: white;
@@ -116,12 +113,6 @@
         justify-items: center;
       }
 
-      .logo-container img {
-        align-items: center;
-        height: auto;
-        width: "45%";
-      }
-
       .logo-MS {
         filter: invert(1); /* Inverser les couleurs */
       }
@@ -130,8 +121,20 @@
         filter: none; /* Inverser les couleurs */
       }
 
+      .title {
+        font-size: xx-large;
+      }
+
       .presenters {
         font-size: x-large;
+      }
+
+      .container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        justify-items: center;
       }
     </style>
   </head>
@@ -140,7 +143,9 @@
     <div class="reveal">
       <div class="slides">
         <section>
-          <div>A practical SDMX /VTL implementation using Trevas and FMR</div>
+          <div class="title">
+            A practical SDMX /VTL implementation using Trevas and FMR
+          </div>
           <br />
           <div class="presenters">
             Glenn Tice, BIS Monetary and Economics IT / Nicolas Laval, Making
@@ -161,28 +166,328 @@
 
         <section>
           <section>
-            <h2>Glenn title</h2>
+            <h2>VTL integration with SDMX</h2>
           </section>
           <section>
-            <h2>Glenn diagram</h2>
+            <ul>
+              <li>
+                VTL has its own information model based on GSIM, but is designed
+                to be compatible with SDMX and other standards like DDI
+              </li>
+              <br />
+              <li>
+                The
+                <a
+                  href="https://sdmx.org/wp-content/uploads/SDMX_3-0-0_SECTION_6_FINAL-1_0.pdf"
+                  >SDMX Section 6 Technical Notes</a
+                >
+                explains how VTL and SDMX work together
+              </li>
+              <br />
+              <li>
+                Two important elements for a practical implementation are:
+              </li>
+              <br />
+              <ul>
+                <li>
+                  How VTL programs can be stored and exchanged together with the
+                  SDMX structures of the datasets involved
+                </li>
+                <li>
+                  How SDMX artefacts can be referenced in VTL code as inputs and
+                  / or outputs of Transformations and for validation Rules
+                </li>
+              </ul>
+            </ul>
+          </section>
+          <section>
+            <h2>Storage and exchange of VTL</h2>
+            <br />
+            <div class="container">
+              <div class="column">
+                <ul>
+                  <li>
+                    In the SDMX context, VTL code is managed as structural
+                    metadata
+                  </li>
+                  <br />
+                  <li>
+                    The SDMX information model provides several artefacts for
+                    this purpose
+                  </li>
+                  <br />
+                  <li>
+                    Centres on the <b>Transformation Scheme</b> artefact which
+                    <b>encapsulates a VTL program</b>
+                  </li>
+                  <br />
+                  <li>
+                    Allows VTL to be stored and exchanged in the same way as
+                    other SDMX structures
+                  </li>
+                </ul>
+              </div>
+              <div class="column">
+                <img alt="VTL-ML" src="./img/VTL-ML.png" />
+              </div>
+            </div>
+          </section>
+          <section>
+            <h2>Referencing SDMX artefacts in VTL Statements and Rules</h2>
+            <br />
+            <ul>
+              <li>
+                <div>
+                  SDMX artefacts can be referenced in VTL code using full or
+                  partial URNs
+                </div>
+                <img alt="VTL-SDMX-code-1" src="./img/VTL-SDMX-code-1.png" />
+              </li>
+              <li>
+                <div>
+                  Or, by user defined aliases defined using VTL Mapping Schemes
+                  which allow SDMX artefacts to be given symbolic names
+                </div>
+                <img alt="VTL-SDMX-code-2" src="./img/VTL-SDMX-code-2.png" />
+              </li>
+            </ul>
+          </section>
+          <section>
+            <h2>FMR support for storage and exchange of VTL</h2>
+            <div class="container">
+              <img alt="FMR" src="./img/FMR.png" width="60%" />
+              <div>
+                <ul>
+                  <li>All VTL structures supported in FMR 11</li>
+                  <li>VTL syntax checking on structure submission</li>
+                  <li>
+                    Basic authoring and maintenance using the FMR web user
+                    interface
+                  </li>
+                  <li>
+                    Better VTL code development environments can interface to
+                    the FMR repo by the REST API
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </section>
+          <section>
+            <h2>FMR support for referencing SDMX artefacts in VTL code</h2>
+            <br />
+            <h4>Deep structure cross referencing</h4>
+            <ul>
+              <li>
+                FMR identifies SDMX artefacts referenced by full or partial URN
+                in the VTL code
+              </li>
+              <li>Manages them as structural metadata cross references</li>
+            </ul>
+            <br />
+            <br />
+            <h4>Why?</h4>
+            <ul>
+              <li>
+                Execution engines can efficiently retrieve both the VTL program
+                and structural metadata for input datasets and validation rules
+                in a single REST web service call for the Transformation Scheme
+                with references=descendants
+              </li>
+              <li>Enforces metadata referential integrity</li>
+            </ul>
+          </section>
+          <section>
+            <h2>
+              FMR support for referencing SDMX artefacts in VTL code - Example
+            </h2>
+            <ul>
+              <li>
+                A Transformation Scheme is constructed with a single
+                Transformation
+              </li>
+              <img alt="VTL-SDMX-code-3" src="./img/VTL-SDMX-code-3.png" />
+            </ul>
+            <div>
+              On submission of the Transformation Scheme to the metadata
+              registry, FMR will:
+            </div>
+            <ul>
+              <li>Syntactically analyse the VTL code</li>
+              <li>Identify ECB:EXR(1.0) as an SDMX partial URN</li>
+              <li>Infer that it is a Dataflow from the code context</li>
+              <li>Verify that the Dataflow exists in the registry</li>
+              <li>
+                Create a cross reference to the Dataflow from the Transformation
+                Scheme
+              </li>
+              <li>Store the Transformation Scheme</li>
+            </ul>
+          </section>
+          <section>
+            <h2>Executing a VTL program using Trevas and FMR</h2>
+            <br />
+            <img alt="FMR-Trevas" src="./img/FMR-Trevas.png" />
           </section>
         </section>
 
         <section>
           <section>
-            <h2>Nico title</h2>
+            <h2>
+              <a
+                href="http://trevas.info/"
+                rel="noopener noreferrer"
+                target="_blank"
+                ><img alt="Trevas logo" src="./img/Trevas-logo.jpg" width="40%"
+              /></a>
+            </h2>
+            <div>
+              <img
+                alt="Maven Central Version"
+                src="https://img.shields.io/maven-central/v/fr.insee.trevas/trevas-parent"
+              />
+            </div>
+            <ul>
+              <br />
+              <li>Java VTL engine</li>
+              <br />
+              <li>Distributed computing (Apache Spark)</li>
+              <br />
+              <li>Open source</li>
+              <br />
+              <li>Modular</li>
+            </ul>
           </section>
           <section>
-            <h2>Nico slide</h2>
+            <h2>Trevas open source galaxy</h2>
+            <br />
+            <ul>
+              <li>
+                Trevas
+                <a
+                  href="http://trevas.info/introduction/#trevas-ecosystem"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  ecosystem</a
+                >
+              </li>
+              <br />
+              <li>
+                <a
+                  href="https://github.com/InseeFr/Trevas-JS"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                  >Trevas TS</a
+                >
+              </li>
+              <img
+                alt="NPM Version"
+                src="https://img.shields.io/npm/v/%40inseefr%2Ftrevas"
+              />
+              <li>
+                <a
+                  href="https://making-sense-info.github.io/ANTLR-Editor/"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                  >VTL editor</a
+                >
+              </li>
+              <img
+                alt="NPM Version"
+                src="https://img.shields.io/npm/v/%40making-sense%2Fantlr-editor"
+              />
+            </ul>
+          </section>
+          <section>
+            <h2>Building solutions with Trevas</h2>
+            <br />
+            <div>Example:</div>
+            <br />
+            <ul>
+              <li>Desktop app (TODO: add screen)</li>
+              <br />
+              <li>Validating data using DDI</li>
+            </ul>
+            <div></div>
           </section>
         </section>
 
         <section>
           <section>
-            <h2>Another section? title</h2>
+            <h2>Insee VTL/SDMX use case</h2>
+            <br />
+            <div>
+              <a
+                href="https://www.insee.fr/en/metadonnees/source/serie/s1161"
+                rel="noopener noreferrer"
+                target="_blank"
+                >Permanent Database of Facilities</a
+              >
+            </div>
           </section>
           <section>
-            <h2>Another section? slide</h2>
+            <img
+              alt="detailled-diag"
+              src="./img/detailled-diag.svg"
+              width="80%"
+            /><img />
+          </section>
+          <section>
+            <ul>
+              <li>(1) validation of municipality code in input file</li>
+              <li>(2) clean BPE input database</li>
+              <li>(3) BPE aggregation by municipality, type and year</li>
+              <li>(4) BPE aggregation by NUTS 3, type and year</li>
+              <li>(5) BPE validation of facility types by NUTS 3</li>
+              <li>(6) prepare 2021 census dataset by NUTS 3</li>
+              <li>
+                (7) extract dataset on general practitioners from BPE by NUTS 3
+                in 2021
+              </li>
+              <li>
+                (8) merge practitioners & legal population datasets by NUTS 3 in
+                2021 and compute an indicator
+              </li>
+            </ul>
+          </section>
+          <section>
+            <h3>Use case in action</h3>
+            <br />
+            <div>
+              <a
+                href="https://github.com/Making-Sense-Info/Trevas-Jupyter"
+                rel="noopener noreferrer"
+                target="_blank"
+                >Trevas Jupyter</a
+              >
+            </div>
+            <br />
+            <div>
+              <a
+                href="https://github.com/Making-Sense-Info/Trevas-Jupyter-Training"
+                rel="noopener noreferrer"
+                target="_blank"
+                >Onboarding sample</a
+              >
+            </div>
+          </section>
+        </section>
+
+        <section>
+          <section>
+            <h2>Next steps</h2>
+          </section>
+          <section>
+            <h2>Open collaboration,</h2>
+            <h3>beneficial for all</h3>
+            <br />
+            <ul>
+              <li>BIS: improve FMR</li>
+              <br />
+              <li>Making Sense: improve Trevas SDMX support</li>
+              <br />
+              <li>UNSD: POC VTL integration</li>
+            </ul>
           </section>
         </section>
 
