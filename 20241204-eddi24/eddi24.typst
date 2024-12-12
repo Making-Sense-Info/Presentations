@@ -1,0 +1,270 @@
+/*
+Colors → https://hue.tools/mix?format=hex&mode=lch&colors=fff800ff%3Be3ebedff%3B707070ff&steps=6
+*/
+
+#import "@preview/polylux:0.3.1": *
+
+// ----- Conf slides
+
+#let color_morning_mist = "#e3ebed"
+#let color_paris_paving = "#707070"
+#let color_lemon = "#fff800"
+#let color_ultra_mint = "#96ffb2"
+#let color_jovial_shade = "#88d1ac"
+
+#set page(paper: "presentation-16-9", fill: rgb("#ffffff"))
+
+#set text(size: 23pt, font: "Adelle Sans Devanagari", fill: rgb(color_paris_paving))
+
+// define link display
+#show link: l => [
+  #set text(fill: rgb(color_ultra_mint))
+  #underline(l)
+]
+
+// define headings style
+#show heading: h => [
+  #set text(size: 30pt, fill: rgb(color_jovial_shade))
+  #pad(y: 20pt, h)
+]
+
+// Wow effect on text
+// #let wow(words, size: 23pt) = text(
+//   weight: "bold",
+//   fill: rgb(color_lemon),
+//   size: size
+// )[#words]
+#let wow(words) = text(
+  words,
+  weight: "semibold",
+  style: "oblique"
+)
+
+#let code(words) = text(
+  words,
+  font: "Courier New"
+)
+
+// ----- Slides
+
+#polylux-slide[
+  #align(horizon + center)[
+    = Guidelines for handling variables in repeated contexts
+
+    #text(fill: rgb(color_paris_paving).lighten(50%), size: 20pt)[Romain Tailhurat - Making Sense]
+
+    #image("ill_making_sense-short.jpg", height: 20%, width: 10%)
+
+    #image("CC_BY_icon.svg")
+
+  ]
+]
+
+#polylux-slide[
+  = A collective work
+
+  - Why?
+    - Managing repeated measures over time in order to
+      - improve discovery and comparison
+      - Enable better metadata management
+      - Support harmonisation of data
+]
+
+#polylux-slide[
+  = A collective work
+
+  - Who?
+    - Domain experts
+      - CDSP
+      - CLOSER
+      - Constances
+      - France Cohortes
+      - Insee
+    - Making Sense as a coordinator
+]
+
+#polylux-slide[
+  = A collective work
+
+  - How?
+    - Opportunistic meetings (in-person and remote)
+    - Open documentation (#link("Varese")[Varese])
+]
+
+#polylux-slide[
+  = What has been done so far?
+
+  - EDDI23 talk
+  - Identify more use cases
+  - Describe tools and patterns
+  - Draft a guideline document
+
+]
+
+#polylux-slide[
+  = Use cases
+
+  - Original and new uses cases from Constances, Insee and CLOSER
+  - and new ones from new partners, CDSP, France Cohortes
+
+]
+
+
+
+#polylux-slide[
+  = CLOSER
+
+  - Within studies
+    - Variables are referenced by the same conceptual variable within a single longitudinal study
+    - Definition of a conceptual variable within a study is strongly related to the question item within a questionnaire
+
+]
+
+#polylux-slide[
+  #align(horizon + center)[
+    #image("schema-closer-within-studies.png")
+  ]
+]
+
+#polylux-slide[
+  = CLOSER
+
+  - Across studies
+    - Cross study conceptual variable groups are created which reference study level conceptual variables
+    - This enables a researcher to find similar variables across longitudinal population study (LPS) for potential harmonisation
+
+]
+
+#polylux-slide[
+  #align(horizon + center)[
+    #image("schema-closer-across-studies.png")
+  ]
+]
+
+#polylux-slide[
+  #align(horizon + center)[
+    #image("schema-closer-topics-concepts-variables.png")
+  ]
+
+]
+
+#polylux-slide[
+  = Constances (wip)
+
+  - Documenting changes in response domains
+]
+
+#polylux-slide[
+  #align(horizon + center)[
+    #image("schema-constances-variable-cascade.png")
+  ]
+]
+
+#polylux-slide[
+  #align(horizon + center)[
+    #image("schema-constances-basedon.png")
+  ]
+]
+
+#polylux-slide[
+  #align(horizon + center)[
+    (Gesis) #code("IsBasedOn.DifferentResponseSchema")
+  ]
+]
+
+#polylux-slide[
+  = Constances (wip)
+
+  - Documenting change in concepts
+]
+
+#polylux-slide[
+  #align(horizon + center)[
+    #image("schema-constances-concepts.png")
+  ]
+]
+
+#polylux-slide[
+  == Constances (wip)
+
+  - use of SKOS to provide qualified relations between concepts?
+]
+
+#polylux-slide[
+  = Constances (wip)
+
+  - Documenting change in universe #emoji.crossmark
+]
+
+#polylux-slide[
+  #align(horizon + center)[
+    #image("schema-constances-universes.png")
+  ]
+]
+
+#polylux-slide[
+  = France Cohortes (wip)
+
+  - Changes in categories
+]
+
+#polylux-slide[
+  #align(horizon + center)[
+    #image("schema-france-cohortes-cascade.png")
+  ]
+]
+
+#polylux-slide[
+  #align(horizon + center)[
+    #image("schema-france-cohortes-catconcept.png")
+  ]
+]
+
+#polylux-slide[
+  #align(horizon + center)[
+    #image("schema-concept-granularity.png")
+  ]
+]
+
+#polylux-slide[
+  = Patterns
+
+  - Grouping at the concept / variable level
+  - Grouping at the study level
+  - Direct qualified relations between variables
+  - Indirect relations using the variable cascade (harmonisation at the concept level)
+  - Linking universes using subuniverses or BasedOn attribute (proposed extension to Gesis vocab)
+]
+
+#polylux-slide[
+  = Pending issues
+
+  - Relations between universes?
+  - Extension of the BasedOn links between variables
+  - Provide clues on which patterns to use?
+    - cf. the Whys? Discovery/comparison, management, harmonisation
+]
+
+#polylux-slide[
+  = Next steps
+
+  - Finish and publish the guidelines document
+    - Publish on ddialliance.org?
+  - Work on issues
+  - Recruit!
+]
+
+#polylux-slide[
+  = Sweet spot
+
+  #align(horizon + center)[
+    #image("schema-sweet-spot.png")
+  ]
+
+]
+
+#polylux-slide[
+  #align(horizon + center)[
+    Thank you!
+  ]
+]
