@@ -170,24 +170,69 @@ Content I.2
 		</div>
 	</div>
 
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.6.0/reveal.js"></script>
+	<!-- Dark mode toggle switch -->
+	<div class="slider-container">
+		<label class="switch">
+			<input type="checkbox" id="darkModeToggle" />
+			<span class="slider"></span>
+		</label>
+	</div>
+
+	<!-- Button to export PDF -->
+	<button id="pdf-export-btn">Export PDF</button>
+
+	<!-- Include Reveal.js library -->
+	<script src="https://cdn.jsdelivr.net/npm/reveal.js/dist/reveal.js"></script>
 
 	<script>
-		// More info about config & dependencies:
-		// - https://github.com/hakimel/reveal.js#configuration
-		// - https://github.com/hakimel/reveal.js#dependencies
+		// Initialize Reveal.js
 		Reveal.initialize({
-			controls: true,
-			progress: true,
-			history: true,
-			center: true,
-			// Optional libraries used to extend on reveal.js
-			dependencies: [
-				{ src: 'https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.6.0/plugin/markdown/markdown.min.js', condition: function () { return !!document.querySelector('[data-markdown]'); } },
-				{ src: 'https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.6.0/plugin/highlight/highlight.min.js', async: true, callback: function () { hljs.initHighlightingOnLoad(); } },
-				{ src: 'https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.6.0/plugin/notes/notes.min.js', async: true }
-			]
+			transition: "slide", // Slide transition between slides
+			history: true, // Save slide state in the URL
 		});
+
+		// Dark Mode Toggle Logic
+		const darkModeToggle = document.getElementById("darkModeToggle");
+		const themeLink = document.getElementById("theme-link");
+
+		// Default mode
+		document.body.classList.add("dark-mode");
+
+		// Function to toggle dark mode
+		darkModeToggle.addEventListener("change", () => {
+			document.body.classList.toggle("dark-mode", darkModeToggle.unchecked);
+		});
+
+		// Add functionality to the PDF export button
+		// Show the div only if "print-pdf" is not in the URL
+		if (window.location.search.includes("print-pdf")) {
+			document.getElementById("pdf-export-btn").style.display = "none";
+		}
+		document
+			.getElementById("pdf-export-btn")
+			.addEventListener("click", function () {
+				// Get current URL, hash (if any), and query string
+				const currentUrl = window.location.href;
+				const hasHash = window.location.hash;
+				const hasQuery = window.location.search;
+
+				// Build new URL with ?print-pdf query parameter, preserving the hash
+				let pdfUrl;
+
+				if (hasQuery.includes("print-pdf")) {
+					// If print-pdf is already in the query, just open the current URL
+					pdfUrl = currentUrl;
+				} else if (hasQuery) {
+					// If there's already a query string, append &print-pdf
+					pdfUrl = currentUrl.replace(hasQuery, hasQuery + "&print-pdf");
+				} else {
+					// If no query string, add ?print-pdf
+					pdfUrl = currentUrl.replace(hasHash, "") + "?print-pdf" + hasHash;
+				}
+
+				// Open the new URL with print-pdf mode
+				window.open(pdfUrl);
+			});
 	</script>
 </body>
 
