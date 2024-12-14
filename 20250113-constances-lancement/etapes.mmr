@@ -1,0 +1,113 @@
+block-beta
+
+columns 1
+
+FONDATIONS(["Fondations"])
+
+space
+
+
+block
+    PAQ("PAQ")
+    PERIMETRE("Périmètre")
+    ARCHI("Architecture")
+
+    FONDATIONS --o PAQ
+    FONDATIONS --o PERIMETRE
+    FONDATIONS --o ARCHI
+end
+
+space
+
+CASUSAGE(["Cas d'usage"]) space
+
+block:CU
+    columns 7
+    CU1 >"Variable, concepts"] space
+    CU2 >"Études"] space
+    CU3 >"Questionaires"] space
+    CUN >"..."]
+
+    CU1 --> CU2
+    CU2 --> CU3
+    CU3 --> CUN
+end
+
+space
+PLATEFORME(["Plateforme"]) 
+space
+
+block:PTF
+    PTFTEST{{"Test"}} space
+    PTFREC{{"Recette"}} space
+    PTFPRE{{"Préprod"}} space
+    PTFPROD{{"Prod"}}
+
+    PTFTEST --> PTFREC
+    PTFREC --> PTFPRE
+    PTFPRE --> PTFPROD
+end
+
+space
+FORMCOM(["Formations / Communication"])
+space
+
+block:FC1
+    FORMDDI space
+    FORMWS space
+    FORMVTL space
+    FORMN
+    
+end
+
+block:FC2
+    space COMWEB1
+    space COMEDDI
+    space COMWEB2
+end
+
+space
+block:TIME
+    2025 space 2026 space 2027 space 2028
+end
+
+
+classDef headerFond fill:#fff, stroke:#fff800, stroke-width:5px, font-weight:bold, font-size:40px
+classDef elemFond fill:#fff800, font-size:30px
+
+classDef headerCU fill:#fff, stroke: #96ffb2, stroke-width:5px, font-weight:bold, font-size:40px
+classDef elemCU fill:#96ffb2, stroke:#96ffb2, font-size:30px
+
+classDef headerPTF fill:#fff, stroke: #b6f7f6, stroke-width:5px, font-weight:bold, font-size:40px
+classDef elemPTF fill:#b6f7f6, stroke:#b6f7f6, font-size:30px
+
+classDef headerFC fill:#fff, stroke: #e3ebed, stroke-width:5px, font-weight:bold, font-size:40px
+classDef elemFC fill:#e3ebed, stroke:#e3ebed, font-size:30px
+
+class FONDATIONS headerFond
+
+class PAQ elemFond
+class PERIMETRE elemFond
+class ARCHI elemFond
+
+class CASUSAGE headerCU
+class CU1 elemCU
+class CU2 elemCU
+class CU3 elemCU
+class CUN elemCU
+
+class PLATEFORME headerPTF
+class PTFTEST elemPTF
+class PTFREC elemPTF
+class PTFPRE elemPTF
+class PTFPROD elemPTF
+
+
+class FORMCOM headerFC
+class FORMDDI elemFC
+class FORMWS elemFC
+class FORMVTL elemFC
+class FORMN elemFC
+class COMWEB1 elemFC
+class COMEDDI elemFC
+class COMWEB2 elemFC

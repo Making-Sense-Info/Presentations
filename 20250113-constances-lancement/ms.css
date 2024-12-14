@@ -1,0 +1,8 @@
+body {
+	background-image: url("https://www.making-sense.info/img/ill_making_sense-short.jpg");
+	background-repeat:no-repeat;
+}
+.reveal section img {
+    border: none;
+    box-shadow: none;
+}
