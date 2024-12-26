@@ -61,7 +61,7 @@ Construction d'un SI DDI Lifecycle
 
 ### Mettre l'Utilisateur au centre
 
-- Identifier les _u_tilisateurs
+- Identifier les *u*tilisateurs
 - Les associer au projet (communication, démo, etc.)
 
 ----
@@ -95,9 +95,11 @@ Construction d'un SI DDI Lifecycle
 
 ----
 
-### PAQ
+### Plan d'Assurance Qualité
 
- - cf. discussion sur l'organisation plus bas
+ - Un [document](https://github.com/Making-Sense-Info/Suivi-Constances/tree/main/ms23/paq) décrivant nos modalités d'organisation
+ - Une base pour démarrer notre collaboration...
+ - ...qui doit rester vivante
 
 ----
 
@@ -108,7 +110,7 @@ Construction d'un SI DDI Lifecycle
     - définir le ou les référentiels,
     - identifier les points d’interaction avec le reste du système d’information de Constances,
     - proposer les solutions logicielles adaptées.
-- Utilisation standards
+- Utilisation de standards
 
 ---
 
@@ -121,9 +123,7 @@ Construction d'un SI DDI Lifecycle
 
 ----
 
-### Périmètre
-
-:speech_balloon: 
+### Périmètre &#128172; 
 
 - Briques élémentaires
     - Concepts, variables, listes de codes, études
@@ -137,22 +137,38 @@ Construction d'un SI DDI Lifecycle
 
 ### Périmètre
 
-![constances-gsbpm](https://hackmd.io/_uploads/HkHLba8Byx.png)
+![constances-gsbpm](constances-gsbpm.png)
 
 ----
 
-### Cas d'usage
+### Cas d'application FAIR
 
-:speech_balloon: 
+Des cas d'usage x des cibles de standardisation.
 
-- TODO présenter les domaines / cas d'usages ; prioriser
-    - la documentation des études et séries d’étude
-    - la collecte par questionnaire
-    - la collecte des données cliniques et leur transmission à la biobanque
-    - l’acquisition et l’intégration de données externes
-    - la transformation des données
-    - la mise à disposition auprès des équipes de recherche
-    - le suivi de la qualité
+----
+
+#### Cas d'usage
+
+> Décrire les exigences fonctionnelles d’un système en adoptant le point de vue et le langage de l’utilisateur
+final
+
+----
+
+#### Exemple
+
+> Documenter les variables des questionnaires en DDI Lifecycle.
+
+----
+
+#### Priorisation &#128172;
+
+- la documentation des études et séries d’étude
+- la collecte par questionnaire*
+- la collecte des données cliniques et leur transmission à la biobanque
+- l’acquisition et l’intégration de données externes
+- la transformation des données
+- la mise à disposition auprès des équipes de recherche
+- le suivi de la qualité
 
 ---
 
