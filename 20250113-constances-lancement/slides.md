@@ -26,12 +26,25 @@
 
 ## Bilan MAPA
 
-:arrow_right: [rapport final](https://github.com/Making-Sense-Info/Suivi-Constances/blob/main/ms13/livrables/ms13-d8.md)
+&#x1F449; [rapport final](https://github.com/Making-Sense-Info/Suivi-Constances/blob/main/ms13/livrables/ms13-d8.md)
 
 
 ----
 
-#### TODO bilan détaillé
+### Vision GSBPM
+
+- **Conception**, **Construction**, 
+  - DDI-Lifecycle documente les instruments de collecte et les jeux de données externes (SNDS),
+  - autres standard (SSN pour les examens des CES) ;
+- **Collecte**
+  - rétro documentation des questionnaires existants
+  - production des questionnaires à partir du modèle DDI ?
+- **Traitement** 
+  - DDI-L voire CDI pour les variables dérivées et les agrégats  
+  - VTL a un rôle à jouer comme spécification exécutable (+ autres standards pour la provenance) ;
+- **Diffusion**
+  - les outils de catalogage + DCAT (prototype 3)
+  - standards de la médecine (FHIR)
 
 ---
 
@@ -185,12 +198,7 @@ final
 
 ### Les rôles
 
-TODO vision rôle ou vision titre ?
-
-- le directeur de mission
-- le chef de projet
-- l'expert technique
-- la directrice / le directeur scientifique
+&#x1F449; [PAQ](https://github.com/Making-Sense-Info/Suivi-Constances/tree/main/ms23/paq#organisation-générale)
 
 ----
 
@@ -200,13 +208,22 @@ TODO vision rôle ou vision titre ?
 - un comité de pilotage mensuel :office: / :computer: 
 - un point hebdomadaire de suivi :computer: 
 
+&#x1F449; [PAQ](https://github.com/Making-Sense-Info/Suivi-Constances/tree/main/ms23/paq#typologie-des-réunions)
+
+----
+
+### Le suivi du projet
+
+&#x1F449; [Inspiration agilité](https://github.com/Making-Sense-Info/Suivi-Constances/tree/main/ms23/paq#suivi-de-projet)
+
 ----
 
 ### La documentation du projet
 
-:speech_balloon: 
-
-- compte rendus, suivi, documents de travail
+- Dans le dépôt Github
+  - compte rendus,
+  - documents de travail,
+  - outil de suivi (Kanban), 
 
 ----
 
