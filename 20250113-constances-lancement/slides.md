@@ -24,6 +24,18 @@
 
 ---
 
+## Premiers enseignements (organisation)
+
+- Positif
+    - expertise des correspondants
+    - bon contact entre les équipes
+- Moins positif
+    - Multiplicité des acteurs
+    - Difficile d'identifier les bons interlocuteurs
+    - Maîtrise des délais de réponse
+
+---
+
 ## Bilan MAPA
 
 &#x1F449; [rapport final](https://github.com/Making-Sense-Info/Suivi-Constances/blob/main/ms13/livrables/ms13-d8.md)
