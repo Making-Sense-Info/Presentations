@@ -1,8 +1,8 @@
-# External Markdown test
+# Page de garde
 
 ---
 
-## External 1.1
+## Slide 1
 
 Content E.1.1
 
@@ -10,14 +10,14 @@ Note: This will only appear in the speaker notes window.
 
 ----
 
-## External 1.2
+## Slide 1.2
 
 Content E.1.2
 
-----
+---
 
-## External 2
+## Slide 2
 
-Content E.2, with image
+With image
 
-![External Image](http://pngriver.com/wp-content/uploads/2018/04/Download-Cat-PNG-6.png)
+![External Image](https://media.giphy.com/media/JmBXdjfIblJDi/giphy.gif)
