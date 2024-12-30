@@ -123,6 +123,22 @@ Construction d'un SI DDI Lifecycle
 
 ![étapes mekong](constances-etapes-macro.svg)
 
+----
+
+![étapes fondations](constances-etapes-fondations.svg)
+
+----
+
+![étapes cas](constances-etapes-cas.svg)
+
+----
+
+![étapes plateforme](constances-etapes-plateforme.svg)
+
+----
+
+![étapes formation communication](constances-etapes-form-com.svg)
+
 ---
 
 ## Les fondations
