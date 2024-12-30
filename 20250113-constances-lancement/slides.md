@@ -153,23 +153,9 @@ Construction d'un SI DDI Lifecycle
 
 ----
 
-### L'architecture
+### Périmètre
 
-- Objectifs
-    - définir le cycle de vie de la métadonnée,
-    - définir le ou les référentiels,
-    - identifier les points d’interaction avec le reste du système d’information de Constances,
-    - proposer les solutions logicielles adaptées.
-- Utilisation de standards
-
----
-
-## Le plan de standardisation
-
-----
-
-- Périmètre
-- Cas d'usage
+![constances-gsbpm](constances-gsbpm.png)
 
 ----
 
@@ -183,11 +169,21 @@ Construction d'un SI DDI Lifecycle
     - Processus, traitements
 - ...et les standards associés
 
+
 ----
 
-### Périmètre
+### L'architecture
 
-![constances-gsbpm](constances-gsbpm.png)
+- Objectifs
+    - définir le cycle de vie de la métadonnée,
+    - définir le ou les référentiels,
+    - identifier les points d’interaction avec le reste du système d’information de Constances,
+    - proposer les solutions logicielles adaptées.
+- Utilisation de standards
+
+---
+
+## Le plan de standardisation
 
 ----
 
@@ -264,9 +260,7 @@ final
 
 ----
 
-### Les livrables
-
-:speech_balloon: 
+### Les livrables &#128172;
 
 - documents, supports de formation, notes d'installation
 - code, configuration
