@@ -45,12 +45,19 @@
 
 ### Vision GSBPM
 
+&#x1F449; [Le GSBPM](https://statswiki.unece.org/spaces/GSBPM/pages/113083140/Clickable+GSBPM+v5.1)
+
+----
+
 - **Conception**, **Construction**, 
   - DDI-Lifecycle documente les instruments de collecte et les jeux de données externes (SNDS),
   - autres standard (SSN pour les examens des CES) ;
 - **Collecte**
   - rétro documentation des questionnaires existants
   - production des questionnaires à partir du modèle DDI ?
+
+----
+
 - **Traitement** 
   - DDI-L voire CDI pour les variables dérivées et les agrégats  
   - VTL a un rôle à jouer comme spécification exécutable (+ autres standards pour la provenance) ;
