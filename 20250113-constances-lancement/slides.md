@@ -6,12 +6,14 @@
 
 ## Épisodes précédents
 
+----
+
 - Commande initiale : prise de connaissance
 - MAPA : expérimentation et première approche stratégique
 
----
+----
 
-## Premiers enseignements
+### Premiers enseignements
 
 - Faisabilité de DDI
     - spécification des concepts
@@ -22,9 +24,9 @@
 - Apport de l'IA (LLM)
 - Synergies à entretenir (CASD, GIDE, ANS, FC...)
 
----
+----
 
-## Premiers enseignements (organisation)
+### Premiers enseignements (organisation)
 
 - Positif
     - expertise des correspondants
@@ -119,15 +121,15 @@ Construction d'un SI DDI Lifecycle
 
 ----
 
-![étapes mekong](https://mermaid.ink/svg/pako:eNqtVt1u2jAUfpXIvVgrQcfPSrtcVGJJ2JAKpBBaacsuTOJA1MRGjqN2QzzA3mR9Dl5sdpzEIWHqTblAPt93-M459uHYO-ARHwEdrCLiPbVXiEEXu9gjURrjROsKYzSbmkNnPJsuzn-4YESwD1lIcOKCnxeCT7bQQ2Lh4kzFxRr_2MP7cxfwbxdc5Ig1H08sZ24J_PBKw_jwl1FU8sO58W3MuSH1NiFDHktzUtIqDa3dJkL_NF5EOclmMVyMsH-UuTFcLBfDr5Yo0ICJ5n9IE7hGokKtdMqK042lFC626FqaxrKr3brgAdIQriLU4jz20JaJXSokpF9P-B3-sNRHTbIvyPsUJWKHYUhPuEyFy-XlJSeKrRHB2-1bIa6iSKCvlCUwrVdv3w0dazSbT7Lq7QgyFBAay-IreyTLt51RfprOyLEWzm7nAoen64L9vponp-eWIdg58hBj6ISDPbeEg00Pr1tK_JMeM1O6SLooOA-elSQjVaMWsF00gVwreGbWN0HUb8wmssFpLBtc-6gZJI5THHoZIBu-tiEjo1t02nximuNqBQJ6XNSRB-euDk3lssyqkM6PM_PWeH6P1pduDbJ4zKZXr16gVHT4X0M69zq9q_wXfDlQy2u1vClF-ESIYJKYKNA2CPqIiimgBWEU6WdBELS0hFHyhDLjptMp7PZz6LONfrV9aWkBwaz9jML1hukrEvk5koS_kf6ps32phEARio8DZJrKv5_5N5IylidS0s4-D4Jg1XuHnEr9Y0Vlv5kh776TKa4GwXUweIcUVYBjSWW_mePIOJki6qMV8t_jZAv9Y0Vl_yfD6ihXTahofiGUnVNixWXQYLKLoIIWeHETlC1VEnzGyiZQSK-B9BvItETKpMqBq7qi5PLBlp9lBRZzrYnaeWl1dGYquLqD2ZQrD7qKi9Elj6eK8unVBMUAa6LTGpaPqyZqNUPlQytHQQvEiA_h0OcPk52YVy5gGySuJJ0vMUoZhZELWpKKCHmSzAZi36TwmU9qF--5DEwZWfzCHtAZTVELUJKuN0APYJRwK93ylwwyQ7imMC7RLcTfCVE28kNG6EQ-k7LX0v4fiNoIEA)
+![étapes mekong](constances-etapes-macro.svg)
 
 ---
 
-## Fondations
+## Les fondations
 
 ----
 
-### Plan d'Assurance Qualité
+### Le Plan d'Assurance Qualité
 
  - Un [document](https://github.com/Making-Sense-Info/Suivi-Constances/tree/main/ms23/paq) décrivant nos modalités d'organisation
  - Une base pour démarrer notre collaboration...
@@ -135,7 +137,7 @@ Construction d'un SI DDI Lifecycle
 
 ----
 
-### Architecture
+### L'architecture
 
 - Objectifs
     - définir le cycle de vie de la métadonnée,
@@ -146,7 +148,7 @@ Construction d'un SI DDI Lifecycle
 
 ---
 
-## Plan de standardisation
+## Le plan de standardisation
 
 ----
 
