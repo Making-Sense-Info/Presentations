@@ -272,9 +272,9 @@ final
 
 ### Les réunions régulières
 
-- un comité stratégique semestriel :office: 
-- un comité de pilotage mensuel :office: / :computer: 
-- un point hebdomadaire de suivi :computer: 
+- un comité stratégique semestriel &#x1F3E2;
+- un comité de pilotage mensuel &#x1F3E2; / &#x1F5A5; 
+- un point hebdomadaire de suivi &#x1F5A5; 
 
 &#x1F449; [PAQ](https://github.com/Making-Sense-Info/Suivi-Constances/tree/main/ms23/paq#typologie-des-réunions)
 
