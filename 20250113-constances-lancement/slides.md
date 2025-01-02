@@ -216,6 +216,41 @@ final
 - la mise à disposition auprès des équipes de recherche
 - le suivi de la qualité
 
+
+---
+
+## La formation
+
+----
+
+- Cycle régulier à mettre en place
+  - Coller aux cas d'applcations
+- Formations et support par Making Sense
+- 1ère proposition
+  - DDI Lifecycle, introduction (mai 2025 ?)
+  - DDI Lifecycle, avancé (septembre 2025 ?)
+  - Web sémantique (?)
+
+---
+
+## La communication
+
+----
+
+### Présentation du projet 
+
+- Wébinaires réguliers
+  - Identifier le public, les moyens de publicité
+- Conférence
+  - EDDI, autres ?
+
+----
+
+### Collaborations
+
+- Cohortes (FC, Closer)
+- Initiatives FAIR
+
 ---
 
 ## L'organisation
