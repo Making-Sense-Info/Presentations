@@ -42,6 +42,28 @@
 
 &#x1F449; [rapport final](https://github.com/Making-Sense-Info/Suivi-Constances/blob/main/ms13/livrables/ms13-d8.md)
 
+----
+
+### Les prestations
+
+- Plan d'Assurance Qualité
+- Dossier d'état des lieux
+- Référentiel d'interopérabilité
+- Dix prototypes
+- Plan de standardisation
+- Dossier de réversibilité
+- Rapport final
+
+
+----
+
+### Focus
+
+- [Référentiel d'intéropérabilité](https://github.com/Making-Sense-Info/Suivi-Constances/blob/main/ms13/livrables/ms13-d3.md) (Franck),
+- Prototypes
+  - [Provenance](https://github.com/Making-Sense-Info/Suivi-Constances/blob/main/ms13/livrables/ms13-p4/ms13-p4-p2.md) (Nico)
+  - [LLMs](https://github.com/Making-Sense-Info/Suivi-Constances/blob/main/ms13/livrables/ms13-p4/ms13-p4-p6.md) (-> Kilimandjaro), 
+  - [OMOP](https://github.com/Making-Sense-Info/Suivi-Constances/blob/main/ms13/livrables/ms13-p4/ms13-p4-p7.md) (Romain)
 
 ----
 
@@ -81,7 +103,7 @@ Construction d'un SI DDI Lifecycle
 
 - rendre les métadonnées actives
 - mettre l’utilisateur au centre
-- avoir un développement ouvert
+- développer l'ouverture
 
 ----
 
@@ -100,7 +122,7 @@ Construction d'un SI DDI Lifecycle
 
 ----
 
-### Avoir un développement ouvert
+### Développer l'ouverture
 
 - Collaboration internationale
 - Communication ouverte vers l'extérieur
@@ -131,13 +153,20 @@ Construction d'un SI DDI Lifecycle
 
 ![étapes cas](constances-etapes-cas.svg)
 
+TODO variables, études -> questionnaires -> processus -> ...
+
 ----
 
 ![étapes plateforme](constances-etapes-plateforme.svg)
 
+TODO écrire production en toutes lettres
+
 ----
 
 ![étapes formation communication](constances-etapes-form-com.svg)
+
+TODO webinaire sans accent
+TODO note de présentation : formation aussi pour nous
 
 ---
 
@@ -204,6 +233,8 @@ final
 
 > Documenter les variables des questionnaires en DDI Lifecycle.
 
+> Documenter le processus lié au SNDS en DDI CDI
+
 ----
 
 #### Priorisation &#128172;
@@ -224,12 +255,13 @@ final
 ----
 
 - Cycle régulier à mettre en place
-  - Coller aux cas d'applcations
+  - Coller aux cas d'application
 - Formations et support par Making Sense
 - 1ère proposition
   - DDI Lifecycle, introduction (mai 2025 ?)
   - DDI Lifecycle, avancé (septembre 2025 ?)
-  - Web sémantique (?)
+  - Web sémantique et standards associés (début 2026)
+  - DDI CDI, VTL (courant 2026)
 
 ---
 
@@ -239,10 +271,10 @@ final
 
 ### Présentation du projet 
 
-- Wébinaires réguliers
-  - Identifier le public, les moyens de publicité
+- Webinaires réguliers
+  - Identifier le public, les canaux de communication
 - Conférence
-  - EDDI, autres ?
+  - EDDI, comité Constances ?, club utilisateurs, etc.
 
 ----
 
@@ -299,3 +331,12 @@ final
 
 - documents, supports de formation, notes d'installation
 - code, configuration
+
+---
+
+## Prochaines étapes
+
+- Point administratif
+- Mise en place de l'organisation (PAQ)
+- Prochains comités
+- Constitution du périmètre

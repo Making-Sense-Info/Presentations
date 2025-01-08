@@ -41,6 +41,40 @@
 			center: true,
 			plugins: [RevealMarkdown]
 		});
+
+		// ---- PDF export
+		// Add functionality to the PDF export button
+		// Show the div only if "print-pdf" is not in the URL
+		if (window.location.search.includes("print-pdf")) {
+			document.getElementById("pdf-export-btn").style.display = "none";
+		}
+
+		// DOES NOT WORK
+		document
+			.getElementById("pdf-export-btn")
+			.addEventListener("click", function () {
+				// Get current URL, hash (if any), and query string
+				const currentUrl = window.location.href;
+				const hasHash = window.location.hash;
+				const hasQuery = window.location.search;
+
+				// Build new URL with ?print-pdf query parameter, preserving the hash
+				let pdfUrl;
+
+				if (hasQuery.includes("print-pdf")) {
+					// If print-pdf is already in the query, just open the current URL
+					pdfUrl = currentUrl;
+				} else if (hasQuery) {
+					// If there's already a query string, append &print-pdf
+					pdfUrl = currentUrl.replace(hasQuery, hasQuery + "&print-pdf");
+				} else {
+					// If no query string, add ?print-pdf
+					pdfUrl = currentUrl.replace(hasHash, "") + "?print-pdf" + hasHash;
+				}
+
+				// Open the new URL with print-pdf mode
+				window.open(pdfUrl);
+			});
 	</script>
 </body>
 
