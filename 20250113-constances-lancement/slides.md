@@ -153,20 +153,13 @@ Construction d'un SI DDI Lifecycle
 
 ![étapes cas](constances-etapes-cas.svg)
 
-TODO variables, études -> questionnaires -> processus -> ...
-
 ----
 
 ![étapes plateforme](constances-etapes-plateforme.svg)
 
-TODO écrire production en toutes lettres
-
 ----
 
 ![étapes formation communication](constances-etapes-form-com.svg)
-
-TODO webinaire sans accent
-TODO note de présentation : formation aussi pour nous
 
 ---
 
