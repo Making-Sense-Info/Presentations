@@ -39,3 +39,21 @@
     text-align: center;
 
 }
+
+#pdf-export-btn {
+    position: fixed;
+    bottom: 20px;
+    left: 12px;
+    padding: 10px 20px;
+    background-color: #2a76dd;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    z-index: 1000;
+  }
+
+  #pdf-export-btn:hover {
+    background-color: #5dabeb;
+  }

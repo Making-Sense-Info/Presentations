@@ -28,3 +28,32 @@
     max-width: unset !important;
     max-height: unset !important;
 }
+
+.reveal .footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+
+}
+
+#pdf-export-btn {
+    position: fixed;
+    bottom: 20px;
+    left: 12px;
+    padding: 10px 20px;
+    background-color: #2a76dd;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    z-index: 1000;
+  }
+
+  #pdf-export-btn:hover {
+    background-color: #5dabeb;
+  }

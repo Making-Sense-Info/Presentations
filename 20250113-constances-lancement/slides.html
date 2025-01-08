@@ -1,37 +1,34 @@
 <!doctype html>
 <html>
-
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-
-	<title>Making Sense presentation template</title>
-
-
+	<title>Constances - Lancement</title>
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/5.1.0/reset.min.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/5.1.0/reveal.min.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/5.1.0/theme/white.min.css">
-	<link rel="stylesheet" href="ms.css">
-
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/5.1.0/pdf.min.css">
 	<!-- Theme used for syntax highlighting of code -->
-	<link rel="stylesheet"
-		href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/5.1.0/plugin/highlight/monokai.min.css">
-
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/5.1.0/plugin/highlight/monokai.min.css">
+	<link rel="stylesheet" href="ms.css">
 </head>
-
 <body>
 	<div class="reveal">
-		<div class="logo"><img src="ill_making_sense_flat.svg" width="200px" height="200px" /></div>
-		<div class="slides">
-			<!-- External markdown: here, slides are separated by three new lines, vertical slides by two (NB: change \n to \r\n under Windows) -->
-			<section data-markdown="slides.md" data-separator="^\r?\n---\r?\n$"
-				data-separator-vertical="^\r?\n----\r?\n$" data-separator-notes="^Note:" data-charset="UTF-8"></section>
+		<div class="logo">
+			<img src="ill_making_sense_flat.svg" width="200px" height="200px" />
 		</div>
+		<!-- External markdown: here, slides are separated by three new lines, vertical slides by two (NB: change \n to \r\n under Windows) -->
+		<div class="slides">
+			<section data-markdown="slides.md" data-separator="^\r?\n---\r?\n$"
+				data-separator-vertical="^\r?\n----\r?\n$" data-separator-notes="^Note:" data-charset="UTF-8">
+			</section>
+		</div>
+		<button id="pdf-export-btn">
+			Export as PDF
+		</button>	
 	</div>
-
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/5.1.0/reveal.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/5.1.0/plugin/markdown/markdown.min.js"></script>
-
 	<script>
 		// Plugin configuration : https://revealjs.com/plugins/
 		Reveal.initialize({
@@ -42,40 +39,20 @@
 			plugins: [RevealMarkdown]
 		});
 
-		// ---- PDF export
-		// Add functionality to the PDF export button
-		// Show the div only if "print-pdf" is not in the URL
-		if (window.location.search.includes("print-pdf")) {
-			document.getElementById("pdf-export-btn").style.display = "none";
+		// PDF Export Button Logic
+		if (!window.location.search.includes("print-pdf")) {
+			document.getElementById("pdf-export-btn")?.addEventListener("click", function () {
+				const pdfUrl = window.location.origin + window.location.pathname + "?print-pdf" + window.location.hash;
+				window.open(pdfUrl, "_blank");
+			});
 		}
 
-		// DOES NOT WORK
-		document
-			.getElementById("pdf-export-btn")
-			.addEventListener("click", function () {
-				// Get current URL, hash (if any), and query string
-				const currentUrl = window.location.href;
-				const hasHash = window.location.hash;
-				const hasQuery = window.location.search;
-
-				// Build new URL with ?print-pdf query parameter, preserving the hash
-				let pdfUrl;
-
-				if (hasQuery.includes("print-pdf")) {
-					// If print-pdf is already in the query, just open the current URL
-					pdfUrl = currentUrl;
-				} else if (hasQuery) {
-					// If there's already a query string, append &print-pdf
-					pdfUrl = currentUrl.replace(hasQuery, hasQuery + "&print-pdf");
-				} else {
-					// If no query string, add ?print-pdf
-					pdfUrl = currentUrl.replace(hasHash, "") + "?print-pdf" + hasHash;
-				}
-
-				// Open the new URL with print-pdf mode
-				window.open(pdfUrl);
+		// Automatically trigger print in print-pdf mode
+		if (window.location.search.includes("print-pdf")) {
+			window.addEventListener("load", () => {
+				window.print();
 			});
+		}
 	</script>
 </body>
-
 </html>
