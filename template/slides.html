@@ -7,26 +7,25 @@
 
 	<title>Making Sense presentation template</title>
 
-
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/5.1.0/reset.min.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/5.1.0/reveal.min.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/5.1.0/theme/white.min.css">
-	<link rel="stylesheet" href="ms.css">
-
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/5.1.0/pdf.min.css">
 	<!-- Theme used for syntax highlighting of code -->
-	<link rel="stylesheet"
-		href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/5.1.0/plugin/highlight/monokai.min.css">
-
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/5.1.0/plugin/highlight/monokai.min.css">
+	<link rel="stylesheet" href="ms.css">
 </head>
 
 <body>
 	<div class="reveal">
-		<div class="logo"><img src="ill_making_sense_flat.svg" width="200px" height="200px" /></div>
+		<div class="logo">
+			<img src="ill_making_sense_flat.svg" width="200px" height="200px" />
+		</div>
 		<div class="slides">
 			<!-- External markdown: here, slides are separated by three new lines, vertical slides by two (NB: change \n to \r\n under Windows) -->
 			<section data-markdown="slides.md" data-separator="^\r?\n---\r?\n$"
-				data-separator-vertical="^\r?\n----\r?\n$" data-separator-notes="^Note:" data-charset="UTF-8"
-				data-background-image="ill_making_sense_flat.svg"></section>
+				data-separator-vertical="^\r?\n----\r?\n$" data-separator-notes="^Note:" data-charset="UTF-8">
+			</section>
 			<!-- Internal markdown: here, slides are separated by newline + three dashes + newline, vertical slides identical but two dashes -->
 			<section data-markdown data-separator="^\r?\n---\r?\n$" data-separator-vertical="^\r?\n----\r?\n$">
 				<script type="text/template">
@@ -52,6 +51,9 @@ Content I.2
                     </script>
 			</section>
 		</div>
+		<button id="pdf-export-btn">
+			Export as PDF
+		</button>
 	</div>
 
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/5.1.0/reveal.js"></script>
@@ -66,6 +68,21 @@ Content I.2
 			center: true,
 			plugins: [RevealMarkdown]
 		});
+
+		// PDF Export Button Logic
+		if (!window.location.search.includes("print-pdf")) {
+			document.getElementById("pdf-export-btn")?.addEventListener("click", function () {
+				const pdfUrl = window.location.origin + window.location.pathname + "?print-pdf" + window.location.hash;
+				window.open(pdfUrl, "_blank");
+			});
+		}
+
+		// Automatically trigger print in print-pdf mode
+		if (window.location.search.includes("print-pdf")) {
+			window.addEventListener("load", () => {
+				window.print();
+			});
+		}
 	</script>
 </body>
 
