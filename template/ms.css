@@ -45,15 +45,17 @@
     bottom: 20px;
     left: 12px;
     padding: 10px 20px;
-    background-color: #2a76dd;
-    color: white;
-    border: none;
+    background-color: white;
+    color: #2a76dd;
+    border-color: #2a76dd;
+    border-width: 1px;
     border-radius: 5px;
     cursor: pointer;
-    font-size: 16px;
+    font-size: 12px;
     z-index: 1000;
-  }
+}
 
-  #pdf-export-btn:hover {
-    background-color: #5dabeb;
-  }
+#pdf-export-btn:hover {
+    background-color: #2a76dd;
+    color: white;
+}
