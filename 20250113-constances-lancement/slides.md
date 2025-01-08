@@ -211,11 +211,11 @@ Construction d'un SI DDI Lifecycle
 
 ### Cas d'application FAIR
 
-Des cas d'usage x des cibles de standardisation.
+Des cas d'utilisation métier x des cibles de standardisation.
 
 ----
 
-#### Cas d'usage
+#### Objectif
 
 > Décrire les exigences fonctionnelles d’un système en adoptant le point de vue et le langage de l’utilisateur
 final
@@ -249,7 +249,7 @@ final
 
 - Cycle régulier à mettre en place
   - Coller aux cas d'application
-- Formations et support par Making Sense
+- Formations et supports par Making Sense
 - 1ère proposition
   - DDI Lifecycle, introduction (mai 2025 ?)
   - DDI Lifecycle, avancé (septembre 2025 ?)
