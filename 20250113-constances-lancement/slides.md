@@ -2,6 +2,9 @@
 
 ## Réunion du 13 janvier 2024
 
+Note:
+Dire bonjour :)
+
 ---
 
 ## Épisodes précédents
