@@ -71,7 +71,7 @@ Note:
 
 Note:
 - Ref interop -> Franck
-- Provenace -> Nico
+- Provenance -> Nico
 - LLM Kilimandjaro, OMOP, -> Romain
 
 ----
@@ -110,9 +110,9 @@ Construction d'un SI DDI Lifecycle
 
 ----
 
-- rendre les métadonnées actives
-- mettre l’utilisateur au centre
-- développer l'ouverture
+- Rendre les métadonnées actives
+- Mettre l’utilisateur au centre
+- Développer l'ouverture
 
 ----
 
@@ -144,11 +144,10 @@ Construction d'un SI DDI Lifecycle
 ----
 
 - Mise en place des fondations
-- Définition et priorisation des cas métiers
+- Définition et priorisation des cas d'application
 - Construction de la plateforme
 - Formations
 - Communication
-- ... le tout en parallèle tout au long des quatre ans
 
 ----
 
@@ -285,7 +284,7 @@ Formations également pour Making Sense sur certain standards notamment du domai
 
 ### Collaborations
 
-- Cohortes (FC, Closer)
+- Cohortes (France Cohortes, Closer)
 - Initiatives FAIR
 
 ---
