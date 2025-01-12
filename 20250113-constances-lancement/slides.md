@@ -2,9 +2,6 @@
 
 ## Réunion du 13 janvier 2024
 
-Note:
-Dire bonjour :)
-
 ---
 
 ## Épisodes précédents
@@ -32,8 +29,8 @@ Dire bonjour :)
 ### Premiers enseignements (organisation)
 
 - Positif
-    - expertise des correspondants
-    - bon contact entre les équipes
+    - Expertise des correspondants
+    - Bon contact entre les équipes
 - Moins positif
     - Multiplicité des acteurs
     - Difficile d'identifier les bons interlocuteurs
@@ -57,16 +54,25 @@ Dire bonjour :)
 - Dossier de réversibilité
 - Rapport final
 
+Note:
+État des lieux :
+- MS6, volumétrie variables, existence concepts
+- MS13, procédure de nettoyage
 
 ----
 
 ### Focus
 
-- [Référentiel d'intéropérabilité](https://github.com/Making-Sense-Info/Suivi-Constances/blob/main/ms13/livrables/ms13-d3.md) (Franck),
+- [Référentiel d'intéropérabilité](https://github.com/Making-Sense-Info/Suivi-Constances/blob/main/ms13/livrables/ms13-d3.md),
 - Prototypes
-  - [Provenance](https://github.com/Making-Sense-Info/Suivi-Constances/blob/main/ms13/livrables/ms13-p4/ms13-p4-p2.md) (Nico)
-  - [LLMs](https://github.com/Making-Sense-Info/Suivi-Constances/blob/main/ms13/livrables/ms13-p4/ms13-p4-p6.md) (-> Kilimandjaro), 
-  - [OMOP](https://github.com/Making-Sense-Info/Suivi-Constances/blob/main/ms13/livrables/ms13-p4/ms13-p4-p7.md) (Romain)
+  - [Provenance](https://github.com/Making-Sense-Info/Suivi-Constances/blob/main/ms13/livrables/ms13-p4/ms13-p4-p2.md)
+  - [LLMs](https://github.com/Making-Sense-Info/Suivi-Constances/blob/main/ms13/livrables/ms13-p4/ms13-p4-p6.md)
+  - [OMOP](https://github.com/Making-Sense-Info/Suivi-Constances/blob/main/ms13/livrables/ms13-p4/ms13-p4-p7.md)
+
+Note:
+- Ref interop -> Franck
+- Provenace -> Nico
+- LLM Kilimandjaro, OMOP, -> Romain
 
 ----
 
@@ -78,10 +84,10 @@ Dire bonjour :)
 
 - **Conception**, **Construction**, 
   - DDI-Lifecycle documente les instruments de collecte et les jeux de données externes (SNDS),
-  - autres standard (SSN pour les examens des CES) ;
+  - Autres standard (SSN pour les examens des CES) ;
 - **Collecte**
-  - rétro documentation des questionnaires existants
-  - production des questionnaires à partir du modèle DDI ?
+  - Rétro documentation des questionnaires existants
+  - Production des questionnaires à partir du modèle DDI ?
 
 ----
 
@@ -89,8 +95,8 @@ Dire bonjour :)
   - DDI-L voire CDI pour les variables dérivées et les agrégats  
   - VTL a un rôle à jouer comme spécification exécutable (+ autres standards pour la provenance) ;
 - **Diffusion**
-  - les outils de catalogage + DCAT (prototype 3)
-  - standards de la médecine (FHIR)
+  - Les outils de catalogage + DCAT (prototype 3)
+  - Standards du monde de la santé (FHIR)
 
 ---
 
@@ -200,10 +206,10 @@ Construction d'un SI DDI Lifecycle
 ### L'architecture
 
 - Objectifs
-    - définir le cycle de vie de la métadonnée,
-    - définir le ou les référentiels,
-    - identifier les points d’interaction avec le reste du système d’information de Constances,
-    - proposer les solutions logicielles adaptées.
+    - Définir le cycle de vie de la métadonnée,
+    - Définir le ou les référentiels,
+    - Identifier les points d’interaction avec le reste du système d’information de Constances,
+    - Proposer les solutions logicielles adaptées.
 - Utilisation de standards
 
 ---
@@ -235,13 +241,13 @@ final
 
 #### Priorisation &#128172;
 
-- la documentation des études et séries d’étude
-- la collecte par questionnaire*
-- la collecte des données cliniques et leur transmission à la biobanque
-- l’acquisition et l’intégration de données externes
-- la transformation des données
-- la mise à disposition auprès des équipes de recherche
-- le suivi de la qualité
+- La documentation des études et séries d’étude
+- La collecte par questionnaire*
+- La collecte des données cliniques et leur transmission à la biobanque
+- L’acquisition et l’intégration de données externes
+- La transformation des données
+- La mise à disposition auprès des équipes de recherche
+- Le suivi de la qualité
 
 
 ---
@@ -288,10 +294,10 @@ Formations également pour Making Sense sur certain standards notamment du domai
 
 ----
 
-- les rôles
-- les réunions
-- la documentation du projet
-- les livrables
+- Les rôles
+- Les réunions
+- La documentation du projet
+- Les livrables
 
 Note:
 Préciser les attentes particulières par rapport à l'objet de la prestation
@@ -306,9 +312,9 @@ Préciser les attentes particulières par rapport à l'objet de la prestation
 
 ### Les réunions régulières
 
-- un comité stratégique semestriel &#x1F3E2;
-- un comité de pilotage mensuel &#x1F3E2; / &#x1F5A5; 
-- un point hebdomadaire de suivi &#x1F5A5; 
+- Un comité stratégique semestriel &#x1F3E2;
+- Un comité de pilotage mensuel &#x1F3E2; / &#x1F5A5; 
+- Un point hebdomadaire de suivi &#x1F5A5; 
 
 &#x1F449; [PAQ](https://github.com/Making-Sense-Info/Suivi-Constances/tree/main/ms23/paq#typologie-des-réunions)
 
@@ -323,23 +329,23 @@ Préciser les attentes particulières par rapport à l'objet de la prestation
 ### La documentation du projet
 
 - Dans le dépôt Github
-  - compte rendus,
-  - documents de travail,
-  - outil de suivi (Kanban), 
-    - suivi des temps ?
+  - Compte rendus,
+  - Documents de travail,
+  - Outil de suivi (Kanban), 
+    - Suivi des temps ?
 
 ----
 
 ### Les livrables &#128172;
 
-- documents, supports de formation, notes d'installation
-- code, configuration
+- Documents, supports de formation, notes d'installation
+- Code, configuration
 
 ---
 
 ## Prochaines étapes
 
 - Point administratif
-- Mise en place de l'organisation (PAQ)
+- Mise en place de l'organisation (cf. PAQ)
 - Prochains comités
-- Constitution du périmètre
+- Définition du périmètre
