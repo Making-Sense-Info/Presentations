@@ -259,6 +259,9 @@ final
   - Web sémantique et standards associés (début 2026)
   - DDI CDI, VTL (courant 2026)
 
+Note:
+Formations également pour Making Sense sur certain standards notamment du domaine de la santé
+
 ---
 
 ## La communication
@@ -289,6 +292,9 @@ final
 - les réunions
 - la documentation du projet
 - les livrables
+
+Note:
+Préciser les attentes particulières par rapport à l'objet de la prestation
 
 ----
 
