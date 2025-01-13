@@ -6,6 +6,9 @@
 
 ## Épisodes précédents
 
+Note:
+Time 15'
+
 ----
 
 - Commande initiale : prise de connaissance
@@ -28,13 +31,18 @@
 
 ### Premiers enseignements (organisation)
 
-- Positif
+- Points de satisfaction
     - Expertise des correspondants
     - Bon contact entre les équipes
 - Points d'amélioration
     - Multiplicité des acteurs
     - Difficulté d'identifier les bons interlocuteurs
     - Maîtrise des délais de réponse
+
+----
+
+### Premiers enseignements (organisation)
+
 - Point d'attention
   - Organisation du travail en distanciel
   - Information sur les travaux en cours
@@ -47,6 +55,9 @@ Data management plan
 ## Bilan MAPA
 
 &#x1F449; <a href="https://github.com/Making-Sense-Info/Suivi-Constances/blob/main/ms13/livrables/ms13-d8.md" target="_blank">rapport final</a>
+
+Note:
+Timing 30'
 
 ----
 
@@ -112,6 +123,9 @@ LLM -> Kilimandjaro
 
 ## La vision stratégique
 
+Note:
+Timing 5'
+
 ----
 
 - Rendre les métadonnées actives
@@ -145,6 +159,9 @@ LLM -> Kilimandjaro
 
 ## Les grandes étapes
 
+Note:
+Timing 15'
+
 ----
 
 - Mise en place des fondations
@@ -176,6 +193,10 @@ LLM -> Kilimandjaro
 ---
 
 ## Les fondations
+
+
+Note:
+15'
 
 ----
 
@@ -219,6 +240,9 @@ LLM -> Kilimandjaro
 
 ## Le plan de standardisation
 
+Note:
+Timing 20'
+
 ----
 
 ### Cas d'application FAIR
@@ -260,6 +284,9 @@ final
 
 ## La formation
 
+Note:
+Timing 5'
+
 ----
 
 - Cycle régulier à mettre en place
@@ -277,6 +304,9 @@ Formations également pour Making Sense sur certain standards notamment du domai
 ---
 
 ## La communication
+
+Note:
+Timing 10'
 
 ----
 
@@ -305,6 +335,9 @@ Collaboration reporting ANR
 ---
 
 ## L'organisation
+
+Note:
+Timing 30'
 
 ----
 
@@ -359,6 +392,11 @@ Préciser les attentes particulières par rapport à l'objet de la prestation
 ---
 
 ## Prochaines étapes
+
+Note:
+Timing 15'
+
+----
 
 - Point administratif
 - Mise en place de l'organisation (cf. PAQ)
