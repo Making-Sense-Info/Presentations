@@ -115,9 +115,16 @@ LLM -> Kilimandjaro
 
 ---
 
-## Mekong
+<div style="position: relative; width: 100%; height: 100vh; overflow: hidden;">
 
-<img src="mekong-sunset.jpg" />
+<h2 style="margin-top: 30vh;">Mekong</h2>
+
+<img 
+  src="mekong-sunset.jpg"
+  style="position: absolute; top: 10%; left: 10%; width: 80%; height: 60%; opacity: 0.5; z-index: -1;" 
+/>
+
+</div>
 
 ---
 
