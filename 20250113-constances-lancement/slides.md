@@ -40,7 +40,7 @@
 
 ## Bilan MAPA
 
-&#x1F449; [rapport final](https://github.com/Making-Sense-Info/Suivi-Constances/blob/main/ms13/livrables/ms13-d8.md)
+&#x1F449; <a href="https://github.com/Making-Sense-Info/Suivi-Constances/blob/main/ms13/livrables/ms13-d8.md" target="_blank">rapport final</a>
 
 ----
 
@@ -63,22 +63,17 @@ Note:
 
 ### Focus
 
-- [Référentiel d'intéropérabilité](https://github.com/Making-Sense-Info/Suivi-Constances/blob/main/ms13/livrables/ms13-d3.md),
+- <a href="https://github.com/Making-Sense-Info/Suivi-Constances/blob/main/ms13/livrables/ms13-d3.md" target="_blank">Référentiel d'intéropérabilité</a> (Franck),
 - Prototypes
-  - [Provenance](https://github.com/Making-Sense-Info/Suivi-Constances/blob/main/ms13/livrables/ms13-p4/ms13-p4-p2.md)
-  - [LLMs](https://github.com/Making-Sense-Info/Suivi-Constances/blob/main/ms13/livrables/ms13-p4/ms13-p4-p6.md)
-  - [OMOP](https://github.com/Making-Sense-Info/Suivi-Constances/blob/main/ms13/livrables/ms13-p4/ms13-p4-p7.md)
-
-Note:
-- Ref interop -> Franck
-- Provenance -> Nico
-- LLM Kilimandjaro, OMOP, -> Romain
+  - <a href="https://github.com/Making-Sense-Info/Suivi-Constances/blob/main/ms13/livrables/ms13-p4/ms13-p4-p2.md" target="_blank">Provenance</a> (Nico)
+  - <a href="https://github.com/Making-Sense-Info/Suivi-Constances/blob/main/ms13/livrables/ms13-p4/ms13-p4-p6.md" target="_blank">LLMs</a> (-> Kilimandjaro), 
+  - <a href="https://github.com/Making-Sense-Info/Suivi-Constances/blob/main/ms13/livrables/ms13-p4/ms13-p4-p7.md" target="_blank">OMOP</a> (Romain)
 
 ----
 
 ### Vision GSBPM
 
-&#x1F449; [Le GSBPM](https://statswiki.unece.org/spaces/GSBPM/pages/113083140/Clickable+GSBPM+v5.1)
+&#x1F449; <a href="https://statswiki.unece.org/spaces/GSBPM/pages/113083140/Clickable+GSBPM+v5.1" target="_blank">Le GSBPM</a>
 
 ----
 
@@ -177,7 +172,7 @@ Construction d'un SI DDI Lifecycle
 
 ### Le Plan d'Assurance Qualité
 
- - Un [document](https://github.com/Making-Sense-Info/Suivi-Constances/tree/main/ms23/paq) décrivant nos modalités d'organisation
+ - Un <a href="https://github.com/Making-Sense-Info/Suivi-Constances/tree/main/ms23/paq" target="_blank">document</a> décrivant nos modalités d'organisation
  - Une base pour démarrer notre collaboration...
  - ...qui doit rester vivante
 
@@ -305,7 +300,7 @@ Préciser les attentes particulières par rapport à l'objet de la prestation
 
 ### Les rôles
 
-&#x1F449; [PAQ](https://github.com/Making-Sense-Info/Suivi-Constances/tree/main/ms23/paq#organisation-générale)
+&#x1F449; cf. <a href="https://github.com/Making-Sense-Info/Suivi-Constances/tree/main/ms23/paq#organisation-générale" target="_blank">PAQ</a>
 
 ----
 
@@ -315,13 +310,15 @@ Préciser les attentes particulières par rapport à l'objet de la prestation
 - Un comité de pilotage mensuel &#x1F3E2; / &#x1F5A5; 
 - Un point hebdomadaire de suivi &#x1F5A5; 
 
-&#x1F449; [PAQ](https://github.com/Making-Sense-Info/Suivi-Constances/tree/main/ms23/paq#typologie-des-réunions)
+&#x1F449; cf. <a href="https://github.com/Making-Sense-Info/Suivi-Constances/tree/main/ms23/paq#typologie-des-réunions" target="_blank">PAQ</a>
 
 ----
 
 ### Le suivi du projet
 
-&#x1F449; [Inspiration agilité](https://github.com/Making-Sense-Info/Suivi-Constances/tree/main/ms23/paq#suivi-de-projet)
+- Inspiration agilité
+
+&#x1F449; cf. <a href="https://github.com/Making-Sense-Info/Suivi-Constances/tree/main/ms23/paq#suivi-de-projet" target="_blank">PAQ</a>
 
 ----
 
