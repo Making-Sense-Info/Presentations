@@ -16,8 +16,8 @@
 ### Premiers enseignements
 
 - Faisabilité de DDI
-    - spécification des concepts
-    - distinction questions / variables
+    - Spécification des concepts
+    - Distinction questions / variables
 - Intérêt d'une approche globale FAIR
 - Utilité des standards
     - Exemple : GSBPM
@@ -31,10 +31,16 @@
 - Positif
     - Expertise des correspondants
     - Bon contact entre les équipes
-- Moins positif
+- Points d'amélioration
     - Multiplicité des acteurs
-    - Difficile d'identifier les bons interlocuteurs
+    - Difficulté d'identifier les bons interlocuteurs
     - Maîtrise des délais de réponse
+- Point d'attention
+  - Organisation du travail en distanciel
+  - Information sur les travaux en cours
+
+Note:
+Data management plan
 
 ---
 
@@ -63,11 +69,14 @@ Note:
 
 ### Focus
 
-- <a href="https://github.com/Making-Sense-Info/Suivi-Constances/blob/main/ms13/livrables/ms13-d3.md" target="_blank">Référentiel d'intéropérabilité</a> (Franck),
+- <a href="https://github.com/Making-Sense-Info/Suivi-Constances/blob/main/ms13/livrables/ms13-d3.md" target="_blank">Référentiel d'intéropérabilité</a>
 - Prototypes
-  - <a href="https://github.com/Making-Sense-Info/Suivi-Constances/blob/main/ms13/livrables/ms13-p4/ms13-p4-p2.md" target="_blank">Provenance</a> (Nico)
-  - <a href="https://github.com/Making-Sense-Info/Suivi-Constances/blob/main/ms13/livrables/ms13-p4/ms13-p4-p6.md" target="_blank">LLMs</a> (-> Kilimandjaro), 
-  - <a href="https://github.com/Making-Sense-Info/Suivi-Constances/blob/main/ms13/livrables/ms13-p4/ms13-p4-p7.md" target="_blank">OMOP</a> (Romain)
+  - <a href="https://github.com/Making-Sense-Info/Suivi-Constances/blob/main/ms13/livrables/ms13-p4/ms13-p4-p2.md" target="_blank">Provenance</a>
+  - <a href="https://github.com/Making-Sense-Info/Suivi-Constances/blob/main/ms13/livrables/ms13-p4/ms13-p4-p6.md" target="_blank">LLMs</a> 
+  - <a href="https://github.com/Making-Sense-Info/Suivi-Constances/blob/main/ms13/livrables/ms13-p4/ms13-p4-p7.md" target="_blank">OMOP</a>
+
+Note:
+LLM -> Kilimandjaro
 
 ----
 
@@ -78,26 +87,26 @@ Note:
 ----
 
 - **Conception**, **Construction**, 
-  - DDI-Lifecycle documente les instruments de collecte et les jeux de données externes (SNDS),
-  - Autres standard (SSN pour les examens des CES) ;
+  - DDI-Lifecycle documente les instruments de collecte et les jeux de données externes (SNDS)
+  - Autres standards (<a href="https://github.com/Making-Sense-Info/Suivi-Constances/blob/main/ms13/livrables/ms13-p4/ms13-p4-p8.md" target="_blank">SSN</a> pour les examens des CES)
 - **Collecte**
-  - Rétro documentation des questionnaires existants
+  - Rétro-documentation des questionnaires existants
   - Production des questionnaires à partir du modèle DDI ?
 
 ----
 
 - **Traitement** 
   - DDI-L voire CDI pour les variables dérivées et les agrégats  
-  - VTL a un rôle à jouer comme spécification exécutable (+ autres standards pour la provenance) ;
+  - VTL a un rôle à jouer comme spécification exécutable (+ autres standards pour la provenance)
 - **Diffusion**
-  - Les outils de catalogage + DCAT (prototype 3)
+  - Les outils de catalogage + DCAT (<a href="https://github.com/Making-Sense-Info/Suivi-Constances/blob/main/ms13/livrables/ms13-p4/ms13-p4-p3.md" target="_blank">prototype 3</a>)
   - Standards du monde de la santé (FHIR)
 
 ---
 
 ## Mekong
 
-Construction d'un SI DDI Lifecycle
+<img src="mekong-sunset.jpg" />
 
 ---
 
@@ -121,7 +130,7 @@ Construction d'un SI DDI Lifecycle
 
 ### Mettre l'Utilisateur au centre
 
-- Identifier les *u*tilisateurs
+- Identifier les utilisateurs
 - Les associer au projet (communication, démo, etc.)
 
 ----
@@ -200,10 +209,10 @@ Construction d'un SI DDI Lifecycle
 ### L'architecture
 
 - Objectifs
-    - Définir le cycle de vie de la métadonnée,
-    - Définir le ou les référentiels,
-    - Identifier les points d’interaction avec le reste du système d’information de Constances,
-    - Proposer les solutions logicielles adaptées.
+    - Définir le cycle de vie de la métadonnée
+    - Définir le ou les référentiels
+    - Identifier les points d’interaction avec le reste du système d’information de Constances
+    - Proposer les solutions logicielles adaptées
 - Utilisation de standards
 
 ---
@@ -215,6 +224,9 @@ Construction d'un SI DDI Lifecycle
 ### Cas d'application FAIR
 
 Des cas d'utilisation métier x des cibles de standardisation.
+
+Note:
+Utilisation du référentiel d'interopérabilité
 
 ----
 
@@ -272,15 +284,23 @@ Formations également pour Making Sense sur certain standards notamment du domai
 
 - Webinaires réguliers
   - Identifier le public, les canaux de communication
-- Conférence
-  - EDDI, comité Constances ?, club utilisateurs, etc.
+- Conférences
+  - EDDI, IASSIST
+  - Évènements du domaine de la santé ?
+- Autres rendez-vous
+  - Comité Constances, club utilisateurs, etc.
+
+Note:
+FHIR devdays, input Constances
+Collaboration reporting ANR
 
 ----
 
 ### Collaborations
 
 - Cohortes (France Cohortes, Closer)
-- Initiatives FAIR
+- Initiatives FAIR (Codata, GoFair)
+- Partenaires de Constances (SAGES, Gide)
 
 ---
 
@@ -325,10 +345,9 @@ Préciser les attentes particulières par rapport à l'objet de la prestation
 ### La documentation du projet
 
 - Dans le dépôt Github
-  - Compte rendus,
-  - Documents de travail,
-  - Outil de suivi (Kanban), 
-    - Suivi des temps ?
+  - Compte rendus
+  - Documents de travail
+  - Outil de suivi (Kanban)
 
 ----
 
@@ -345,3 +364,8 @@ Préciser les attentes particulières par rapport à l'objet de la prestation
 - Mise en place de l'organisation (cf. PAQ)
 - Prochains comités
 - Définition du périmètre
+
+Note:
+PA : 
+- unités d'oeuvre, plan de charge, factures
+- Suivi des temps ?
