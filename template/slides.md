@@ -4,7 +4,7 @@
 
 ## Slide 1
 
-Content E.1.1
+Content E.1.1 (Use `s` to see the note)
 
 Note: This will only appear in the speaker notes window.
 
