@@ -8,7 +8,7 @@ Réunion de lancement
 
 ----
 
-- Présentation de Making Sense ???
+- Présentations
 - Compréhension du besoin et des délais
 - Les évolutions
 - Les acteurs
@@ -21,7 +21,7 @@ Réunion de lancement
 
 ----
 
-???
+[Nos activités](https://www.making-sense.info/activities)
 
 ---
 
@@ -29,23 +29,14 @@ Réunion de lancement
 
 ----
 
-- du besoin
-- des délais
-
----
-
-## Les évolutions
-
-----
-
-- Maintien et enrichissement du questionnement actuel (nouveaux contrôles, nouvelles variables, nouvelles données externes)
-- API pour collecter les données des logiciels comptables
-- Nouvelle enquête auprès des exploitants (protocole à définir)
-- Récupération données administratives
-- Expertise nouvelles sources de données
-- Restitution aux participants
-
-➡️ Quelle priorisation ?
+- Du besoin
+  - RICA vers RIDEA
+  - déterminer la solution de collecte (cf. les scénarios)
+  - dans un contexte stratégique établi
+- Des délais
+  - preuve d'un système RIDEA fin 2027
+  - collecte sur 2028 en 2029
+  - qualification du scénario S1 2025 
 
 ---
 
@@ -53,12 +44,27 @@ Réunion de lancement
 
 ----
 
-- Le BPSCA
+- Le BPSCA / Pôle RICA
 - Le BQIS
 - Les offices comptables
 - Les SRISE
 - Les exploitants agricoles
 - Le SNUM
+
+Note:
+Pôle RIDEA ? :)
+
+---
+
+## Le plan de réalisation
+
+----
+
+<img src="plan-de-realisation.svg" width="80%" height="80%">
+
+----
+
+<img src="planning-de-realisation.svg">
 
 ---
 
@@ -75,19 +81,20 @@ Liste initiale :
 
 Des questions :
 - Capibara ?
-- Filière : a priori impossible pour les données comptables ?
+- Filière : a priori impossible pour la collecte de données comptables ?
 - Solution propriétaire hébergée : confidentialité / sécurité ?
 
 ---
 
-## Le plan de réalisation
+## Les évolutions
 
 ----
 
-<img src="plan-de-realisation.svg" width="80%" height="80%">
+- Maintien et enrichissement du questionnement actuel (nouveaux contrôles, nouvelles variables, nouvelles données externes) 🟢
+- Nouvelle enquête auprès des exploitants (protocole à définir) 🟢
+- API pour collecter les données des logiciels comptables 🟠
+- Récupération données administratives 🟠
+- Expertise nouvelles sources de données 🟠
+- Restitution aux participants
 
-----
-
-QUALITÉ ???
-
-<img src="planning-de-realisation.svg">
+➡️ Priorisation ? Impact ?
