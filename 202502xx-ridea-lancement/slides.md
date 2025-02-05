@@ -1,6 +1,6 @@
 # RIDEA
 
-Réunion de lancement
+Réunion de pré-lancement 🤔
 
 ---
 
@@ -10,10 +10,10 @@ Réunion de lancement
 
 - Présentations
 - Compréhension du besoin et des délais
-- Les évolutions
 - Les acteurs
-- Les scénarios
 - Le plan de réalisation
+- Les scénarios
+- Les évolutions
 
 ---
 
@@ -21,7 +21,10 @@ Réunion de lancement
 
 ----
 
-[Nos activités](https://www.making-sense.info/activities)
+[Nos activités](https://www.making-sense.info/activities) :
+- conseil en métadonnées (construction de SI, choix des standards)
+- développement autour des standards
+- formation
 
 ---
 
@@ -50,6 +53,7 @@ Réunion de lancement
 - Les SRISE
 - Les exploitants agricoles
 - Le SNUM
+- L'Insee (unité OSE)
 
 Note:
 Pôle RIDEA ? :)
@@ -98,3 +102,6 @@ Des questions :
 - Restitution aux participants
 
 ➡️ Priorisation ? Impact ?
+
+Note:
+Les 🟠 dans le halo du projet, quel(s) impact(s) ?
