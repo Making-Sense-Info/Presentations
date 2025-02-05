@@ -66,6 +66,13 @@ Pôle RIDEA ? :)
 
 <img src="plan-de-realisation.svg" width="80%" height="80%">
 
+Note:
+- Pertinence fonctionnelle (Questionnement, Suivi, Validation)
+- Adéquation stratégique (Corn)
+- Faisabilité (Temporelle, Organisationnelle, Technique)
+- Risques
+- Coûts
+
 ----
 
 <img src="planning-de-realisation.svg">
