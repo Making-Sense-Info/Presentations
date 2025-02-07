@@ -25,7 +25,11 @@ Note: This will only appear in the speaker notes window.
 
 ----
 
-- `À VOIR`
+`À VOIR SI UTILE ?`
+
+- ❤
+- Points hebdos efficaces, utiles pour la communication
+- Suivi simple via le [tableau Kanban](https://github.com/orgs/Making-Sense-Info/projects/5/views/1)
 
 ---
 
@@ -33,7 +37,9 @@ Note: This will only appear in the speaker notes window.
 
 ----
 
-- Retour sur la réunion du 12 `A COMPLETER`
+`A COMPLETER APRÈS LE 12`
+
+- Retour sur la réunion du 12
 
 ---
 
@@ -41,10 +47,11 @@ Note: This will only appear in the speaker notes window.
 
 ----
 
-- `DÉCRIRE CE QU'ON A FAIT`
-- Définition des standards utilisés
-- Première documentations schématiques aux niveaux capacités et processus métiers
+`DÉCRIRE CE QU'ON A FAIT`
+
+- Première documentations schématiques aux niveaux _capacités_ et _processus métiers_
 - Plan du document final
+- Définition des standards utilisés
 
 ---
 
@@ -57,6 +64,10 @@ Note: This will only appear in the speaker notes window.
 - Planification pour mai (plutôt fin mai ?)
 - Présentiel nécessaire ? Obligatoire ?
 
+Note:
+2 1/2 journées, c'est plus flexible pour ajuster si nécessaire?
+Distanciel tout à fait possible, expérience Pogues
+
 ---
 
 ## Sujets connexes
@@ -66,10 +77,25 @@ Note: This will only appear in the speaker notes window.
 - Métadonnées sur le biobanking
 - Portail chercheurs
 
+----
+
+### Biobanking
+
+- Travaux de EY
+- Biobanking / échantillons bio dans le périmètre ?
+
+----
+
+### Portail chercheurs
+
+- Point du 4/2 sur le portail projets
+- Point du 11/2 sur la plateforme SE&ST
+
 ---
 
 ## Administratif
 
 ----
 
-- ?
+- Avance
+- Maille des bons de commandes
