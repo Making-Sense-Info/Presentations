@@ -25,8 +25,6 @@ Note: This will only appear in the speaker notes window.
 
 ----
 
-`À VOIR SI UTILE ?`
-
 - ❤
 - Points hebdos efficaces, utiles pour la communication
 - Suivi simple via le [tableau Kanban](https://github.com/orgs/Making-Sense-Info/projects/5/views/1)
@@ -37,9 +35,16 @@ Note: This will only appear in the speaker notes window.
 
 ----
 
-`A COMPLETER APRÈS LE 12`
+- Suite à la réunion du 12/2
+  - Besoin de montrer du concret à différents acteurs
+  - Priorités :
+    - Catalogue sur un sous ensemble de variables (questionnaires)
+    - Cadrage sur SNDS et plateforme enviro-travail
+    - Formations (incluant IT)
+- Pivot ou simple adaptation ?
 
-- Retour sur la réunion du 12
+Note:
+Acteurs internes comme externes (F2030)
 
 ---
 
@@ -47,11 +52,12 @@ Note: This will only appear in the speaker notes window.
 
 ----
 
-`DÉCRIRE CE QU'ON A FAIT`
-
 - Première documentations schématiques aux niveaux _capacités_ et _processus métiers_
 - Plan du document final
 - Définition des standards utilisés
+
+Note:
+Redire l'importance d'un travail long sur ce sujet
 
 ---
 
