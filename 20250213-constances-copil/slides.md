@@ -41,10 +41,10 @@ Note: This will only appear in the speaker notes window.
     - Catalogue sur un sous ensemble de variables (questionnaires)
     - Cadrage sur SNDS et plateforme enviro-travail
     - Formations (incluant IT)
-- Pivot ou simple adaptation ?
 
 Note:
 Acteurs internes comme externes (F2030)
+Pivot ou simple adaptation ?
 
 ---
 
@@ -52,12 +52,12 @@ Acteurs internes comme externes (F2030)
 
 ----
 
-- Première documentations schématiques aux niveaux _capacités_ et _processus métiers_
+- Premières documentations schématiques aux niveaux _capacités_ et _processus métiers_
 - Plan du document final
 - Définition des standards utilisés
 
 Note:
-Redire l'importance d'un travail long sur ce sujet
+Redire l'importance d'un travail long sur ce sujet cf. point précédent
 
 ---
 
@@ -68,7 +68,8 @@ Redire l'importance d'un travail long sur ce sujet
 - Introduction à DDI Lifecycle
 - 2 1/2 journées a priori
 - Planification pour mai (plutôt fin mai ?)
-- Présentiel nécessaire ? Obligatoire ?
+- Présentiel nécessaire ?
+- Quel public ?
 
 Note:
 2 1/2 journées, c'est plus flexible pour ajuster si nécessaire?
