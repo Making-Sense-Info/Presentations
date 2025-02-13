@@ -83,6 +83,7 @@ Distanciel tout à fait possible, expérience Pogues
 
 - Métadonnées sur le biobanking
 - Portail chercheurs
+- Plateforme SEST
 
 ----
 
@@ -95,8 +96,13 @@ Distanciel tout à fait possible, expérience Pogues
 
 ### Portail chercheurs
 
-- Point du 4/2 sur le portail projets
-- Point du 11/2 sur la plateforme SE&ST
+- Point du 4/2
+
+----
+
+### Plateforme SEST
+
+- Présentation du 11/2
 
 ---
 
