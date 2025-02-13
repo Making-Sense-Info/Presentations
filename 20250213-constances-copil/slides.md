@@ -13,8 +13,6 @@
 - Architecture
 - Formations
 - Sujets connexes
-  - Biobanque
-  - Portail chercheurs 
 - Administratif
 
 Note: This will only appear in the speaker notes window.
@@ -111,4 +109,4 @@ Distanciel tout à fait possible, expérience Pogues
 ----
 
 - Avance
-- Maille des bons de commandes
+- Maille et modalités des factures
