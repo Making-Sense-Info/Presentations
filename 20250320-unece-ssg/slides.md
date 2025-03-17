@@ -34,7 +34,7 @@
   - Les deux sont bien sûr dans le modèle Archimate de Constances
 
 Note:
-"...a bit confusing" -> les modèles importés le sont entièrement et se mélangent allégrement avec les concepts natifs au modèle en cours
+"...a bit confusing" -> les modèles importés le sont entièrement et se mélangent allégrement avec les concepts natifs au modèle en cours; le modèle cible est renommé avec le nom du modèle importé
 "organised source models" -> mettre en place des dossiers dans les modèles source
 
 ---
