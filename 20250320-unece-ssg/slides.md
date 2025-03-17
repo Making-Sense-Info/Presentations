@@ -25,11 +25,17 @@
 ## How to use the models?
 
 - Importing models
-  - Romain
+  - Very convenient for reuse...
+  - ...but the default import behavior is a bit confusing
+  - Organised source models are needed (if possible?)
 - Examples
   - Le premier ou le deuxième ici : https://github.com/Making-Sense-Info/Suivi-Constances/tree/main/ms23/archi#plan (le deuxième j’aime bien parce qu’il illustre un usage existant - cible).
   - Et le premier ici : https://github.com/Making-Sense-Info/Suivi-Constances/blob/main/ms23/archi/archi-metier.md#questionnaire-de-suivi
   - Les deux sont bien sûr dans le modèle Archimate de Constances
+
+Note:
+"...a bit confusing" -> les modèles importés le sont entièrement et se mélangent allégrement avec les concepts natifs au modèle en cours
+"organised source models" -> mettre en place des dossiers dans les modèles source
 
 ---
 
