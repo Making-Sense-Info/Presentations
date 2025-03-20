@@ -73,25 +73,20 @@ Actively maintained: version 5.5 published in January 2025
     - specialization instead of grouping
 
 Note:
-Actively maintained: version 5.5 published in January 2025
+CSDA redone from scratch
 
 ----
 
 ## How to use the models?
 
-- Importing models
-  - Very convenient for reuse...
-  - ...but the default import behavior is a bit confusing
-  - Organised source models are needed (if possible?)
-- Examples
-  - Le premier ou le deuxième ici : https://github.com/Making-Sense-Info/Suivi-Constances/tree/main/ms23/archi#plan (le deuxième j’aime bien parce qu’il illustre un usage existant - cible).
-  - Et le premier ici : https://github.com/Making-Sense-Info/Suivi-Constances/blob/main/ms23/archi/archi-metier.md#questionnaire-de-suivi
-  - Les deux sont bien sûr dans le modèle Archimate de Constances
+- Importing in target model
+  - Very convenient for reuse, but:
+    - static import
+    - default import behavior is a bit confusing
+  - Organize MS models in folders could be a solution
 
 Note:
-"...a bit confusing" -> les modèles importés le sont entièrement et se mélangent allégrement avec les concepts natifs au modèle en cours; le modèle cible est renommé avec le nom du modèle importé
-"organised source models" -> mettre en place des dossiers dans les modèles source
-
+"...a bit confusing" -> imported models are entirely imported and components mixed with those of target model
 
 ----
 
@@ -101,7 +96,7 @@ Example: target capabilities
 
 ----
 
-<img src="followup-collection.png">
+<img src="followup-collection.png"  width="70%" height="70%">
 
 Example: specific data collection
 
