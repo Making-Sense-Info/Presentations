@@ -56,16 +56,14 @@ For example, CSDA is already expressed in ArchiMate
 - Open source software to create ArchiMate models
 - Easily and intuitively create all ArchiMate elements, relations and views
 - Initially funded by JISC (UK)
-
-Note:
-Actively maintained: version 5.5 published in January 2025
+- Actively maintained: version 5.5 published in January 2025
 
 ---
 
 ## Work done
 
-- Motivation: use MS models to analyze information systems
-- Archi models created
+- Motivation: use MS models to analyze information systems for customers
+- Archi models created for:
   - GSBPM and GAMSO
     - using business functions
   - CSDA
@@ -100,11 +98,17 @@ Note:
 
 Example: target capabilities
 
+Note:
+Describe target system in terms of capabilities and business functions
+
 ----
 
 <img src="followup-collection.png"  width="60%" height="60%">
 
 Example: specific data collection
+
+Note:
+Represent given process in reference to the GSBPM
 
 ---
 
