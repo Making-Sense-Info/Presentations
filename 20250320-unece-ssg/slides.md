@@ -12,6 +12,7 @@
 
 Note:
 ArchiMate distinguishes itself from other languages such as Unified Modeling Language (UML) and Business Process Modeling and Notation (BPMN) by its enterprise modelling scope.
+
 The European Interoperability Reference Architecture (EIRA) uses ArchiMate (and Archi)
 
 ----
@@ -21,8 +22,10 @@ The European Interoperability Reference Architecture (EIRA) uses ArchiMate (and 
 The ArchiMate framework
 
 Note:
-Passive structure: entitiy on which actions are conducted (information objects, physical devices...)
-Active structure : entities that display some behavior (business actors, application components...)
+Passive structure: entity on which actions are conducted (information objects, physical devices...)
+
+Active structure : entity that display some behavior (business actors, application components...)
+
 Behavior refers to the processes and functions performed by the active structures
 
 ----
@@ -61,7 +64,9 @@ Example: application structure
 Note:
 Created in 2010
 Cross-platform and extensible
+
 Very easy to use
+
 Hides some ArchiMate complexities (e.g. relations)
 
 ---
