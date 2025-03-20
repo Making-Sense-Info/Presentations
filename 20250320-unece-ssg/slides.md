@@ -43,7 +43,7 @@ Example: application structure
 
 ----
 
-- Archimate is relevant for ModernStats models because it covers all the scope of enterprise architecture (capabilities, actors and roles, application compenents, data objects...)
+- Archimate is relevant for ModernStats models because it covers all the scope of enterprise architecture (objectives, capabilities, actors and roles, application services, network nodes...)
 
 - For example, CSDA is already expressed in ArchiMate
 
@@ -57,6 +57,10 @@ Example: application structure
 - Easily and intuitively create all ArchiMate elements, relations and views
 - Initially funded by JISC (UK)
 - Actively maintained: version 5.5 published in January 2025
+
+Note:
+Very easy to use
+Hides some ArchiMate complexities (e.g. relations)
 
 ---
 
