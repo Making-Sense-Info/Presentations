@@ -17,12 +17,21 @@ The European Interoperability Reference Architecture (EIRA) uses ArchiMate (and 
 ----
 
 <img src="full_framework.png">
+
 The ArchiMate framework
 
 Note:
 Passive structure: entitiy on which actions are conducted (information objects, physical devices...)
 Active structure : entities that display some behavior (business actors, application components...)
 Behavior refers to the processes and functions performed by the active structures
+
+----
+
+<img src="capability-planning.png">
+
+Example: capability planning
+
+([source](https://www.hosiaisluoma.fi/blog/archimate/))
 
 ----
 
@@ -47,9 +56,12 @@ Actively maintained: version 5.5 published in January 2025
 
 ## Work done
 
-- Relevance for ModernStats models
+- Motivation
 - GSBPM and GAMSO
-- CSDA (principles and specialization)
+  - using business functions
+- CSDA
+  - principles
+  - specialization instead of grouping
 
 ---
 
