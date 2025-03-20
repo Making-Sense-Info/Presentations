@@ -43,9 +43,9 @@ Example: application structure
 
 ----
 
-Archimate is relevant for ModernStats models because it covers all the scope of enterprise architecture (capabilities, business functions, actors and roles...)
+- Archimate is relevant for ModernStats models because it covers all the scope of enterprise architecture (capabilities, actors and roles, application compenents, data objects...)
 
-For example, CSDA is already expressed in ArchiMate
+- For example, CSDA is already expressed in ArchiMate
 
 ---
 
@@ -53,14 +53,14 @@ For example, CSDA is already expressed in ArchiMate
 
 ----
 
-- Open source software to create ArchiMate models
+- Open source software to manage ArchiMate models
 - Easily and intuitively create all ArchiMate elements, relations and views
 - Initially funded by JISC (UK)
 - Actively maintained: version 5.5 published in January 2025
 
 ---
 
-## Work done
+## What we did
 
 - Motivation: use MS models to analyze information systems for customers
 - Archi models created for:
@@ -114,10 +114,13 @@ Represent given process in reference to the GSBPM
 
 ## Possible next steps
 
-- Complete GSBPM / GAMSO models (level of detail for textual description?)
+- Finalize GSBPM / GAMSO models (level of detail for textual description?)
 - Consolidate CSDA model
 - Review models (GSBPM / GAMSO / CSDA)
 - Publish on Unece GitHub?
 - Guidelines for use?
 - Governance?
 - GSIM?
+
+Note:
+That is if the SSG thinks the approach is interesting
