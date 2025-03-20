@@ -35,6 +35,14 @@ Example: capability planning
 
 ----
 
+<img src="application-structure.png">
+
+Example: application structure
+
+([source](https://www.hosiaisluoma.fi/blog/archimate/))
+
+----
+
 Archimate is relevant for ModernStats models because it covers all the scope of enterprise architecture (capabilities, business functions, actors and roles...)
 
 For example, CSDA is already expressed in ArchiMate
@@ -56,13 +64,16 @@ Actively maintained: version 5.5 published in January 2025
 
 ## Work done
 
-- Motivation
-- GSBPM and GAMSO
-  - using business functions
-- CSDA
-  - principles
-  - specialization instead of grouping
+- Motivation: use MS models to analyze information systems
+- Archi models created
+  - GSBPM and GAMSO
+    - using business functions
+  - CSDA
+    - principles
+    - specialization instead of grouping
 
+Note:
+Actively maintained: version 5.5 published in January 2025
 ---
 
 ## How to use the models?
@@ -82,10 +93,10 @@ Note:
 
 ---
 
-## Next steps
+## Possible next steps
 
 - Complete GSBPM / GAMSO models (level of detail for textual description?)
 - Consolidate CSDA model
 - Review models (GSBPM / GAMSO / CSDA)
-- Publish on Unece GitHub
+- Publish on Unece GitHub?
 - GSIM?
