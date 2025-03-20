@@ -74,7 +74,8 @@ Actively maintained: version 5.5 published in January 2025
 
 Note:
 Actively maintained: version 5.5 published in January 2025
----
+
+----
 
 ## How to use the models?
 
@@ -90,6 +91,19 @@ Actively maintained: version 5.5 published in January 2025
 Note:
 "...a bit confusing" -> les modèles importés le sont entièrement et se mélangent allégrement avec les concepts natifs au modèle en cours; le modèle cible est renommé avec le nom du modèle importé
 "organised source models" -> mettre en place des dossiers dans les modèles source
+
+
+----
+
+<img src="target-capabilities.png">
+
+Example: target capabilities
+
+----
+
+<img src="followup-collection.png">
+
+Example: specific data collection
 
 ---
 
