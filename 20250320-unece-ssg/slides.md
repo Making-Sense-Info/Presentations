@@ -77,6 +77,12 @@ CSDA redone from scratch
 
 ----
 
+<img src="gamso-overview.png">
+
+Example: GAMSO Overview
+
+----
+
 ## How to use the models?
 
 - Importing in target model
@@ -96,7 +102,7 @@ Example: target capabilities
 
 ----
 
-<img src="followup-collection.png"  width="70%" height="70%">
+<img src="followup-collection.png"  width="60%" height="60%">
 
 Example: specific data collection
 
@@ -108,4 +114,6 @@ Example: specific data collection
 - Consolidate CSDA model
 - Review models (GSBPM / GAMSO / CSDA)
 - Publish on Unece GitHub?
+- Guidelines for use?
+- Governance?
 - GSIM?
