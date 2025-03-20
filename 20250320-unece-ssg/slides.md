@@ -16,7 +16,7 @@ The European Interoperability Reference Architecture (EIRA) uses ArchiMate (and 
 
 ----
 
-<img src="full-framework.png">
+<img src="full_framework.png">
 The ArchiMate framework
 
 Note:
@@ -27,6 +27,7 @@ Behavior refers to the processes and functions performed by the active structure
 ----
 
 Archimate is relevant for ModernStats models because it covers all the scope of enterprise architecture (capabilities, business functions, actors and roles...)
+
 For example, CSDA is already expressed in ArchiMate
 
 ---
