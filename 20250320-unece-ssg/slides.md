@@ -2,21 +2,51 @@
 
 ---
 
-## What is Archimate?
+## What is ArchiMate?
 
-- The Open Group
-- Relevance for ModernStats models
+----
+
+- An enterprise architecture modeling language
+- Published by The Open Group and aligned with TOGAF
+- Now in version 3.2 (October 2022)
+
+Note:
+ArchiMate distinguishes itself from other languages such as Unified Modeling Language (UML) and Business Process Modeling and Notation (BPMN) by its enterprise modelling scope.
+The European Interoperability Reference Architecture (EIRA) uses ArchiMate (and Archi)
+
+----
+
+<img src="full-framework.png">
+The ArchiMate framework
+
+Note:
+Passive structure: entitiy on which actions are conducted (information objects, physical devices...)
+Active structure : entities that display some behavior (business actors, application components...)
+Behavior refers to the processes and functions performed by the active structures
+
+----
+
+Archimate is relevant for ModernStats models because it covers all the scope of enterprise architecture (capabilities, business functions, actors and roles...)
+For example, CSDA is already expressed in ArchiMate
 
 ---
 
 ## What is Archi?
 
-- Open source software to create Archimate models
+----
+
+- Open source software to create ArchiMate models
+- Easily and intuitively create all ArchiMate elements, relations and views
+- Initially funded by JISC (UK)
+
+Note:
+Actively maintained: version 5.5 published in January 2025
 
 ---
 
 ## Work done
 
+- Relevance for ModernStats models
 - GSBPM and GAMSO
 - CSDA (principles and specialization)
 
