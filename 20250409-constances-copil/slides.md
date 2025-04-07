@@ -94,6 +94,12 @@ Note:
 
 ---
 
+## Divers
+
+- Plateforme environnement-travail, point d'avancement
+
+---
+
 ## Administratif
 
 ----
