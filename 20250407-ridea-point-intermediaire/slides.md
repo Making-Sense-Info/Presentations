@@ -6,7 +6,7 @@ Point d'étape - *7/4/2023*
 
 ---
 
-## Agenda
+## Ordre du jour
 
 ----
 
@@ -41,7 +41,7 @@ Point d'étape - *7/4/2023*
 ### Focus ateliers
 
 - OC / SRISE :
-  - globalement satisfait
+  - globalement satisfaits
   - outils de suivi (SRISE)
   - lien vers les données comptables
 
@@ -82,6 +82,7 @@ Afficher le rapport, présenter le plan
   - Administratives, N-1, comptables
 - Suivi / validation
   - Circuit de validation, justifications, communication entre les acteurs
+- Modes de collecte
 
 Note:
 Construites et validées avec le pôle 🤝
@@ -100,7 +101,7 @@ Construites et validées avec le pôle 🤝
 
 ----
 
-- TODO Scénario Insee, des modulations ?
+- Scénario Insee, des modulations ?
   - participation aux développements
   - hébergement interne
 - Développement spécifique
@@ -109,15 +110,11 @@ Construites et validées avec le pôle 🤝
 
 Note:
 SM - Solutions on-premise, souveraines, voire open-source
-SM - Askia, Qualtrics, Formbricks
+SM - Askia, Qualtrics, Formbricks, Gide ?
 
 ---
 
 ## La grille d'analyse
-
-- afficher la grille, décrire la structure
-- spécificités DS
-- collaboration BSUPD
 
 ----
 
@@ -137,6 +134,9 @@ SM - Askia, Qualtrics, Formbricks
   - adéquation fonctionnelle
   - coût licence
 - Mesure risque / incertitude
+
+Note:
+Coût, collaboration BSUPD
 
 ---
 
