@@ -2,7 +2,7 @@
 
 ## Comité de pilotage
 
-*13 février 2025*
+*9 avril 2025*
 
 ---
 
