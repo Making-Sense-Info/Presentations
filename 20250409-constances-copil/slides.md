@@ -86,8 +86,10 @@ API directe ou outil Insee
 
 ----
 
-- Accès infrastructure
-- Collaboration architecture
+- [Accès](https://github.com/Making-Sense-Info/Suivi-Constances/blob/main/ms23/meetings/20250213-reu-tech-cleaning/SI.md#plates-formes-existantes) à l'infrastructure
+- Définition de l'architecture :
+  - [Colectica](https://github.com/Making-Sense-Info/Suivi-Constances/blob/main/ms23/meetings/20250213-reu-tech-cleaning/SI.md#plates-formes-existantes)
+  - [Normes de livraison](https://github.com/Making-Sense-Info/Suivi-Constances/blob/main/ms23/meetings/20250213-reu-tech-cleaning/SI.md#plates-formes-existantes) ([cleaning](https://github.com/Making-Sense-Info/Suivi-Constances/blob/main/ms23/meetings/20250213-reu-tech-cleaning/cleaning.md) ?)
 
 Note:
 👉 Nico
