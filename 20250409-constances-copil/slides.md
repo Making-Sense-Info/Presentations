@@ -31,12 +31,15 @@
 ### Modélisation
 
 - Organisation des objets
-  - concepts, 
-  - variables,
-  - mesures
+  - [Concepts](https://github.com/Making-Sense-Info/Mekong/blob/main/doc/ddi-model.md#concepts)
+  - [Variables](https://github.com/Making-Sense-Info/Mekong/blob/main/doc/ddi-model.md#variables)
+  - Mesures
+  - Univers
+- Atelier(s)
 
 Note:
 👉 Franck
+Univers ?
 
 ----
 
