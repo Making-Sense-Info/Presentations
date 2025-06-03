@@ -2,7 +2,7 @@
 
 **Métadonnées pour Constances**
 
-_4 juin 2024_
+_4 juin 2025_
 
 ---
 
@@ -25,10 +25,8 @@ _Valorisation du patrimoine de données & métadonnées FAIR_
 ### Contexte
 
 - La cohorte Constances s’inscrit sur le long terme
-
 - Un patrimoine de données extrêmement riche (plus de 10 000 variables –
   métadonnées incluses) et qui ne cesse de croître
-
 - Une grande diversité des sources de données (questionnaires, biologie,
   SNDS...)
 
@@ -153,7 +151,6 @@ La documentation concernera, progressivement, les données :
 ### Un levier stratégique
 
 - Investissement dans la qualité et la durabilité des données
-
 - Aligne CONSTANCES avec les meilleures pratiques en matière de gestion et de
   structuration des métadonnées (se rapprocher d’une vision à 360°)
 
@@ -163,7 +160,6 @@ La documentation concernera, progressivement, les données :
 
 - Renforce la valorisation scientifique du patrimoine de données et métadonnées
   (meilleure exploitation des données longitudinales)
-
 - Positionne l’équipe au cœur de l’écosystème FAIR
 
 ---
@@ -271,11 +267,9 @@ Note: présentation du projet
 
 ### L'équipe
 
-⚠️ VALIDER ⚠️
-
 - **Constances** :
   - Opérationnels : Adeline Renuy, Constance Yvon, Sofiance Kab
-  - Direction : Marie Zins, Antoine Dupont
+  - Direction : Marie Zins, Antoine Duclos
   - IT : Stéphane Le Got, Ghilès Meddour
 - **Making Sense** : Franck Cotton, Nicolas Laval, Romain Tailhurat
 
@@ -294,11 +288,12 @@ Note: présentation du projet
 
 ### Pivot
 
-- Du concret
+- "Montrer" des résultats concrets plus rapidement
+- Décision de prototype un explorateur de métadonnées
 
 ---
 
-### Explorateur de données
+### Explorateur de métadonnées
 
 _Prototype en trois phases_
 
@@ -314,7 +309,8 @@ _Prototype en trois phases_
 
 ### Formation
 
-- Introduction à DDI Lifecycle
+- Introduction à DDI Lifecycle les 17 et 18 juin
+- Première étape d'une transmission des savoirs
 
 ---
 
