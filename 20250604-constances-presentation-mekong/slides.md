@@ -1,6 +1,6 @@
-# Présentation du projet Mekong
+## Présentation du projet Mekong
 
-## Métadonnées pour Constances
+**Métadonnées pour Constances**
 
 _4 juin 2024_
 
@@ -8,9 +8,9 @@ _4 juin 2024_
 
 ## Plan
 
-- Présentation des objectifs
+- Objectifs
 - Métadonnées
-- Mekong
+- Le projet Mekong
 - Point d'étape
 - La suite
 
@@ -18,13 +18,153 @@ _4 juin 2024_
 
 ## Objectifs
 
-🚧 en attente contenu Adeline / Sofiane
+_Valorisation du patrimoine de données & métadonnées FAIR_
 
-- Créer et gérer la métadonnée
-- Via des standards reconnus
-- Dans une perspective FAIR
+---
 
-...France 2030... ...Collaborations...
+### Contexte
+
+- La cohorte Constances s’inscrit sur le long terme
+
+- Un patrimoine de données extrêmement riche (plus de 10 000 variables –
+  métadonnées incluses) et qui ne cesse de croître
+
+- Une grande diversité des sources de données (questionnaires, biologie,
+  SNDS...)
+
+---
+
+### Contexte
+
+Une documentation de référence existe mais :
+
+- Déclinée sous différents formats (Word, PDF …)
+- Évolutions et suivi longitudinal complexes
+- Description des statistiques et nettoyages sur plusieurs outils (STETHOSCOPA,
+  AQUEDUC)
+- Maintien sur le long terme complexe et risque de perte d’informations ou
+  d’expertises
+- Information complète à 360° pas toujours accessible aux chercheurs
+
+---
+
+### Besoin
+
+_Une documentation des données précise, structurée et pérenne_
+
+---
+
+#### Pourquoi renforcer la documentation des données ?
+
+_Pour une utilisation plus efficace par les chercheurs_ :
+
+- Accroître l’accessibilité des données
+- Favoriser l’interprétation-compréhension correcte des variables en s’appuyant
+  sur une vision à 360° : évolutions longitudinales, procédures de
+  contrôle/nettoyage et statistiques descriptives
+
+---
+
+#### Pourquoi renforcer la documentation des données ?
+
+_Pour une meilleure visibilité internationale_ :
+
+- Répondre aux attentes de la communauté scientifique internationale sur la
+  standardisation
+- Soutenir la réutilisation et l’interopérabilité
+- Se préparer au mieux à l’Espace européen des données de santé
+
+---
+
+### La solution mise en œuvre
+
+➡️ Adoption de la norme DDI (Data Documentation Initiative) dans Constances
+
+---
+
+### La solution mise en œuvre
+
+- Norme ouverte, reconnue, largement adoptée (DDI Alliance : Insee, CASD,
+  CLOSER, …)
+- Flexible et extensible à tous types de données (questionnaires, biologie ...)
+- Couvre tout le cycle de vie de la donnée : de la conception à l’archivage
+- Documentation pérenne
+
+---
+
+### Le projet
+
+- Soutenu par France 2030
+- Collaboration avec Making Sense
+- S’intègre dans la gouvernance des données de CONSTANCES
+- _Objectif_ : _centraliser la documentation des données et métadonnées en
+  suivant la norme DDI et accroitre la complétude des catalogues de données
+  documentés en DDI_
+
+---
+
+### Périmètre
+
+La documentation concernera, progressivement, les données :
+
+- **auto-déclarées** : questionnaires d’inclusion et de suivi
+- **des examens de santé** : paracliniques, biologiques, neuro-psychologiques
+  (45+)
+- **des bases administratives** : SNDS (consommation de soins de santé) et Cnav
+  (emploi, retraite, revenus)
+
+---
+
+### Périmètre
+
+- **environnementales**: géocodes résidentiels permettant un appariement aux
+  bases de données environnementales (qualité de l’air, espaces verts, qualité
+  de l’eau…)
+- **professionnelles** : calendriers professionnels permettant un appariement à
+  des MEE
+- **de la biobanque** : échantillons biologiques
+
+---
+
+### Bénéfices
+
+- Respect des standards FAIR
+  - Données faciles à trouver, accessibles, interopérables et réutilisables
+- Exploration facilitée des données : vision à 360°
+- Gain de temps pour les équipes et chercheurs
+- Meilleure qualité des données et réduction des erreurs
+
+---
+
+### Bénéfices
+
+- Favorise l’interopérabilité avec d’autres systèmes
+  - Espace européen des données de santé …
+- Améliore la collaboration nationale et internationale
+
+---
+
+### Défis pour l'équipe
+
+![défis](prez-constances-defis.png)
+
+---
+
+### Un levier stratégique
+
+- Investissement dans la qualité et la durabilité des données
+
+- Aligne CONSTANCES avec les meilleures pratiques en matière de gestion et de
+  structuration des métadonnées (se rapprocher d’une vision à 360°)
+
+---
+
+### Un levier stratégique
+
+- Renforce la valorisation scientifique du patrimoine de données et métadonnées
+  (meilleure exploitation des données longitudinales)
+
+- Positionne l’équipe au cœur de l’écosystème FAIR
 
 ---
 
@@ -58,7 +198,13 @@ _C'est quoi une métadonnée ?_
 
 ---
 
-![](types-of-metadata.png)
+![](intro-ddi-types-metadata.png)
+
+---
+
+![](exemple-metadata-glycemie.png)
+
+Note: Snomed CT ID 365811003 -> "constatation concernant le taux de glucose"
 
 ---
 
@@ -123,6 +269,18 @@ Note: présentation du projet
 
 ---
 
+### L'équipe
+
+⚠️ VALIDER ⚠️
+
+- **Constances** :
+  - Opérationnels : Adeline Renuy, Constance Yvon, Sofiance Kab
+  - Direction : Marie Zins, Antoine Dupont
+  - IT : Stéphane Le Got, Ghilès Meddour
+- **Making Sense** : Franck Cotton, Nicolas Laval, Romain Tailhurat
+
+---
+
 ## Point d'étape
 
 ---
@@ -142,7 +300,15 @@ Note: présentation du projet
 
 ### Explorateur de données
 
-- Prototype en trois phases
+_Prototype en trois phases_
+
+1. À partir d'un sous-ensemble de questionnaires : variables, questionnaires,
+   questions, concepts (Maelstrom) - juillet 2025
+2. Liens variables / concepts, enrichissement concepts, longitudinalité -
+   octobre 2025
+3. Nouvelles sources de données (SNDS) - décembre 2025
+
+🔄 _Validations utilisateurs_
 
 ---
 
