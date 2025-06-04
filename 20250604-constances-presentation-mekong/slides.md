@@ -220,7 +220,7 @@ Note: Principes pour la gestion et la publication de données scientifiques
   standards
 - Notre initiative centrée sur les produits DDI (Lifecycle, CDI) mais pas
   uniquement (DCAT, VTL)
-- Partitipation aux communautés
+- Participation aux communautés
 
 ---
 
