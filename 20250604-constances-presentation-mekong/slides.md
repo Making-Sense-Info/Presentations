@@ -96,7 +96,7 @@ _Pour une meilleure visibilité internationale_ :
 - Collaboration avec Making Sense
 - S’intègre dans la gouvernance des données de CONSTANCES
 - _Objectif_ : _centraliser la documentation des données et métadonnées en
-  suivant la norme DDI et accroitre la complétude des catalogues de données
+  suivant la norme DDI et accroître la complétude des catalogues de données
   documentés en DDI_
 
 ---
@@ -186,7 +186,7 @@ _C'est quoi une métadonnée ?_
 
 ---
 
-### Différents types de métadonnées
+### Types de métadonnées
 
 - Descriptives
 - Structurelles
@@ -259,7 +259,7 @@ Note: présentation du projet
 ### Organisation projet
 
 - Équipe mixte MS x EC
-- Points hebdomadaires
+- Point hebdomadaire
 - Copil bimestriel
 - Costrat semestriel
 
@@ -289,7 +289,7 @@ Note: présentation du projet
 ### Pivot
 
 - "Montrer" des résultats concrets plus rapidement
-- Décision de prototype un explorateur de métadonnées
+- Décision de prototyper un explorateur de métadonnées
 
 ---
 
@@ -324,3 +324,9 @@ _Prototype en trois phases_
   - Collaborations (Closer, Sciences Po CDSP, CASD)
   - EDDI25
   - Architecture du SI
+
+---
+
+# Merci
+
+🤗
