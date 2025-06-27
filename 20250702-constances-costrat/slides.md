@@ -95,7 +95,8 @@ Note: questionnaires via Pogues
 
 ## Phase suivante
 
-- ❗️TODO
+- Phase initialement prévue (concepts, longitudinalité) ou repriorisation
+  - Aura-t-on le temps d'exploiter les retours sur la phase 1 ?
 - Reprendre les travaux sur la construction du système d'information
 
 ---
