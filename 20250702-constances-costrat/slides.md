@@ -213,6 +213,8 @@ une voix par vote https://ddialliance.org/how-to-join "Why join?"
 
 Note: ❗️24000 + 22x800 + 30x800 = 65600€
 
+---
+
 ## Organisation projet
 
 - Bilan premier semestre
