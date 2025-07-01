@@ -36,11 +36,10 @@ _Plan initial_
 - Mise en place de la plateforme (mi-avril)
 - Chargement des variables Aqueduc et Paraclinique
 - Chargement des concepts Maelstrom et internes (Domaines)
-- Chargement des questions et de trois questionnaires ❗️ Deux ou trois ?
-  Lesquels ?
+- Chargement des questions et de deux questionnaires
 - Chargement des opérations d'enquêtes (RefDoc)
 
-Note: questionnaires via Pogues
+Note: questionnaires via Pogues, inclusion mode de vie et questionnaire médical
 
 ---
 
@@ -59,7 +58,7 @@ Note: questionnaires via Pogues
   - Déduplication des questions (réutilisation possible par questionnaire,
     factorisation pour listes de code)
   - Des filtres dans les libellés de questions
-  - Des variables recodées (`_i`) associées à des questions
+  - Des variables recodées (`_n`) associées à des questions
 
 ---
 
@@ -70,14 +69,18 @@ Note: questionnaires via Pogues
   - ~3700 pour la documentation
   - ~7000 pour le code
 - En volumes d'objets DDI
-  - ❗️TODO après dernier chargement
+  - 2 questionnaires
+  - 6106 variables
+  - 4346 questions
+  - 681 concepts
+  - 792 listes de code
 
 ---
 
 ## La suite
 
 - Recette et retours par des utilisateurs
-- Puis nouvelle phase de développement
+- Nouvelle phase de développement
 
 ---
 
@@ -85,7 +88,7 @@ Note: questionnaires via Pogues
 
 - Des chercheurs sélectionnés
 - Des membres de l'équipe Constances
-- Protocole à définir ❗️
+- Protocole à définir
   - Proposition 1 : présentation du projet et du contenu -> évaluation libre ->
     retours libres ou cadrés -> synthèse (sous calendrier contraint)
   - Proposition 2 : présentation du projet et du contenu -> évaluation libre ->
@@ -96,8 +99,10 @@ Note: questionnaires via Pogues
 ## Phase suivante
 
 - Phase initialement prévue (concepts, longitudinalité) ou repriorisation
-  - Aura-t-on le temps d'exploiter les retours sur la phase 1 ?
 - Reprendre les travaux sur la construction du système d'information
+
+Note: Travaux sur plateforme enviro ? ❗️ Aura-t-on le temps d'exploiter les
+retours sur la phase 1 ?
 
 ---
 
@@ -144,6 +149,8 @@ des points intéressants soulevés
 
 - Application du principe stratégique d'ouverture
 - À quelle échéance, sur quel périmètre ?
+
+Note: ❗️ Diplodocus open source ?
 
 ---
 
