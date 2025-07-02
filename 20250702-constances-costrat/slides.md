@@ -54,9 +54,8 @@ Note: questionnaires via Pogues, inclusion mode de vie et questionnaire médical
 - Mobilisation de la richesse des informations existantes
 - Améliorations de la qualité des données (e.g. typos dans certaines listes de
   codes)
-- Possibilités de rationalisation (variables, questions)
-  - Déduplication des questions (réutilisation possible par questionnaire,
-    factorisation pour listes de code)
+- Possibilités de rationalisation
+  - Duplication des questions (listes de code)
   - Des filtres dans les libellés de questions
   - Des variables recodées (`_n`) associées à des questions
 
@@ -176,8 +175,8 @@ une voix par vote https://ddialliance.org/how-to-join "Why join?"
 
 - Wébinaire du 22 juin
 - Utilisation de DDI-C (Nada), travaux sur l'alignement avec DCAT-AP
-- Moissonnage de catalogues, quel impact sur nos travaux ? Prendre contact avec
-  les responsables du projet ?
+- Moissonnage de catalogues, quel impact sur nos travaux ?
+- Prendre contact avec les responsables du projet ?
 
 ---
 
@@ -185,6 +184,7 @@ une voix par vote https://ddialliance.org/how-to-join "Why join?"
 
 - Groupe français des utilisateurs de DDI
 - Ined, Progedo, Insee, CASD, France Cohortes, Inserm, CDSP... MS !
+- Partage sur les travaux et les difficultés
 
 ---
 
