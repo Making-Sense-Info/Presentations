@@ -53,7 +53,7 @@ AQ_COVSR_PcAccDocIntox
 
 - Source principal des concepts Constances
 - Travail de fond réalisé en 2018
-- Pour aller plus loin : mise à jour, appronfondissement, documentation du processu
+- Pour aller plus loin : mise à jour, appronfondissement, documentation du processus
 
 ---
 
