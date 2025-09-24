@@ -76,10 +76,16 @@ AQ_COVSR_PcAccDocIntox
 - Constances / Strategic principles / Key challenges / Roadmap
 - ... en 20'
 
+Note:
+Présentation de FreSH dans la même session
+
 ---
 
 # Administratif
 
+----
+
 - Environ 40 jours de travail depuis le costrat
-- Pas de facture pour le moment
+- Pas nécessaire d'émettre une facture pour le moment
+- Date pour le paiement en fin d'année, mi-novembre ?
 
