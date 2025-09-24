@@ -8,6 +8,8 @@ _24 septembre 2025_
 
 ## Ordre du jour
 
+----
+
 - Explorateur de métadonnées
 	- Retour sur la recette
 	- La suite
