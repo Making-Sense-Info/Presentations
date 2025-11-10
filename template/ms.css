@@ -24,9 +24,10 @@
     top: 5px;
     left: 12px;
     height: 200px !important;
-    width: 200x !important;
+    width: 200px !important;
     max-width: unset !important;
     max-height: unset !important;
+    filter: opacity(50%);
 }
 
 .reveal .footer {
