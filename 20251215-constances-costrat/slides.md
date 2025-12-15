@@ -45,14 +45,23 @@ _15/12/2025_
 Note:
 Publicité aux précédents testeurs
 Recette si UI
+
 ----
 
 ### Retour sur le planning initial
 
-- ❗️page 15 de la proposition ; calendrier assez conforme ❗️
-  - ❗️ Études / partie haute -> travaux sur les univers
+![planning](./constances-planning-2025.png)
+
+----
+
+### Retour sur le planning initial
+
+- Réalisation assez conforme, bien que pivot sur l'explorateur
+  - 👀 Architecture
+  - 👀 Études / partie haute 
+    - Travaux sur les univers
 - Plan de formation
-  - Web sémantique / DDI pour les questionnaires
+  - 👀 2ème session "DDI pour les questionnaires" ?
 
 ----
 
@@ -75,8 +84,9 @@ Recette si UI
 
 - _Comitologie_
   - Points hebdomadaires et ponctuels satisfaisants
-  - Rythme des comités de pilotage et stratégique ?
-  - Participants
+  - Comités de pilotage et stratégique
+    - Rythme ?
+    - Participants ?
 
 ---
 
@@ -84,9 +94,9 @@ Recette si UI
 
 ----
 
-### Retour plan inital
+### Planning initial
 
-- ❓vu plus haut, rappel travail architecture ?
+![planning 2026](./constances-planning-2026.png)
 
 ----
 
@@ -109,7 +119,9 @@ Trois sujets possibles à poursuivre ou développer:
 
 #### Priorisation, explorateur
 
-- ❗️ Points vus précécemment
+- Cf. points vus précécemment
+ - Recette phase 2
+ - Amélioration ou développement UI
 
 ----
 
@@ -142,7 +154,9 @@ Trois sujets possibles à poursuivre ou développer:
 - DDI Alliance
   - Q²
   - MPAWG
-  - ❓Health data
+
+Note:
+- DDI pour les données de santé
 
 ---
 
@@ -156,6 +170,30 @@ Trois sujets possibles à poursuivre ou développer:
 
 ## Administratif
 
-- Point prochaines réunions
+- Point budgétaire
 - Suivi des jours
 - Facturation mars
+- Point prochaines réunions
+
+----
+
+### Budget
+
+- Consommation 2025 : 250.000€
+- Reste : 626.000€
+  - Répartition par an :  ~208.700€
+
+----
+
+### Suivi des jours
+
+- Jours 2025: débordement jusqu'à mi-janvier
+- Prochaine facturation fin mars
+
+----
+
+### Prochaines réunions
+
+- Fin février : comité de pilotage
+- Fin avril : comité de pilotage
+- Mi-juin : comité stratégique
