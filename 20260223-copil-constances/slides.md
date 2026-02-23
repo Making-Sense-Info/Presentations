@@ -21,8 +21,8 @@ _23/2/2026_
 ## Avancement du projet
 
 - Initialement :
-    - T3 2025 : études
-    - S1 2026 : questionnaires
+    - T3 [2025](https://github.com/Making-Sense-Info/Making-Sense/blob/main/clients/constances/calendrier-2025.mmd) : études
+    - S1 [2026](https://github.com/Making-Sense-Info/Making-Sense/blob/main/clients/constances/calendrier-2026.mmd) : questionnaires
 - Sujets traités au S1 2026
 
 ---
@@ -75,23 +75,27 @@ _23/2/2026_
 ## Open source
 
 - Publication des développements
-- Publication du DDI model pour Constances (Freddi)
+- Publication du DDI model pour Constances (FreDDI)
 
 ---
 
 ## Closer
 
-- Reprendre les travaux sur Varese
-- Continuer à travailler sur l'extraction des concepts
+Plusieurs points de collaboration :
+
+- Bonnes pratiques DDI pour la longitudinalité (Varese)
+- Extraction des concepts
 - Outils de mesure de la FAIRness
 
+Note:
+- UCL extraction des concepts d'une question
 
 ---
 
 ## Environnement
 
 - DICVARisation en bonne voie
-- Documentaiton des échanges avec le CASD
+- [Documentation des échanges](https://github.com/Making-Sense-Info/Suivi-Constances/blob/main/ms23/archi/constances-casd.md) avec le CASD
 
 ---
 
