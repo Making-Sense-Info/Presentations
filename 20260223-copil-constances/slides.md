@@ -3,6 +3,7 @@
 **Comité de pilotage**
 
 _23/2/2026_
+
 ---
 
 ## Agenda
@@ -15,7 +16,7 @@ _23/2/2026_
 - Plateforme environnement
 - Administratif
 
-----
+---
 
 ## Avancement du projet
 
@@ -35,19 +36,19 @@ _23/2/2026_
 
 ## Explorateur
 
-- Démo
+*Démo*
 
 ---
 
 ## Explorateur
 
-- Complétion questionnaires via Pogues
+- Complétion questionnaires via Pogues (➡️ [doc](https://github.com/Making-Sense-Info/Mekong/tree/main/doc/questionnaires#production-of-constances-questionnaires-in-ddi))
 
 ---
 
 ## Explorateur
 
-- Démo
+*Démo*
 
 ---
 
@@ -67,6 +68,7 @@ _23/2/2026_
 ## Architecture
 
 - Vue données, états stables (*Steady states*)
+➡️ [doc](https://github.com/Making-Sense-Info/Suivi-Constances/blob/main/ms23/archi/archi-donnees.md)
 
 ---
 
@@ -95,4 +97,4 @@ _23/2/2026_
 
 ## Administratif
 
-- 28 jours (avant comptage du 23)
+- 39 jours
