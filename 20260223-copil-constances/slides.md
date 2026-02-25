@@ -101,4 +101,5 @@ Note:
 
 ## Administratif
 
-- 39 jours
+- Consommation reliquats 2025
+- Consommation depuis le début de l'année : 39 jours
