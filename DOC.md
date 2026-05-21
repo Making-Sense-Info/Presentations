@@ -4,22 +4,31 @@ To create a new presentation, create a new directory following this convention :
 
 Next, copy the content of the `template` directory.
 
-The easiest way to produce content is to edit the `slides.md` file. See an example [here](./20250113-constances-lancement/slides.md).
+The easiest way to produce content is to edit the `slides.md` file. See template [here](./template/slides.md).
 
-To check the content before commiting, launch an HTTP server:
+## Local run
+
+To check the content before commiting, launch a **live-reloaded** HTTP server:
 
 ```sh
-# Python ; `python` here depends on your install, could be `python3`, `py`, etc.
-python -m http.server
+# Python ; `pip` here depends on your install, could be `pip3`, `pip`, etc.
+pip install livereload
+livereload --port 8000 .
 
 # Node
-npx http-server .
+npx live-server .
 
 # Ruby
-ruby -run -e httpd . -p 8080
+gem install rerun
+rerun "ruby -run -e httpd . -p 8000"
 ```
 
+## Plugins
 
+Supported features:
+
+- notes
+- mermaid
 
 ## Housekeeping
 
