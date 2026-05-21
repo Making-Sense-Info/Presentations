@@ -170,4 +170,6 @@ sequenceDiagram
 
 ## Next steps
 
-?
+- Continue to inspect TCK results to fix/improve Trevas
+- Explore the possibility of creating a vtl-ddi module (sponsored by CASD)
+- Develop support for unsupported operators if we have use cases
