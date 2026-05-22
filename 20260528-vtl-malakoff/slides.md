@@ -63,14 +63,23 @@ _28/05/2026_
 #### Local workflow
 
 ```mermaid
-flowchart LR
-  A["v2.1/docs/.../operators/**/examples"] --> B["validate_example_fixtures.py"]
-  B --> C["generate_tck_files.py"]
-  C --> D["tck/v2.1.zip"]
-  D --> E["coverage/src/main/resources/v2.1.zip"]
-  E --> F["TCK.runTCK → tree Folder/Test"]
-  F --> G["TCKTest @ParameterizedTest"]
-  G --> H["TckCaseExecutor + Spark VtlScriptEngine"]
+sequenceDiagram
+
+    participant EX as examples/**
+    participant VF as validate_example_fixtures.py
+    participant GT as generate_tck_files.py
+    participant ZIP as tck/v2.1.zip
+    participant TCK as TCK.runTCK
+    participant TEST as TCKTest
+    participant ENG as Spark VtlScriptEngine
+
+    EX->>VF: Validate fixtures
+    VF->>GT: Generate TCK files
+    GT->>ZIP: Build v2.1.zip
+
+    ZIP->>TCK: Load test suite
+    TCK->>TEST: Create Folder/Test tree
+    TEST->>ENG: Execute TckCaseExecutor
 ```
 
 --
