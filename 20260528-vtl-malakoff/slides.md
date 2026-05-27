@@ -62,25 +62,7 @@ _28/05/2026_
 
 #### Local workflow
 
-```mermaid
-sequenceDiagram
-
-    participant EX as examples/**
-    participant VF as validate_example_fixtures.py
-    participant GT as generate_tck_files.py
-    participant ZIP as tck/v2.1.zip
-    participant TCK as TCK.runTCK
-    participant TEST as TCKTest
-    participant ENG as Spark VtlScriptEngine
-
-    EX->>VF: Validate fixtures
-    VF->>GT: Generate TCK files
-    GT->>ZIP: Build v2.1.zip
-
-    ZIP->>TCK: Load test suite
-    TCK->>TEST: Create Folder/Test tree
-    TEST->>ENG: Execute TckCaseExecutor
-```
+<img src="nico-vtl-task-force-tck.001.png" width="90%">
 
 --
 
@@ -88,14 +70,7 @@ sequenceDiagram
 
 #### Zip content
 
-```txt
-{Operator category}/{Operator name}/{example_name}/
-  transformation.vtl
-  input.json
-  DS_1.csv, DS_2.csv, ...
-  output.json
-  DS_r.csv
-```
+![](directory.png)
 
 --
 
@@ -103,22 +78,7 @@ sequenceDiagram
 
 #### Input/Output example
 
-```json
-{
-  "datasets": [
-    { "name": "DS_1", "structure": "DS_1" }
-  ],
-  "structures": [
-    {
-      "name": "DS_1",
-      "components": [
-        { "name": "Id_1", "role": "Identifier", "data_type": "TimePeriod" },
-        { "name": "Me_1", "role": "Measure", "data_type": "Integer" }
-      ]
-    }
-  ]
-}
-```
+![](dataset.png)
 
 --
 
