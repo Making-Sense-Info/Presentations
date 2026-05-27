@@ -60,19 +60,3 @@
     background-color: #2a76dd;
     color: white;
 }
-
-.reveal .slides section .mermaid,
-.reveal .slides section pre:has(code.language-mermaid) {
-  display: block;
-  width: 60%;
-  max-width: 100%;
-  margin: 0 auto;
-  text-align: center;
-}
-.reveal .slides section .mermaid svg {
-  display: block;
-  margin: 0 auto;
-  width: 100% !important;
-  max-width: 100% !important;
-  height: auto !important;
-}

@@ -63,30 +63,23 @@ _28/05/2026_
 #### Local workflow
 
 ```mermaid
-flowchart TB
-  subgraph VTL["① VTL repo (git clone sdmx-twg/vtl)"]
-    EX["Operator examples<br/><code>v2.1/docs/.../operators/**/examples</code><br/>.vtl · .json · .csv"]
-    VF["validate_example_fixtures.py<br/><i>optional</i>"]
-    GT["generate_tck_files.py<br/><code>DOC_VERSION=v2.1</code>"]
-    ZIP["<code>vtl/tck/v2.1.zip</code>"]
-    EX --> VF
-    EX --> GT
-    VF -.->|run before generate| GT
-    GT --> ZIP
-  end
+sequenceDiagram
 
-  subgraph TREVAS["② Trevas repo (local)"]
-    RES["Copy zip →<br/><code>coverage/src/main/resources/v2.1.zip</code>"]
-    MVN["<code>mvn test -pl coverage -am</code>"]
-    TCK["TCK.runTCK<br/>unzip · parse JSON/CSV · Folder/Test tree"]
-    TEST["TCKTest<br/>one JUnit test per example"]
-    EXE["TckCaseExecutor<br/>eval script · assert outputs"]
-    ENG["VtlScriptEngine + Spark"]
-    RES --> MVN
-    MVN --> TCK --> TEST --> EXE --> ENG
-  end
+    participant EX as examples/**
+    participant VF as validate_example_fixtures.py
+    participant GT as generate_tck_files.py
+    participant ZIP as tck/v2.1.zip
+    participant TCK as TCK.runTCK
+    participant TEST as TCKTest
+    participant ENG as Spark VtlScriptEngine
 
-  ZIP -->|manual cp/mv| RES
+    EX->>VF: Validate fixtures
+    VF->>GT: Generate TCK files
+    GT->>ZIP: Build v2.1.zip
+
+    ZIP->>TCK: Load test suite
+    TCK->>TEST: Create Folder/Test tree
+    TEST->>ENG: Execute TckCaseExecutor
 ```
 
 --
