@@ -137,6 +137,18 @@ sequenceDiagram
 
 ---
 
+# Sponsorship
+
+Thanks to those who have already contributed to Trevas:
+
+- **Insee**, for initializing
+- **CASD**, for financing developments
+- **ECB**, **Bundesbank**, **Banco de España**, for contributions to the code
+
+**We are looking for new partnerships in order to support and fund further developments of the software**
+
+---
+
 ## Next steps
 
 - Continue to inspect TCK results to fix/improve Trevas
