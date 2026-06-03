@@ -84,12 +84,6 @@ _28/05/2026_
 
 ## Trevas - TCK
 
-Output published on [Github](https://github.com/InseeFr/Trevas/actions/runs/26083480157)
-
---
-
-## Trevas - TCK
-
 _Writing code and tests inevitably leads to mistakes; having a shared, robust TCK helps uncover issues that would otherwise go unnoticed._
 
 Thanks to TCK we solved "quickly" around 20 tests.
@@ -105,6 +99,15 @@ Thanks to TCK we solved "quickly" around 20 tests.
 - **Structural mismatch (~14)** → Aggregation, Join, types
 - **Data row mismatch (2)** → Join ex_6, ex_7
 - **Execution bugs (~13)** → NPE, DS rules, time engine
+
+--
+
+## Trevas - TCK
+
+#### Current situation
+
+- 40 tests (time + boundary cases) will be fairly simple to correct
+- the rest requires more development (missing operators)
 
 --
 
@@ -152,5 +155,5 @@ Thanks to those who have already contributed to Trevas:
 ## Next steps
 
 - Continue to inspect TCK results to fix/improve Trevas
-- Explore the possibility of creating a vtl-ddi module (sponsored by CASD)
+- Explore the possibility of creating a vtl-ddi module (feasibility study sponsored by CASD)
 - Develop support for unsupported operators if we have use cases
