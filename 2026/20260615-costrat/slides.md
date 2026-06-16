@@ -27,6 +27,7 @@ _15/06/2026_
 - Rappel de la démarche
 - Ateliers Pogues
 - Travaux prospectifs en collaboration avec Gide
+- Formation
 
 Note:
 Mails d'Adeline
@@ -37,38 +38,32 @@ Mails d'Adeline
 
 - Génération des libellés de variables
   - [Rappel du processus](https://github.com/Making-Sense-Info/Mekong/blob/main/enhancement/variables/README.md#process)
-- Modèlisation des données complémentaires ❗️voir si c'est ok
-
-
----
-
-## LLM
-
-`AQ-Activité Physique-Au cours des 12 derniers mois, avez-vous fait régulièrement des travaux de bricolage, jardinage ou ménage`
-
-👉
-
-`(gemma4-26b-moe - 1) Fréquence hebdomadaire moyenne de la pratique régulière d'activités domestiques et manuelles (bricolage, jardinage ou ménage)`
+  - [Exemple](https://github.com/Making-Sense-Info/Mekong/blob/main/enhancement/variables/report-new-prompt-remote-20260423.md#aq_actphy_12mtrvman)
 
 ---
 
 ## Architecture
 
 - Atelier MS / EC sur le SNDS
-  - [Schéma](https://raw.githubusercontent.com/Making-Sense-Info/Suivi-Constances/refs/heads/main/ms23/archi/img/constances-services-collecte-snds.svg?token=GHSAT0AAAAAADSOZYFQ6MZMM6CUNOMOWNFG2RL77GQ)
+  - [Schéma](https://github.com/Making-Sense-Info/Suivi-Constances/blob/main/ms23/archi/img/constances-services-collecte-snds.svg)
 - Dispositif reconduit, prochain atelier sur paraclinique
 
 ---
 
 ## Objectifs pour le S2 2026
 
-----
+---
 
 ### Jeux de données
 
-- Qu'est-ce qu'on document en DDI ? ❗️synthétiser
+- Qu'est-ce qu'on documente en DDI ?
 - Cible prioritaire : les jeux de données diffusés
-  - Jeux standards VS extractions
+  - Jeux standards VS extractions 
+
+Note:
+- Distinction entre produit logique et description physique
+- Logique : les variables, leurs concepts et leurs représentations
+- Physique : les relations, l'organisation des enregistrements, les aspects fichiers (séparateurs, etc.)
 
 ---
 
@@ -82,16 +77,17 @@ Mails d'Adeline
 
 - Poursuivre sur les questionnaires
 - Collaborer sur le portail projets (cf. point suivant)
+- Formation, communication ?
 
 ---
 
 ## Portail projets
 
 - Retour sur l'échange avec Céline et Willen du 1er juin
-- Rappel de la proposition MS (schéma)
+- [Rappel de la proposition MS](https://github.com/Making-Sense-Info/Suivi-Constances/blob/main/ms23/archi/img/constances-services-portail-chercheurs.svg)
 
 Note:
-❗️ajouter des notes ici de la discussion
+Vision "portail données" pour constitution du panier VS intégation via API
 
 ---
 
