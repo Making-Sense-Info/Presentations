@@ -34,3 +34,4 @@ See the documentation [here](./DOC.md).
 - 23/02/2026 - [Copil Constances](./2026/20260223-copil-constances)
 - 30/03/2026 - [Copil Constances](./2026/20260330-copil-constances)
 - 28/05/2026 - [Vtl Malakoff](./2026/20260528-vtl-malakoff)
+- 21/09/2026 - [Copil Constances](./2026/20260921-copil-constances/slides.html)
