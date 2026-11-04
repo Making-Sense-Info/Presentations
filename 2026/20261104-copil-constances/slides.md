@@ -8,15 +8,10 @@ _04/11/2026_
 
 ## Agenda (1/2)
 
-- Avancement via synoptique (10')
-- SNDS (20')
-  - Intégration de proto jeux de données (Colectica)
-  - Détail Table MED
-  - Support HealthDCAT-AP (Dedicate+)
-- Questionnaires (10')
-  - Collaboration Gide
-  - Pogues et source de vérité
-- AOB (5')
+- Avancement
+- Jeux de données SNDS
+- Questionnaires
+- AOB
 
 ---
 
