@@ -6,7 +6,7 @@ _04/11/2026_
 
 ---
 
-## Agenda (1/2)
+## Agenda
 
 - Avancement
 - Jeux de données SNDS
