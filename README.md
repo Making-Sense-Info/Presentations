@@ -7,14 +7,17 @@ See the documentation [here](./DOC.md).
 ## List
 
 ### 2023
+
 - 05/10/2023 - [VTL Task Force](https://making-sense-info.github.io/Presentations/20231005-vtl-roma/slides.html)
 
 ### 2024
+
 - 10/04/2024 - [SDMX / VTL](https://making-sense-info.github.io/Presentations/20240410-vtl-sdmx-unece/slides.html)
 - 09/10/2024 - [SDMX Experts Workshop](https://making-sense-info.github.io/Presentations/20241009-expert-group/index.html)
 - 04/12/2024 - [EDDI 24](https://making-sense-info.github.io/Presentations/20241204-eddi24/romain-eddi24.pdf)
 
 ### 2025
+
 - 13/01/2025 - [Constances Lancement](./2025/20250113-constances-lancement)
 - 13/02/2025 - [Constances Copil](./2025/20250213-constances-copil)
 - 06/03/2025 - [Ridea Lancement](./2025/20250306-ridea-lancement)
@@ -31,7 +34,10 @@ See the documentation [here](./DOC.md).
 - 15/12/2025 - [Constances Costrat](./2025/20251215-constances-costrat)
 
 ### 2026
+
 - 23/02/2026 - [Copil Constances](./2026/20260223-copil-constances)
 - 30/03/2026 - [Copil Constances](./2026/20260330-copil-constances)
 - 28/05/2026 - [Vtl Malakoff](./2026/20260528-vtl-malakoff)
+- 15/06/2026 - [Costrat Constances](./2026/20260615-costrat/slides.html)
 - 21/09/2026 - [Copil Constances](./2026/20260921-copil-constances/slides.html)
+- 05/11/2026 - [Copil Constances](./2026/20261105-copil-constances/slides.html)
