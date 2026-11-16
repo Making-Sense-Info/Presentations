@@ -4,11 +4,7 @@
 
 See the documentation [here](./DOC.md).
 
-## List
-
-All Reveal decks share one shell in [`_shell/`](./_shell/). Edit **`slides.md`** (+ optional **`deck.json`**) in the deck folder. Locally (once: `npm link` at repo root): run `deck` from the folder.
-
-Deployed site: [making-sense-info.github.io/Presentations](https://making-sense-info.github.io/Presentations/).
+## Presentation list
 
 ### 2023
 
