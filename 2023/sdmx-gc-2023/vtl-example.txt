@@ -1,0 +1,14 @@
+define datapoint ruleset dpr_ETAB (variable mois_decl, code_decl, id_mad_etab, siren, raison_soc) is
+    rule_mois_decl : match_characters(mois_decl, "^\d{4}-(((0)[0-9])|((1)[0-2]))-([0-2][0-9]|(3)[0-1])$")
+        errorcode "Date format YYYY-MM-DD not valid";
+    rule_code_decl : code_decl in {"11","14"}
+        errorcode "Invalid code value";
+    rule_id_mad_etab : between(cast(id_mad_etab, number), 1, 999) 
+        errorcode "Value out of bounds";
+    rule_siren : between(length(siren), 9, 9) and match_characters(siren, "[0-9]*[1-9][0-9]*") 
+        errorcode "Invalid SIREN";
+    rule_raison_soc : between(length(raison_soc), 1, 30) 
+        errorcode "Invalid length"
+end datapoint ruleset;
+
+ds_ETAB_validation_invalid := check_datapoint(ETAB, dpr_ETAB invalid);
