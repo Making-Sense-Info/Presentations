@@ -21,7 +21,7 @@ Note: This will only appear in the speaker notes window.
 
 ## Fonctionnement
 
-----
+--
 
 - ❤
 - Points hebdos efficaces, utiles pour la communication
@@ -31,7 +31,7 @@ Note: This will only appear in the speaker notes window.
 
 ## Priorisation
 
-----
+--
 
 - Suite à la réunion du 12/2
   - Besoin de montrer du concret à différents acteurs
@@ -48,7 +48,7 @@ Pivot ou simple adaptation ?
 
 ## Architecture
 
-----
+--
 
 - Premières documentations schématiques aux niveaux _capacités_ et _processus métiers_
 - Plan du document final
@@ -61,7 +61,7 @@ Redire l'importance d'un travail long sur ce sujet cf. point précédent
 
 ## Formations
 
-----
+--
 
 - Introduction à DDI Lifecycle
 - 2 1/2 journées a priori
@@ -77,26 +77,26 @@ Distanciel tout à fait possible, expérience Pogues
 
 ## Sujets connexes
 
-----
+--
 
 - Métadonnées sur le biobanking
 - Portail chercheurs
 - Plateforme SEST
 
-----
+--
 
 ### Biobanking
 
 - Travaux de EY
 - Biobanking / échantillons bio dans le périmètre ?
 
-----
+--
 
 ### Portail chercheurs
 
 - Point du 4/2
 
-----
+--
 
 ### Plateforme SEST
 
@@ -106,7 +106,7 @@ Distanciel tout à fait possible, expérience Pogues
 
 ## Administratif
 
-----
+--
 
 - Avance
 - Maille et modalités des factures

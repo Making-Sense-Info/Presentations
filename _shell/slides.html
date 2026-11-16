@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+	<title>Making Sense</title>
+
+	<!-- Reveal.js 6 — CDN paths flattened vs v5 (see https://revealjs.com/upgrading/) -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/6.0.2/reset.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/6.0.2/reveal.min.css">
+	<link id="theme" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/6.0.2/theme/white.min.css">
+	<link rel="stylesheet"
+		href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/6.0.2/plugin/highlight/monokai.min.css">
+	<link id="ms-css" rel="stylesheet" href="ms.css">
+</head>
+
+<body>
+	<div class="reveal">
+		<div class="logo">
+			<img id="ms-logo" src="making_sense_logo_2025_simple.png" width="200" height="200" alt="Making Sense" />
+		</div>
+		<div class="slides" id="ms-slides">
+			<!-- Markdown path injected from ?deck=… -->
+		</div>
+
+		<div class="ms-chrome" id="ms-chrome">
+			<label class="ms-theme-switch" title="Toggle light / dark theme">
+				<span class="ms-theme-label ms-theme-label--light">Light</span>
+				<input type="checkbox" id="theme-toggle" role="switch" aria-label="Dark mode">
+				<span class="ms-theme-track" aria-hidden="true">
+					<span class="ms-theme-thumb"></span>
+				</span>
+				<span class="ms-theme-label ms-theme-label--dark">Dark</span>
+			</label>
+			<button type="button" id="pdf-export-btn" title="Open print-ready view">Export PDF</button>
+		</div>
+	</div>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/6.0.2/reveal.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/6.0.2/plugin/markdown.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/6.0.2/plugin/notes.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/6.0.2/plugin/highlight.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/reveal.js-mermaid-plugin@11.15.0/plugin/mermaid/mermaid.js"></script>
+
+	<script>
+		const THEME_CDN = "https://cdnjs.cloudflare.com/ajax/libs/reveal.js/6.0.2/theme";
+		const THEMES = {
+			light: `${THEME_CDN}/white.min.css`,
+			dark: `${THEME_CDN}/black.min.css`,
+		};
+
+		const params = new URLSearchParams(window.location.search);
+		const isPrintPdf = params.has("print-pdf");
+		const shellDir = new URL("./", window.location.href);
+
+		function applyTheme(mode) {
+			const themeLink = document.getElementById("theme");
+			const toggle = document.getElementById("theme-toggle");
+			const next = mode === "dark" ? "dark" : "light";
+			themeLink.href = THEMES[next];
+			document.documentElement.dataset.theme = next;
+			localStorage.setItem("ms-reveal-theme", next);
+			if (toggle) {
+				toggle.checked = next === "dark";
+			}
+		}
+
+		const savedTheme = localStorage.getItem("ms-reveal-theme") || "light";
+		applyTheme(savedTheme);
+
+		function encodeDeckPath(deck) {
+			return deck.split("/").map(encodeURIComponent).join("/");
+		}
+
+		function isSafeDeck(deck) {
+			if (!deck || typeof deck !== "string") return false;
+			if (deck.startsWith("/") || deck.includes("\\") || deck.includes("\0")) return false;
+			const parts = deck.split("/");
+			return parts.every((p) => p.length > 0 && p !== "." && p !== "..");
+		}
+
+		function pinShellAssets() {
+			// Absolute URLs so a deck <base href> does not break the shared shell.
+			document.getElementById("ms-css").href = new URL("ms.css", shellDir).href;
+			document.getElementById("ms-logo").src = new URL(
+				"making_sense_logo_2025_simple.png",
+				shellDir,
+			).href;
+		}
+
+		function setDeckBase(deckDir) {
+			let base = document.querySelector("base");
+			if (!base) {
+				base = document.createElement("base");
+				document.head.prepend(base);
+			}
+			base.href = deckDir.href;
+		}
+
+		function showBootError(message) {
+			document.getElementById("ms-chrome")?.remove();
+			document.getElementById("ms-slides").innerHTML =
+				`<section><h2>Deck not found</h2><p>${message}</p>` +
+				`<p>Use <code>_shell/slides.html?deck=YYYY/slug</code></p></section>`;
+			Reveal.initialize({ controls: false, progress: false, hash: false });
+		}
+
+		async function boot() {
+			pinShellAssets();
+
+			const deck = params.get("deck");
+			if (!isSafeDeck(deck)) {
+				showBootError("Missing or invalid <code>deck</code> query parameter.");
+				return;
+			}
+
+			const deckDir = new URL(`../${encodeDeckPath(deck)}/`, shellDir);
+			setDeckBase(deckDir);
+
+			let title = deck.split("/").pop();
+			let lang = "en";
+			try {
+				const res = await fetch(new URL("deck.json", deckDir).href);
+				if (res.ok) {
+					const cfg = await res.json();
+					if (cfg.title) title = cfg.title;
+					if (cfg.lang) lang = cfg.lang;
+				}
+			} catch (_) {
+				/* optional */
+			}
+
+			document.title = title;
+			document.documentElement.lang = lang;
+
+			// Relative to <base> (= deck folder), so images in slides.md keep working.
+			const section = document.createElement("section");
+			section.setAttribute("data-markdown", "slides.md");
+			section.setAttribute("data-separator", "^---$");
+			section.setAttribute("data-separator-vertical", "^--$");
+			section.setAttribute("data-separator-notes", "^Note:");
+			section.setAttribute("data-charset", "UTF-8");
+			document.getElementById("ms-slides").appendChild(section);
+
+			const plugins = [RevealMarkdown, RevealHighlight, RevealNotes];
+			if (typeof RevealMermaid !== "undefined") {
+				plugins.push(RevealMermaid);
+			}
+
+			await Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+				slideNumber: "c/t",
+				hash: true,
+				plugins,
+			});
+
+			if (!isPrintPdf) {
+				document.getElementById("theme-toggle")?.addEventListener("change", (event) => {
+					applyTheme(event.target.checked ? "dark" : "light");
+				});
+
+				document.getElementById("pdf-export-btn")?.addEventListener("click", () => {
+					const pdfParams = new URLSearchParams(params);
+					pdfParams.set("print-pdf", "");
+					const qs = pdfParams.toString().replace(/=(?=&|$)/g, "");
+					const pdfUrl =
+						window.location.origin +
+						window.location.pathname +
+						"?" +
+						qs +
+						window.location.hash;
+					window.open(pdfUrl, "_blank");
+				});
+			} else {
+				document.getElementById("ms-chrome")?.remove();
+				window.addEventListener("load", () => {
+					setTimeout(() => window.print(), 400);
+				});
+			}
+		}
+
+		boot();
+	</script>
+</body>
+
+</html>

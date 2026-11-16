@@ -156,4 +156,3 @@ Gide -> 465.000 sans l'intégration d'un moteur de workflow
 Note:
 Cahier des charges -> Plan de continuité
 Double scénario : éditeurs puis Insee
-

@@ -8,7 +8,7 @@ Réunion de lancement - *7/3/2023*
 
 ## Agenda
 
-----
+--
 
 - Compréhension du besoin
 - Acteurs du projet
@@ -20,7 +20,7 @@ Réunion de lancement - *7/3/2023*
 
 ## Notre compréhension
 
-----
+--
 
 - Du besoin
   - RICA vers RIDEA
@@ -36,7 +36,7 @@ European Green deal, Farm to fork
 - Maintien et enrichissement du questionnement actuel (nouveaux contrôles, nouvelles variables, nouvelles données externes)
 - Nouvelle enquête auprès des exploitants (protocole à définir)
 
-----
+--
 
 <img src="retro-planning-general-v2-jalons2.svg">
 
@@ -44,7 +44,7 @@ European Green deal, Farm to fork
 
 ## Les acteurs
 
-----
+--
 
 - Le BPSCA / Pôle RICA
 - Le BQIS
@@ -62,7 +62,7 @@ Les exploitants sont les seuls qu'on ne rencontrera pas
 
 ## Les scénarios
 
-----
+--
 
 Liste initiale :
   - Capibara - Filière (CF)
@@ -71,7 +71,7 @@ Liste initiale :
 
 Mais ⬇
 
-----
+--
 
 - Capibara n'est qu'une solution temporaire (programme Soror)
 - Il faut également étudier des solutions du marché
@@ -82,7 +82,7 @@ Note:
 Forsta mais aussi Qualtrics, Gide ? 
 Localisation des données ?
 
-----
+--
 
 Liste retenue :
   - Filière Insee (FI)
@@ -96,7 +96,7 @@ Et un mix de ces solutions
 
 ## Le plan de réalisation
 
-----
+--
 
 <img src="plan-de-realisation.svg" width="80%" height="80%">
 
@@ -114,7 +114,7 @@ Note:
 
 
 
-----
+--
 
 <img src="plan-de-realisation-gantt.svg">
 
@@ -122,7 +122,7 @@ Note:
 
 ## Point d'étape
 
-----
+--
 
 - Analyse de l'existant
   - Travail documentaire

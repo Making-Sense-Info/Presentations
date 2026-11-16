@@ -18,7 +18,7 @@
 
 ## Explorateur de données
 
-----
+--
 
 ### Rappel des objectifs
 
@@ -26,7 +26,7 @@
 - Sous-ensemble des variables de questionnaires
 - [Plan de réalisation](https://github.com/Making-Sense-Info/Suivi-Constances/blob/main/ms23/pilote-explorateur-metadonnees-2025.md)
 
-----
+--
 
 ### Modélisation
 
@@ -41,7 +41,7 @@ Note:
 👉 Franck
 Univers ?
 
-----
+--
 
 ### Plateforme
 
@@ -55,7 +55,7 @@ API directe ou outil Insee
 
 ## Collaboration avec le CDSP
 
-----
+--
 
 - Projet FAIRwDDI
 - Relecture du ou des papiers sur la réutilisabilité (WP1)
@@ -68,7 +68,7 @@ API directe ou outil Insee
 
 ## Communication & formation
 
-----
+--
 
 ### Communication
 
@@ -76,7 +76,7 @@ API directe ou outil Insee
 - Objectifs
 - Plan
 
-----
+--
 
 ### Formation
 
@@ -87,7 +87,7 @@ API directe ou outil Insee
 
 ## Sujets SI
 
-----
+--
 
 - [Accès](https://github.com/Making-Sense-Info/Suivi-Constances/blob/main/ms23/meetings/20250213-reu-tech-cleaning/SI.md#plates-formes-existantes) à l'infrastructure
 - Définition de l'architecture :
@@ -107,7 +107,7 @@ Note:
 
 ## Administratif
 
-----
+--
 
 - Facturation
 

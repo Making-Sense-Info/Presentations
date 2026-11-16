@@ -10,7 +10,7 @@ _Romain Tailhurat - 03/12/2025_
 
 ## Context
 
-----
+--
 
 - Constances: the largest epidemiological cohort for the french population
 - France 2030: funding for "modernization and strenghtening of large cohorts for general population"
@@ -21,7 +21,7 @@ _Romain Tailhurat - 03/12/2025_
 
 ## Principles
 
-----
+--
 
 - Active metadata
 - User centric
@@ -31,7 +31,7 @@ _Romain Tailhurat - 03/12/2025_
 
 ## Getting to know Constances
 
-----
+--
 
 ### The organization
 
@@ -39,7 +39,7 @@ _Romain Tailhurat - 03/12/2025_
 - Talking to different stakeholders and domain experts
 - 💡 Designing and building the metadata system push to (re)think the organization
 
-----
+--
 
 ### The source data
 
@@ -56,7 +56,7 @@ _Romain Tailhurat - 03/12/2025_
 - Variables and concepts
 - Managing longitunidality
 
-----
+--
 
 ### Schemes and groups
 
@@ -64,13 +64,13 @@ _Romain Tailhurat - 03/12/2025_
 
 Also switching from a static to a dynamic (with conf) way of producing groups from source data
 
-----
+--
 
 ### Variables and concepts
 
 ...
 
-----
+--
 
 ### Longitudinality
 

@@ -1,0 +1,11 @@
+{
+  "name": "ms-presentations",
+  "private": true,
+  "bin": {
+    "deck": "./serve.mjs"
+  },
+  "scripts": {
+    "start": "node serve.mjs",
+    "sync-stubs": "node _shell/sync-stubs.mjs"
+  }
+}
