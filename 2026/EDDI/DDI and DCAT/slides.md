@@ -62,6 +62,8 @@ Note: This will only appear in the speaker notes window.
 - VVD
 - "New DCAT"
 
+---
+
 ## Conclusion
 
 With image

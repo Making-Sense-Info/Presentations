@@ -41,3 +41,4 @@ See the documentation [here](./DOC.md).
 - 15/06/2026 - [Costrat Constances](./2026/20260615-costrat/slides.html)
 - 21/09/2026 - [Copil Constances](./2026/20260921-copil-constances/slides.html)
 - 05/11/2026 - [Copil Constances](./2026/20261105-copil-constances/slides.html)
+- 16/11/2026 - [EDDI: DDI and DCAT](./2026/EDDI/DDI and DCAT/slides.html)	
