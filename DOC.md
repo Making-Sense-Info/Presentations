@@ -57,6 +57,7 @@ This repo is published as a static site from the repository root (see [making-se
 - Mermaid (optional diagrams in Markdown)
 - Light / dark switch (top right, persisted in `localStorage`)
 - PDF export button (bottom left) → opens `?print-pdf` then browser print
+- Tall slides scroll inside the slide when content overflows (short slides stay centered, no scrollbar)
 
 Reveal.js version: **6.0.2** (cdnjs). Plugins: built-in `markdown` / `notes` / `highlight`, plus [`reveal.js-mermaid-plugin@11`](https://www.npmjs.com/package/reveal.js-mermaid-plugin). See [revealjs.com](https://revealjs.com/) and [upgrade notes](https://revealjs.com/upgrading/).
 

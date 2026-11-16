@@ -17,7 +17,7 @@ All Reveal decks use the same pattern: edit **`slides.md`** for content; **`slid
 
 - 10/04/2024 - [SDMX / VTL](./2024/20240410-vtl-sdmx-unece/slides.html)
 - 09/10/2024 - [SDMX Experts Workshop](./2024/20241009-expert-group/slides.html)
-- 04/12/2024 - [EDDI 24](./2024/20241204-eddi24/romain-eddi24.pdf)
+- 04/12/2024 - [EDDI 24](./2024/20241204-eddi24/)
 
 ### 2025
 
