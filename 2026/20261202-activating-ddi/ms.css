@@ -46,6 +46,40 @@ html[data-theme="dark"] .reveal {
 	box-shadow: none;
 }
 
+/*
+  Tall slides: scroll inside the slide when content overflows.
+  Short slides: unchanged (overflow:auto shows no scrollbar; safe center keeps vertical centering).
+*/
+.reveal .slides > section,
+.reveal .slides > section > section {
+	height: 100% !important;
+	max-height: 100%;
+	box-sizing: border-box;
+	overflow-x: hidden;
+	overflow-y: auto;
+	overscroll-behavior: contain;
+	-webkit-overflow-scrolling: touch;
+	display: flex !important;
+	flex-direction: column;
+	justify-content: safe center;
+	align-items: stretch;
+}
+
+/* Subtle scrollbar, only visible when overflowing */
+.reveal .slides section {
+	scrollbar-width: thin;
+	scrollbar-color: rgba(127, 127, 127, 0.45) transparent;
+}
+
+.reveal .slides section::-webkit-scrollbar {
+	width: 8px;
+}
+
+.reveal .slides section::-webkit-scrollbar-thumb {
+	background: rgba(127, 127, 127, 0.45);
+	border-radius: 999px;
+}
+
 .reveal .logo {
 	display: block;
 	position: fixed;
@@ -183,9 +217,28 @@ html[data-theme="dark"] #pdf-export-btn:hover {
 	display: none !important;
 }
 
+/* PDF / print: let slides grow, no inner scroll */
+.print-pdf .reveal .slides > section,
+.print-pdf .reveal .slides > section > section {
+	height: auto !important;
+	max-height: none !important;
+	overflow: visible !important;
+	display: block !important;
+	justify-content: initial;
+	align-items: initial;
+}
+
 @media print {
 	.logo,
 	.ms-chrome {
 		display: none !important;
+	}
+
+	.reveal .slides > section,
+	.reveal .slides > section > section {
+		height: auto !important;
+		max-height: none !important;
+		overflow: visible !important;
+		display: block !important;
 	}
 }

@@ -14,7 +14,7 @@ _Romain Tailhurat - 24/09/2025_
 Note:
 ~220 000 participants
 
-----
+--
 
 - More or less well formed and complete source information (proto metadata)
 - Need for standardizing and structuring but also to get more quality data
@@ -44,4 +44,3 @@ Note:
 ---
 
 # Thank you!
-

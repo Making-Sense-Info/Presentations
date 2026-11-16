@@ -1,4 +1,25 @@
-@import url(https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&family=IBM+Plex+Mono:ital,wght@0,400;0,500;0,600;1,400&display=swap);
+
+:root,
+.reveal {
+	--r-main-font: "IBM Plex Sans", sans-serif;
+	--r-heading-font: "IBM Plex Sans", sans-serif;
+	--r-code-font: "IBM Plex Mono", ui-monospace, monospace;
+	--ms-chrome-fg: #2a76dd;
+	--ms-chrome-bg: #fff;
+	--ms-chrome-border: #2a76dd;
+	--ms-track: #d7dde8;
+	--ms-thumb: #fff;
+}
+
+html[data-theme="dark"],
+html[data-theme="dark"] .reveal {
+	--ms-chrome-fg: #e8e8e8;
+	--ms-chrome-bg: #1f1f1f;
+	--ms-chrome-border: #666;
+	--ms-track: #3a3a3a;
+	--ms-thumb: #f0f0f0;
+}
 
 .reveal,
 .reveal h1,
@@ -6,56 +27,218 @@
 .reveal h3,
 .reveal h4,
 .reveal h5,
-.reveal h6 {
-    font-family: 'IBM Plex Sans';
+.reveal h6,
+.reveal .slides,
+.reveal .slide-number,
+.ms-chrome {
+	font-family: "IBM Plex Sans", sans-serif;
 }
 
+.reveal code,
+.reveal pre,
+.reveal kbd,
+.reveal .hljs {
+	font-family: "IBM Plex Mono", ui-monospace, monospace;
+}
 
 .reveal section img {
-    border: none;
-    box-shadow: none;
+	border: none;
+	box-shadow: none;
+}
+
+/*
+  Tall slides: scroll inside the slide when content overflows.
+  Short slides: unchanged (overflow:auto shows no scrollbar; safe center keeps vertical centering).
+*/
+.reveal .slides > section,
+.reveal .slides > section > section {
+	height: 100% !important;
+	max-height: 100%;
+	box-sizing: border-box;
+	overflow-x: hidden;
+	overflow-y: auto;
+	overscroll-behavior: contain;
+	-webkit-overflow-scrolling: touch;
+	display: flex !important;
+	flex-direction: column;
+	justify-content: safe center;
+	align-items: stretch;
+}
+
+/* Subtle scrollbar, only visible when overflowing */
+.reveal .slides section {
+	scrollbar-width: thin;
+	scrollbar-color: rgba(127, 127, 127, 0.45) transparent;
+}
+
+.reveal .slides section::-webkit-scrollbar {
+	width: 8px;
+}
+
+.reveal .slides section::-webkit-scrollbar-thumb {
+	background: rgba(127, 127, 127, 0.45);
+	border-radius: 999px;
 }
 
 .reveal .logo {
-    display: block;
-    position: fixed;
-    bottom: unset !important;
-    right: unset !important;
-    top: 5px;
-    left: 12px;
-    height: 200px !important;
-    width: 200x !important;
-    max-width: unset !important;
-    max-height: unset !important;
+	display: block;
+	position: fixed;
+	top: 5px;
+	left: 12px;
+	height: 200px !important;
+	width: 200px !important;
+	max-width: unset !important;
+	max-height: unset !important;
+	filter: opacity(50%);
+	z-index: 30;
+	pointer-events: none;
 }
 
-.reveal .footer {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    padding: 20px;
-    background-color: #333;
-    color: #fff;
-    text-align: center;
+.reveal .logo img {
+	width: 200px;
+	height: 200px;
+}
 
+/* Chrome: theme switch top-right, PDF bottom-left (keeps slide numbers clear) */
+.ms-chrome {
+	position: fixed;
+	inset: 0;
+	z-index: 1000;
+	pointer-events: none;
+}
+
+.ms-chrome > * {
+	pointer-events: auto;
+	position: absolute;
+}
+
+.ms-theme-switch {
+	top: 16px;
+	right: 16px;
+	display: inline-flex;
+	align-items: center;
+	gap: 8px;
+	cursor: pointer;
+	user-select: none;
+	padding: 6px 10px;
+	border-radius: 999px;
+	background: var(--ms-chrome-bg);
+	border: 1px solid var(--ms-chrome-border);
+	color: var(--ms-chrome-fg);
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.06);
+}
+
+.ms-theme-switch input {
+	position: absolute;
+	opacity: 0;
+	width: 0;
+	height: 0;
+}
+
+.ms-theme-label {
+	font-size: 11px;
+	font-weight: 500;
+	letter-spacing: 0.02em;
+	opacity: 0.45;
+	transition: opacity 0.2s ease;
+}
+
+html[data-theme="light"] .ms-theme-label--light,
+html[data-theme="dark"] .ms-theme-label--dark {
+	opacity: 1;
+}
+
+.ms-theme-track {
+	position: relative;
+	width: 36px;
+	height: 20px;
+	border-radius: 999px;
+	background: var(--ms-track);
+	flex-shrink: 0;
+	transition: background 0.2s ease;
+}
+
+.ms-theme-thumb {
+	position: absolute;
+	top: 2px;
+	left: 2px;
+	width: 16px;
+	height: 16px;
+	border-radius: 50%;
+	background: var(--ms-thumb);
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25);
+	transition: transform 0.2s ease;
+}
+
+.ms-theme-switch input:checked + .ms-theme-track {
+	background: #2a76dd;
+}
+
+.ms-theme-switch input:checked + .ms-theme-track .ms-theme-thumb {
+	transform: translateX(16px);
+}
+
+.ms-theme-switch:focus-within {
+	outline: 2px solid #2a76dd;
+	outline-offset: 2px;
 }
 
 #pdf-export-btn {
-    position: fixed;
-    bottom: 20px;
-    left: 12px;
-    padding: 10px 20px;
-    background-color: white;
-    color: #2a76dd;
-    border-color: #2a76dd;
-    border-width: 1px;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 12px;
-    z-index: 1000;
+	bottom: 18px;
+	left: 16px;
+	padding: 8px 14px;
+	background: var(--ms-chrome-bg);
+	color: var(--ms-chrome-fg);
+	border: 1px solid var(--ms-chrome-border);
+	border-radius: 999px;
+	cursor: pointer;
+	font-size: 12px;
+	font-family: "IBM Plex Sans", sans-serif;
+	font-weight: 500;
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.06);
+	transition: background 0.15s ease, color 0.15s ease;
 }
 
 #pdf-export-btn:hover {
-    background-color: #2a76dd;
-    color: white;
+	background: #2a76dd;
+	border-color: #2a76dd;
+	color: #fff;
+}
+
+html[data-theme="dark"] #pdf-export-btn:hover {
+	background: #3a3a3a;
+	border-color: #aaa;
+	color: #fff;
+}
+
+/* Hide chrome when exporting to PDF (?print-pdf) */
+.print-pdf .logo,
+.print-pdf .ms-chrome {
+	display: none !important;
+}
+
+/* PDF / print: let slides grow, no inner scroll */
+.print-pdf .reveal .slides > section,
+.print-pdf .reveal .slides > section > section {
+	height: auto !important;
+	max-height: none !important;
+	overflow: visible !important;
+	display: block !important;
+	justify-content: initial;
+	align-items: initial;
+}
+
+@media print {
+	.logo,
+	.ms-chrome {
+		display: none !important;
+	}
+
+	.reveal .slides > section,
+	.reveal .slides > section > section {
+		height: auto !important;
+		max-height: none !important;
+		overflow: visible !important;
+		display: block !important;
+	}
 }

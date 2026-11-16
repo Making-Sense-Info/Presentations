@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+	<title>VTL / SDMX — Experts Workshop 2024</title>
+
+	<!-- Reveal.js 6 — CDN paths flattened vs v5 (see https://revealjs.com/upgrading/) -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/6.0.2/reset.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/6.0.2/reveal.min.css">
+	<link id="theme" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/6.0.2/theme/white.min.css">
+	<link rel="stylesheet"
+		href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/6.0.2/plugin/highlight/monokai.min.css">
+	<link rel="stylesheet" href="ms.css">
+</head>
+
+<body>
+	<div class="reveal">
+		<div class="logo">
+			<img src="making_sense_logo_2025_simple.png" width="200" height="200" alt="Making Sense" />
+		</div>
+		<div class="slides">
+			<!--
+				Markdown deck (slides.md):
+				  ---  → horizontal (chapter)
+				  --   → vertical (within chapter)
+				  Note: → speaker notes
+				Separators are line-exact (^---$ / ^--$).
+			-->
+			<section data-markdown="slides.md"
+				data-separator="^---$"
+				data-separator-vertical="^--$"
+				data-separator-notes="^Note:"
+				data-charset="UTF-8">
+			</section>
+		</div>
+
+		<div class="ms-chrome" id="ms-chrome">
+			<label class="ms-theme-switch" title="Toggle light / dark theme">
+				<span class="ms-theme-label ms-theme-label--light">Light</span>
+				<input type="checkbox" id="theme-toggle" role="switch" aria-label="Dark mode">
+				<span class="ms-theme-track" aria-hidden="true">
+					<span class="ms-theme-thumb"></span>
+				</span>
+				<span class="ms-theme-label ms-theme-label--dark">Dark</span>
+			</label>
+			<button type="button" id="pdf-export-btn" title="Open print-ready view">Export PDF</button>
+		</div>
+	</div>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/6.0.2/reveal.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/6.0.2/plugin/markdown.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/6.0.2/plugin/notes.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/6.0.2/plugin/highlight.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/reveal.js-mermaid-plugin@11.15.0/plugin/mermaid/mermaid.js"></script>
+
+	<script>
+		const THEME_CDN = "https://cdnjs.cloudflare.com/ajax/libs/reveal.js/6.0.2/theme";
+		const THEMES = {
+			light: `${THEME_CDN}/white.min.css`,
+			dark: `${THEME_CDN}/black.min.css`,
+		};
+		const isPrintPdf = window.location.search.includes("print-pdf");
+
+		function applyTheme(mode) {
+			const themeLink = document.getElementById("theme");
+			const toggle = document.getElementById("theme-toggle");
+			const next = mode === "dark" ? "dark" : "light";
+			themeLink.href = THEMES[next];
+			document.documentElement.dataset.theme = next;
+			localStorage.setItem("ms-reveal-theme", next);
+			if (toggle) {
+				toggle.checked = next === "dark";
+			}
+		}
+
+		const savedTheme = localStorage.getItem("ms-reveal-theme") || "light";
+		applyTheme(savedTheme);
+
+		const plugins = [RevealMarkdown, RevealHighlight, RevealNotes];
+		if (typeof RevealMermaid !== "undefined") {
+			plugins.push(RevealMermaid);
+		}
+
+		Reveal.initialize({
+			controls: true,
+			progress: true,
+			history: true,
+			center: true,
+			slideNumber: "c/t",
+			hash: true,
+			plugins,
+		});
+
+		if (!isPrintPdf) {
+			document.getElementById("theme-toggle")?.addEventListener("change", (event) => {
+				applyTheme(event.target.checked ? "dark" : "light");
+			});
+
+			document.getElementById("pdf-export-btn")?.addEventListener("click", () => {
+				const pdfUrl =
+					window.location.origin +
+					window.location.pathname +
+					"?print-pdf" +
+					window.location.hash;
+				window.open(pdfUrl, "_blank");
+			});
+		} else {
+			document.getElementById("ms-chrome")?.remove();
+			window.addEventListener("load", () => {
+				setTimeout(() => window.print(), 400);
+			});
+		}
+	</script>
+</body>
+
+</html>

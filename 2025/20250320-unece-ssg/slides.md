@@ -4,7 +4,7 @@
 
 ## What is ArchiMate?
 
-----
+--
 
 - An enterprise architecture modeling language
 - Published by The Open Group and aligned with TOGAF
@@ -15,7 +15,7 @@ ArchiMate distinguishes itself from other languages such as Unified Modeling Lan
 
 The European Interoperability Reference Architecture (EIRA) uses ArchiMate (and Archi)
 
-----
+--
 
 <img src="full_framework.png">
 
@@ -28,7 +28,7 @@ Active structure : entity that display some behavior (business actors, applicati
 
 Behavior refers to the processes and functions performed by the active structures
 
-----
+--
 
 <img src="capability-planning.png">
 
@@ -36,7 +36,7 @@ Example: capability planning
 
 ([source](https://www.hosiaisluoma.fi/blog/archimate/))
 
-----
+--
 
 <img src="application-structure.png">
 
@@ -44,7 +44,7 @@ Example: application structure
 
 ([source](https://www.hosiaisluoma.fi/blog/archimate/))
 
-----
+--
 
 - Archimate is relevant for ModernStats models because it covers all the scope of enterprise architecture (objectives, capabilities, actors and roles, application services, network nodes...)
 
@@ -54,7 +54,7 @@ Example: application structure
 
 ## What is Archi?
 
-----
+--
 
 - Open source software to manage ArchiMate models
 - Easily and intuitively create all ArchiMate elements, relations and views
@@ -84,13 +84,13 @@ Hides some ArchiMate complexities (e.g. relations)
 Note:
 CSDA redone from scratch
 
-----
+--
 
 <img src="gamso-overview.png">
 
 Example: GAMSO Overview
 
-----
+--
 
 ## How to use the models?
 
@@ -103,7 +103,7 @@ Example: GAMSO Overview
 Note:
 "...a bit confusing" -> imported models are entirely imported and components mixed with those of target model
 
-----
+--
 
 <img src="target-capabilities.png">
 
@@ -112,7 +112,7 @@ Example: target capabilities
 Note:
 Describe target system in terms of capabilities and business functions
 
-----
+--
 
 <img src="followup-collection.png"  width="60%" height="60%">
 

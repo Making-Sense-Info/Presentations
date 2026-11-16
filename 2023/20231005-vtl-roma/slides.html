@@ -1,139 +1,119 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
-    />
+<!doctype html>
+<html lang="en">
 
-    <title>Trevas tools - VTL Rome workshop</title>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.6.0/reset.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.6.0/reveal.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.6.0/theme/simple.min.css"
-    />
-    <!-- Theme used for syntax highlighting of code -->
-    <link rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.6.0/plugin/highlight/monokai.css"">
-  </head>
-  <body>
-    <div class="reveal">
-      <div class="slides">
-        <section>
-          <br />
-          <br />
-          <h1>VTL Taskforce</h1>
-          <h2>Rome meeting</h2>
-          <h3>Trevas tools</h3>
-        </section>
-        <section>
-          <section>
-            <h1>Context</h1>
-          </section>
-          <section>
-            <h2>Insee's strategy</h2>
-            <br />
-            <ul>
-              <li>Align on international standards</li>
-              <li>Active metadata all along the statistical process</li>
-              <li>Embrace open data and open source</li>
-              <li>Using VTL and creating Trevas in line with this</li>
-            </ul>
-          </section>
-          <section>
-            <h2>VTL use cases</h2>
-            <br />
-            <ul>
-              <li>Create and apply data controls for web surveys</li>
-              <li>Reconcile multimode household survey data</li>
-              <li>Validate administrative data</li>
-            </ul>
-          </section>
-          <section>
-            <h2>Trevas history</h2>
-            <br />
-            <ul>
-              <li>Development started in May 2020</li>
-              <ul>
-                <li>ESSnet on sharing services</li>
-                <li>Collaboration with Statistics Norway</li>
-              </ul>
-              <li>Sponsored by Insee, CASD and Making Sense</li>
-              <li>Today in v1.1.1 after 1156 commits</li>
-            </ul>
-          </section>
-          <section>
-            <h2>Trevas today</h2>
-            <br />
-            <ul>
-              <li>A collection of tools</li>
-              <ul>
-                <li>Java engine, lab, notebook, API, batch</li>
-                <li>JavaScript engine, editor</li>
-              </ul>
-              <li>Published as open source</li>
-              <li>Available on public repositories</li>
-            </ul>
-          </section>
-        </section>
-        <section>
-          <section>
-            <h1>Demo</h1>
-          </section>
-          <section>
-            <h2>Business example</h2>
-            <h3>What percentage of dwellings had a moving in 2020?</h3>
-            <p>Datasets:</p>
-            <ul>
-              <li>
-                Dwellings (69 columns, 25 520 281 rows),<br />overseas
-                departments merged
-              </li>
-              <li>
-                Movings (64 columns, 9 691 803 rows),<br />overseas departments
-                separated
-              </li>
-            </ul>
-          </section>
-          <section>
-            <h2>Flowchart</h2>
-            <img src="./mermaid_script.svg" alt="Flowchart" />
-          </section>
-          <section>
-            <p><a href="http://trevas.info/">Start</a></p>
-          </section>
-        </section>
-        <section>
-          <h2>Thank you</h2>
-          <h2>Questions?</h2>
-        </section>
-      </div>
-    </div>
+	<title>Trevas tools - VTL Rome workshop</title>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.6.0/reveal.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.6.0/plugin/markdown/markdown.min.js"></script>
-    <script>
-      Reveal.initialize({
-        plugins: [RevealMarkdown],
-      });
-    </script>
-    <style>
-      .reveal {
-        background-color: #f2f2f3;
-        background-image: url("./ill_making_sense_flat.svg");
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-      }
-    </style>
-  </body>
+	<!-- Reveal.js 6 — CDN paths flattened vs v5 (see https://revealjs.com/upgrading/) -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/6.0.2/reset.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/6.0.2/reveal.min.css">
+	<link id="theme" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/6.0.2/theme/white.min.css">
+	<link rel="stylesheet"
+		href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/6.0.2/plugin/highlight/monokai.min.css">
+	<link rel="stylesheet" href="ms.css">
+</head>
+
+<body>
+	<div class="reveal">
+		<div class="logo">
+			<img src="making_sense_logo_2025_simple.png" width="200" height="200" alt="Making Sense" />
+		</div>
+		<div class="slides">
+			<!--
+				Markdown deck (slides.md):
+				  ---  → horizontal (chapter)
+				  --   → vertical (within chapter)
+				  Note: → speaker notes
+				Separators are line-exact (^---$ / ^--$).
+			-->
+			<section data-markdown="slides.md"
+				data-separator="^---$"
+				data-separator-vertical="^--$"
+				data-separator-notes="^Note:"
+				data-charset="UTF-8">
+			</section>
+		</div>
+
+		<div class="ms-chrome" id="ms-chrome">
+			<label class="ms-theme-switch" title="Toggle light / dark theme">
+				<span class="ms-theme-label ms-theme-label--light">Light</span>
+				<input type="checkbox" id="theme-toggle" role="switch" aria-label="Dark mode">
+				<span class="ms-theme-track" aria-hidden="true">
+					<span class="ms-theme-thumb"></span>
+				</span>
+				<span class="ms-theme-label ms-theme-label--dark">Dark</span>
+			</label>
+			<button type="button" id="pdf-export-btn" title="Open print-ready view">Export PDF</button>
+		</div>
+	</div>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/6.0.2/reveal.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/6.0.2/plugin/markdown.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/6.0.2/plugin/notes.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/6.0.2/plugin/highlight.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/reveal.js-mermaid-plugin@11.15.0/plugin/mermaid/mermaid.js"></script>
+
+	<script>
+		const THEME_CDN = "https://cdnjs.cloudflare.com/ajax/libs/reveal.js/6.0.2/theme";
+		const THEMES = {
+			light: `${THEME_CDN}/white.min.css`,
+			dark: `${THEME_CDN}/black.min.css`,
+		};
+		const isPrintPdf = window.location.search.includes("print-pdf");
+
+		function applyTheme(mode) {
+			const themeLink = document.getElementById("theme");
+			const toggle = document.getElementById("theme-toggle");
+			const next = mode === "dark" ? "dark" : "light";
+			themeLink.href = THEMES[next];
+			document.documentElement.dataset.theme = next;
+			localStorage.setItem("ms-reveal-theme", next);
+			if (toggle) {
+				toggle.checked = next === "dark";
+			}
+		}
+
+		const savedTheme = localStorage.getItem("ms-reveal-theme") || "light";
+		applyTheme(savedTheme);
+
+		const plugins = [RevealMarkdown, RevealHighlight, RevealNotes];
+		if (typeof RevealMermaid !== "undefined") {
+			plugins.push(RevealMermaid);
+		}
+
+		Reveal.initialize({
+			controls: true,
+			progress: true,
+			history: true,
+			center: true,
+			slideNumber: "c/t",
+			hash: true,
+			plugins,
+		});
+
+		if (!isPrintPdf) {
+			document.getElementById("theme-toggle")?.addEventListener("change", (event) => {
+				applyTheme(event.target.checked ? "dark" : "light");
+			});
+
+			document.getElementById("pdf-export-btn")?.addEventListener("click", () => {
+				const pdfUrl =
+					window.location.origin +
+					window.location.pathname +
+					"?print-pdf" +
+					window.location.hash;
+				window.open(pdfUrl, "_blank");
+			});
+		} else {
+			document.getElementById("ms-chrome")?.remove();
+			window.addEventListener("load", () => {
+				setTimeout(() => window.print(), 400);
+			});
+		}
+	</script>
+</body>
+
 </html>

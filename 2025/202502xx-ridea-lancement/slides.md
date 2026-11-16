@@ -6,7 +6,7 @@ Réunion de pré-lancement 🤔
 
 ## Agenda
 
-----
+--
 
 - Présentations
 - Compréhension du besoin et des délais
@@ -19,7 +19,7 @@ Réunion de pré-lancement 🤔
 
 ## Making Sense
 
-----
+--
 
 [Nos activités](https://www.making-sense.info/activities) :
 - conseil en métadonnées (construction de SI, choix des standards)
@@ -30,7 +30,7 @@ Réunion de pré-lancement 🤔
 
 ## Notre compréhension
 
-----
+--
 
 - Du besoin
   - RICA vers RIDEA
@@ -45,7 +45,7 @@ Réunion de pré-lancement 🤔
 
 ## Les acteurs
 
-----
+--
 
 - Le BPSCA / Pôle RICA
 - Le BQIS
@@ -62,7 +62,7 @@ Pôle RIDEA ? :)
 
 ## Le plan de réalisation
 
-----
+--
 
 <img src="plan-de-realisation.svg" width="80%" height="80%">
 
@@ -73,7 +73,7 @@ Note:
 - Risques
 - Coûts
 
-----
+--
 
 <img src="planning-de-realisation.svg">
 
@@ -81,14 +81,14 @@ Note:
 
 ## Les scénarios
 
-----
+--
 
 Liste initiale :
   - Capibara - Filière (CF)
   - Filière uniquement (FU)
   - Développement spécifique (DS)
 
-----
+--
 
 Des questions :
 - Capibara ?
@@ -99,7 +99,7 @@ Des questions :
 
 ## Les évolutions
 
-----
+--
 
 - Maintien et enrichissement du questionnement actuel (nouveaux contrôles, nouvelles variables, nouvelles données externes) 🟢
 - Nouvelle enquête auprès des exploitants (protocole à définir) 🟢
