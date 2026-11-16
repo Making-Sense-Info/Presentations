@@ -2,12 +2,22 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <meta http-equiv="refresh" content="0; url=slides.html">
-  <title>Redirecting…</title>
-  <link rel="canonical" href="slides.html">
-  <script>location.replace("slides.html" + location.search + location.hash);</script>
+  <title>Loading…</title>
+  <script>
+    // Replaced per deck by the sync script / copy from template.
+    const DECK = "2024/20241009-expert-group";
+    const up = DECK.split("/").map(() => "..").join("/");
+    const deckParam = DECK.split("/").map(encodeURIComponent).join("/");
+    const params = new URLSearchParams(location.search);
+    let qs = `deck=${deckParam}`;
+    for (const [key, value] of params.entries()) {
+      if (key === "deck") continue;
+      qs += value === "" ? `&${encodeURIComponent(key)}` : `&${encodeURIComponent(key)}=${encodeURIComponent(value)}`;
+    }
+    location.replace(`${up}/_shell/slides.html?${qs}${location.hash || ""}`);
+  </script>
 </head>
 <body>
-  <p>This presentation moved to <a href="slides.html">slides.html</a>.</p>
+  <p>Redirecting to the shared Reveal shell…</p>
 </body>
 </html>

@@ -97,6 +97,6 @@ flowchart LR
 
 ## Closing
 
-Thanks — copy this folder (or `template/`) and replace the lorem with your talk.
+Thanks — copy `template/`, run `npm run sync-stubs`, edit content, open the folder URL (or `deck`).
 
 _Making Sense_

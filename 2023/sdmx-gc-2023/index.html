@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Loading…</title>
+  <script>
+    // Replaced per deck by the sync script / copy from template.
+    const DECK = "2023/sdmx-gc-2023";
+    const up = DECK.split("/").map(() => "..").join("/");
+    const deckParam = DECK.split("/").map(encodeURIComponent).join("/");
+    const params = new URLSearchParams(location.search);
+    let qs = `deck=${deckParam}`;
+    for (const [key, value] of params.entries()) {
+      if (key === "deck") continue;
+      qs += value === "" ? `&${encodeURIComponent(key)}` : `&${encodeURIComponent(key)}=${encodeURIComponent(value)}`;
+    }
+    location.replace(`${up}/_shell/slides.html?${qs}${location.hash || ""}`);
+  </script>
+</head>
+<body>
+  <p>Redirecting to the shared Reveal shell…</p>
+</body>
+</html>
