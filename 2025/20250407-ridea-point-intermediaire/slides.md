@@ -8,7 +8,7 @@ Point d'étape - *7/4/2023*
 
 ## Ordre du jour
 
-----
+--
 
 - Point d'étape
 - Le rapport
@@ -21,11 +21,11 @@ Point d'étape - *7/4/2023*
 
 ## Point d'étape
 
-----
+--
 
 <img src="plan-de-realisation.svg" width="80%" height="80%">
 
-----
+--
 
 ### Ateliers
 
@@ -36,7 +36,7 @@ Point d'étape - *7/4/2023*
 - BQIS
 - Pôle RICA
 
-----
+--
 
 ### Focus ateliers
 
@@ -45,7 +45,7 @@ Point d'étape - *7/4/2023*
   - outils de suivi (SRISE)
   - lien vers les données comptables
 
-----
+--
 
 ### Focus ateliers
 
@@ -59,7 +59,7 @@ Point d'étape - *7/4/2023*
 
 ## Le rapport
 
-----
+--
 
 ### Présentation
 
@@ -72,7 +72,7 @@ Afficher le rapport, présenter le plan
 
 ## Les exigences
 
-----
+--
 
 ### Exigences fonctionnelles
 
@@ -87,7 +87,7 @@ Afficher le rapport, présenter le plan
 Note:
 Construites et validées avec le pôle 🤝
 
-----
+--
 
 ### Exigences non fonctionnelles
 
@@ -99,7 +99,7 @@ Construites et validées avec le pôle 🤝
 
 ## Les scénarios
 
-----
+--
 
 - Scénario Insee, des modulations ?
   - participation aux développements
@@ -116,13 +116,13 @@ SM - Askia, Qualtrics, Formbricks, Gide ?
 
 ## La grille d'analyse
 
-----
+--
 
 ### Présentation
 
 ➡️ 🧮
 
-----
+--
 
 ### Précisions
 
@@ -142,7 +142,7 @@ Coût, collaboration BSUPD
 
 ## La suite
 
-----
+--
 
 <img src="plan-de-realisation-gantt.svg" width="80%" height="80%">
 

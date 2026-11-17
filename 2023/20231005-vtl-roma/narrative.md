@@ -4,7 +4,7 @@
 
 ### Introduction
 
-See [Reveal slides](slides.html)
+See [Reveal slides](./)
 
 ### Demo
 

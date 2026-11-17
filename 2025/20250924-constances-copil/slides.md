@@ -8,7 +8,7 @@ _24 septembre 2025_
 
 ## Ordre du jour
 
-----
+--
 
 - Explorateur de métadonnées
 	- Retour sur la recette
@@ -22,13 +22,13 @@ _24 septembre 2025_
 
 # Explorateur de données
 
-----
+--
 
 ## Retour sur la recette
 
 - [Document de synthèse](https://github.com/Making-Sense-Info/Suivi-Constances/blob/main/ms23/proto-explorateur/retour-recette-septembre-2025.md)
 
-----
+--
 
 ## La suite
 
@@ -37,7 +37,7 @@ _24 septembre 2025_
 Note:
 Managed representations
 
-----
+--
 
 ## Focus enrichissement des métadonnées
 
@@ -51,7 +51,7 @@ AQ_COVSR_PcAccDocIntox
 
 # Maelstrom
 
-----
+--
 
 - Source principal des concepts Constances
 - Travail de fond réalisé en 2018
@@ -61,7 +61,7 @@ AQ_COVSR_PcAccDocIntox
 
 # Enviro-pro
 
-----
+--
 
 - Rendez-vous réguliers avec l'équipe (Émeline, Hanifa, Ouidad), on progresse ensemble
 - Un premier chargement de métadonnées au début de l'été
@@ -72,7 +72,7 @@ AQ_COVSR_PcAccDocIntox
 
 # EDDI
 
-----
+--
 
 - [Présentation de Constances / Mekong acceptée](https://events.geant.org/event/1879/timetable/#10-fair-in-practice-building-a)
 - Constances / Strategic principles / Key challenges / Roadmap
@@ -85,9 +85,8 @@ Présentation de FreSH dans la même session
 
 # Administratif
 
-----
+--
 
 - Environ 40 jours de travail depuis le costrat
 - Pas nécessaire d'émettre une facture pour le moment
 - Date pour le paiement en fin d'année, mi-novembre ?
-

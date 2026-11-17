@@ -17,7 +17,7 @@ _15/12/2025_
 
 ## Bilan 2025
 
-----
+--
 
 ### Explorateur
 
@@ -30,7 +30,7 @@ _15/12/2025_
 
 ➡️ [démo](https://mekong.colectica.org)
 
-----
+--
 
 ### Explorateur
 
@@ -46,13 +46,13 @@ Note:
 Publicité aux précédents testeurs
 Recette si UI
 
-----
+--
 
 ### Retour sur le planning initial
 
 ![planning](./constances-planning-2025.png)
 
-----
+--
 
 ### Retour sur le planning initial
 
@@ -63,7 +63,7 @@ Recette si UI
 - Plan de formation
   - 👀 2ème session "DDI pour les questionnaires" ?
 
-----
+--
 
 ### Collaboration, communication
 
@@ -78,7 +78,7 @@ Recette si UI
   - EDDI 25
     - Implication France Cohortes
 
-----
+--
 
 ### Collaboration, communication
 
@@ -92,13 +92,13 @@ Recette si UI
 
 ## Feuille de route 2026
 
-----
+--
 
 ### Planning initial
 
 ![planning 2026](./constances-planning-2026.png)
 
-----
+--
 
 ### Priorisation
 
@@ -108,14 +108,14 @@ Trois sujets possibles à poursuivre ou développer:
 - l'explorateur de métadonnées,
 - des expérimentations des possibilités de l'IA
 
-----
+--
 
 #### Priorisation, architecture
 
 - Documenter les processus métiers qui produisent ou consomment des métadonnées
 - Identifier les besoins applicatifs (développements ou évolutions)
 
-----
+--
 
 #### Priorisation, explorateur
 
@@ -123,7 +123,7 @@ Trois sujets possibles à poursuivre ou développer:
  - Recette phase 2
  - Amélioration ou développement UI
 
-----
+--
 
 #### Priorisation, IA
 
@@ -131,7 +131,7 @@ Trois sujets possibles à poursuivre ou développer:
 - Identifier d'autres cibles
 - Mettre en place des collaborations (Closer, FAIRwDDI)
 
-----
+--
 
 ### Renouvellement Colectica
 
@@ -142,7 +142,7 @@ Trois sujets possibles à poursuivre ou développer:
 - Si non, développement ad hoc
   - Travaux architecture
 
-----
+--
 
 ### Collaboration, communication
 
@@ -175,7 +175,7 @@ Note:
 - Facturation mars
 - Point prochaines réunions
 
-----
+--
 
 ### Budget
 
@@ -183,14 +183,14 @@ Note:
 - Reste : 626.000€
   - Répartition par an :  ~208.700€
 
-----
+--
 
 ### Suivi des jours
 
 - Jours 2025: débordement jusqu'à mi-janvier
 - Prochaine facturation fin mars
 
-----
+--
 
 ### Prochaines réunions
 

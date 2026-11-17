@@ -9,12 +9,12 @@
 Note:
 Time 15'
 
-----
+--
 
 - Commande initiale : prise de connaissance
 - MAPA : expérimentation et première approche stratégique
 
-----
+--
 
 ### Premiers enseignements
 
@@ -27,7 +27,7 @@ Time 15'
 - Apport de l'IA (LLM)
 - Synergies à entretenir (CASD, GIDE, ANS, FC...)
 
-----
+--
 
 ### Premiers enseignements (organisation)
 
@@ -39,7 +39,7 @@ Time 15'
     - Difficulté d'identifier les bons interlocuteurs
     - Maîtrise des délais de réponse
 
-----
+--
 
 ### Premiers enseignements (organisation)
 
@@ -59,7 +59,7 @@ Data management plan
 Note:
 Timing 30'
 
-----
+--
 
 ### Les prestations
 
@@ -76,7 +76,7 @@ Note:
 - MS6, volumétrie variables, existence concepts
 - MS13, procédure de nettoyage
 
-----
+--
 
 ### Focus
 
@@ -89,13 +89,13 @@ Note:
 Note:
 LLM -> Kilimandjaro
 
-----
+--
 
 ### Vision GSBPM
 
 &#x1F449; <a href="https://statswiki.unece.org/spaces/GSBPM/pages/113083140/Clickable+GSBPM+v5.1" target="_blank">Le GSBPM</a>
 
-----
+--
 
 - **Conception**, **Construction**, 
   - DDI-Lifecycle documente les instruments de collecte et les jeux de données externes (SNDS)
@@ -104,7 +104,7 @@ LLM -> Kilimandjaro
   - Rétro-documentation des questionnaires existants
   - Production des questionnaires à partir du modèle DDI ?
 
-----
+--
 
 - **Traitement** 
   - DDI-L voire CDI pour les variables dérivées et les agrégats  
@@ -133,28 +133,28 @@ LLM -> Kilimandjaro
 Note:
 Timing 5'
 
-----
+--
 
 - Rendre les métadonnées actives
 - Mettre l’utilisateur au centre
 - Développer l'ouverture
 
-----
+--
 
 ### Rendre les métadonnées actives
 
-----
+--
 
 ![](active-metadata.svg)
 
-----
+--
 
 ### Mettre l'Utilisateur au centre
 
 - Identifier les utilisateurs
 - Les associer au projet (communication, démo, etc.)
 
-----
+--
 
 ### Développer l'ouverture
 
@@ -169,7 +169,7 @@ Timing 5'
 Note:
 Timing 15'
 
-----
+--
 
 - Mise en place des fondations
 - Définition et priorisation des cas d'application
@@ -177,23 +177,23 @@ Timing 15'
 - Formations
 - Communication
 
-----
+--
 
 ![étapes mekong](constances-etapes-macro.svg)
 
-----
+--
 
 ![étapes fondations](constances-etapes-fondations.svg)
 
-----
+--
 
 ![étapes cas](constances-etapes-cas.svg)
 
-----
+--
 
 ![étapes plateforme](constances-etapes-plateforme.svg)
 
-----
+--
 
 ![étapes formation communication](constances-etapes-form-com.svg)
 
@@ -205,7 +205,7 @@ Timing 15'
 Note:
 15'
 
-----
+--
 
 ### Le Plan d'Assurance Qualité
 
@@ -213,13 +213,13 @@ Note:
  - Une base pour démarrer notre collaboration...
  - ...qui doit rester vivante
 
-----
+--
 
 ### Périmètre
 
 ![constances-gsbpm](constances-gsbpm.png)
 
-----
+--
 
 ### Périmètre &#128172; 
 
@@ -232,7 +232,7 @@ Note:
 - ...et les standards associés
 
 
-----
+--
 
 ### L'architecture
 
@@ -250,7 +250,7 @@ Note:
 Note:
 Timing 20'
 
-----
+--
 
 ### Cas d'application FAIR
 
@@ -259,14 +259,14 @@ Des cas d'utilisation métier x des cibles de standardisation.
 Note:
 Utilisation du référentiel d'interopérabilité
 
-----
+--
 
 #### Objectif
 
 > Décrire les exigences fonctionnelles d’un système en adoptant le point de vue et le langage de l’utilisateur
 final
 
-----
+--
 
 #### Exemple
 
@@ -274,7 +274,7 @@ final
 
 > Documenter le processus lié au SNDS en DDI CDI
 
-----
+--
 
 #### Priorisation &#128172;
 
@@ -294,7 +294,7 @@ final
 Note:
 Timing 5'
 
-----
+--
 
 - Cycle régulier à mettre en place
   - Coller aux cas d'application
@@ -315,7 +315,7 @@ Formations également pour Making Sense sur certain standards notamment du domai
 Note:
 Timing 10'
 
-----
+--
 
 ### Présentation du projet 
 
@@ -331,7 +331,7 @@ Note:
 FHIR devdays, input Constances
 Collaboration reporting ANR
 
-----
+--
 
 ### Collaborations
 
@@ -346,7 +346,7 @@ Collaboration reporting ANR
 Note:
 Timing 30'
 
-----
+--
 
 - Les rôles
 - Les réunions
@@ -356,13 +356,13 @@ Timing 30'
 Note:
 Préciser les attentes particulières par rapport à l'objet de la prestation
 
-----
+--
 
 ### Les rôles
 
 &#x1F449; cf. <a href="https://github.com/Making-Sense-Info/Suivi-Constances/tree/main/ms23/paq#organisation-générale" target="_blank">PAQ</a>
 
-----
+--
 
 ### Les réunions régulières
 
@@ -372,7 +372,7 @@ Préciser les attentes particulières par rapport à l'objet de la prestation
 
 &#x1F449; cf. <a href="https://github.com/Making-Sense-Info/Suivi-Constances/tree/main/ms23/paq#typologie-des-réunions" target="_blank">PAQ</a>
 
-----
+--
 
 ### Le suivi du projet
 
@@ -380,7 +380,7 @@ Préciser les attentes particulières par rapport à l'objet de la prestation
 
 &#x1F449; cf. <a href="https://github.com/Making-Sense-Info/Suivi-Constances/tree/main/ms23/paq#suivi-de-projet" target="_blank">PAQ</a>
 
-----
+--
 
 ### La documentation du projet
 
@@ -389,7 +389,7 @@ Préciser les attentes particulières par rapport à l'objet de la prestation
   - Documents de travail
   - Outil de suivi (Kanban)
 
-----
+--
 
 ### Les livrables &#128172;
 
@@ -403,7 +403,7 @@ Préciser les attentes particulières par rapport à l'objet de la prestation
 Note:
 Timing 15'
 
-----
+--
 
 - Point administratif
 - Mise en place de l'organisation (cf. PAQ)
